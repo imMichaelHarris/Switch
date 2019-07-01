@@ -3,7 +3,9 @@ import 'semantic-ui-css/semantic.min.css'
 import {Dropdown} from 'semantic-ui-react'
 
 class Setup extends Component {
-    state = {}
+    state = {
+        names: ''
+    }
 
 componentDidMount(){
     this.props.weekOne.map(emp => {
