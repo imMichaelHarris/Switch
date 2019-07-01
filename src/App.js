@@ -4,7 +4,13 @@ import {weekOne} from './weekOne'
 import {weekTwo} from './weekTwo'
 
 class App extends React.Component {
-  //
+  state = {
+    selectedName: '',
+    dayoff: null,
+    timeChange: null,
+
+  }
+  
 
   render(){
   return (
