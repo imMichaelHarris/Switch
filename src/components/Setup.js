@@ -7,13 +7,13 @@ class Setup extends Component {
 
 componentDidMount(){
     this.props.weekOne.map(emp => {
-
+        console.log(emp)
     })
 }
     render() {
         return (
             <div>
-
+                setup
             </div>
         );
     }
