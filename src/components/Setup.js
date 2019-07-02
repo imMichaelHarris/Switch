@@ -12,7 +12,7 @@ class Setup extends Component {
       names: this.props.weekOne.map(emp => {
           return {
               ...emp,
-              value: emp.name,
+              value: emp.name, //need value to select
               text: emp.name //need text value for semantic ui to display names
           }
       })
