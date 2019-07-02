@@ -8,9 +8,9 @@ class DateandTime extends React.Component {
   };
 
   componentDidMount() {
-    this.setState({
-      startDate: new Date()
-    });
+    // this.setState({
+    //   startDate: new Date()
+    // });
   }
   handleChanges = e => {
     this.setState({

@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/App.css';
 import {weekOne} from './weekOne'
 import {weekTwo} from './weekTwo'
+import {schedule} from './schedule'
 import Setup from './components/Setup';
 
 class App extends React.Component {
@@ -19,6 +20,7 @@ class App extends React.Component {
     })
 }
   render(){
+    console.log(schedule);
   return (
     <div className="App">
       <Setup weekOne={weekOne} switchType={this.switchType} switchTypeSelection={this.state.switchType}/>
