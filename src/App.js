@@ -9,14 +9,19 @@ class App extends React.Component {
     selectedName: '',
     dayoff: null,
     timeChange: null,
+    switchType: null
 
   }
   
-
+  switchType = (type) => {
+    this.setState({
+        switchType: type
+    })
+}
   render(){
   return (
     <div className="App">
-      <Setup weekOne={weekOne}/>
+      <Setup weekOne={weekOne} switchType={this.switchType} switchTypeSelection={this.state.switchType}/>
     </div>
   );
   }

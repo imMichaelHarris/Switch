@@ -5,7 +5,6 @@ import { Dropdown, Button } from "semantic-ui-react";
 class Setup extends Component {
   state = {
     names: [],
-    switchType: null
   };
 
   componentDidMount() {
@@ -19,12 +18,9 @@ class Setup extends Component {
       })
     });
   }
-  switchType = (type) => {
-      this.setState({
-          switchType: type
-      })
-  }
+
   render() {
+      const {switchType, switchTypeSelection} = this.props;
     return (
       <div>
         <Dropdown
@@ -34,9 +30,9 @@ class Setup extends Component {
           options={this.state.names}
         />
         <Button.Group size="large">
-          <Button onClick={}>Day Off</Button>
+          <Button onClick={() => switchType("Day Off")} color={switchTypeSelection === 'Day Off' ? 'blue': ''}>Day Off</Button>
           <Button.Or />
-          <Button>Time Change</Button>
+          <Button onClick={() => switchType("Time Change")} color={switchTypeSelection === 'Time Change' ? 'blue': ''}>>Time Change</Button>
         </Button.Group>
       </div>
     );
