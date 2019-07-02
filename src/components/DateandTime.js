@@ -1,11 +1,28 @@
-import React from 'react';
+import React from "react";
+import Datepicker from "react-datepicker";
 
-const DateandTime = () => {
+const DateandTime = props => {
+  const { switchTypeSelection } = props;
+
+  if (switchTypeSelection === "Time Change") {
     return (
-        <div>
-            
-        </div>
+      <div>
+        <Datepicker
+          selected={this.state.startDate}
+          onChange={this.handleChanges}
+        />
+      </div>
     );
+  } else {
+    return (
+      <div>
+        <Datepicker
+          selected={this.state.startDate}
+          onChange={this.handleChanges}
+        />
+      </div>
+    );
+  }
 };
 
 export default DateandTime;

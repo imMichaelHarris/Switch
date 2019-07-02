@@ -3,6 +3,7 @@ import "semantic-ui-css/semantic.min.css";
 import { Dropdown, Button } from "semantic-ui-react";
 import Datepicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import DateandTime from "./DateandTime";
 
 class Setup extends Component {
   state = {
@@ -53,6 +54,7 @@ class Setup extends Component {
             >Time Change
           </Button>
         </Button.Group>
+        <DateandTime selected={switchTypeSelection}/>
         {switchTypeSelection && (
           <Datepicker
             selected={this.state.startDate}
