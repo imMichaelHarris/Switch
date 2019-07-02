@@ -7,8 +7,7 @@ import DateandTime from "./DateandTime";
 
 class Setup extends Component {
   state = {
-    names: [],
-    startDate: null
+    names: []
   };
 
   componentDidMount() {
@@ -19,15 +18,9 @@ class Setup extends Component {
           value: emp.name, //need value to select
           text: emp.name //need text value for semantic ui to display names
         };
-      }),
-      startDate: new Date()
+      })
     });
   }
-  handleChanges = e => {
-    this.setState({
-      startDate: e
-    });
-  };
 
   render() {
     const { switchType, switchTypeSelection } = this.props;
@@ -51,17 +44,12 @@ class Setup extends Component {
             onClick={() => switchType("Time Change")}
             color={switchTypeSelection === "Time Change" ? "blue" : ""}
           >
-            >Time Change
+            Time Change
           </Button>
         </Button.Group>
-        <DateandTime selected={switchTypeSelection}/>
         {switchTypeSelection && (
-          <Datepicker
-            selected={this.state.startDate}
-            onChange={this.handleChanges}
-          />
+          <DateandTime switchTypeSelection={this.props.switchTypeSelection} />
         )}
-        
       </div>
     );
   }

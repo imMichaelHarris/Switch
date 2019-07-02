@@ -1,6 +1,10 @@
 .ui.selection.dropdown {
   margin-top: 5rem; }
 
+input {
+  text-align: center;
+  padding: 5px; }
+
 * {
   box-sizing: border-box;
   margin: 0;
