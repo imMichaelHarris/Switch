@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "semantic-ui-css/semantic.min.css";
 import { Dropdown, Button } from "semantic-ui-react";
 import Datepicker from 'react-datepicker'
+import "react-datepicker/dist/react-datepicker.css";
 
 class Setup extends Component {
   state = {
@@ -35,6 +36,7 @@ class Setup extends Component {
           <Button.Or />
           <Button onClick={() => switchType("Time Change")} color={switchTypeSelection === 'Time Change' ? 'blue': ''}>>Time Change</Button>
         </Button.Group>
+        {switchTypeSelection && <Datepicker />}
       </div>
     );
   }
