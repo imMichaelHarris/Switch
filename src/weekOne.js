@@ -1,4 +1,4 @@
-export const week1 = [
+export const weekOne = [
     {
       "name": "Kenney Thomas",
       "Sunday": "A - PDO",
