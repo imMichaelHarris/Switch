@@ -46,7 +46,7 @@ class Setup extends Component {
           </Button>
         </Button.Group>
         {switchTypeSelection && (
-          <DateandTime switchTypeSelection={this.props.switchTypeSelection} handleChanges={this.props.handleChanges}/>
+          <DateandTime switchTypeSelection={this.props.switchTypeSelection} changeDate={this.props.changeDate}/>
         )}
 
         <Button onClick={() => this.props.searchEmployees(this.state.selectedEmp, switchType, this)}inverted color="blue">Find my switch</Button>

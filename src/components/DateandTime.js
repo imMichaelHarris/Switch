@@ -14,11 +14,10 @@ class DateandTime extends React.Component {
     // });
   }
   handleChanges = e => {
-    console.log(e)
-    // this.setState({
-    //   date: e
-    // });
-    // this.props.handleChanges(e)
+    this.setState({
+      date: e
+    });
+    this.props.changeDate(moment(e).format('dddd'))
   };
 
   addDays = (start, end) => start + end

@@ -30,10 +30,9 @@ class App extends React.Component {
   }
 
   searchEmployees = (selectedEmp, switchType, day) => {};
-  handleChanges = e => {
-    console.log(e)
+  changeDate = e => {
     this.setState({
-      [e.target.name]: e.target.value
+      date: e
     })
   }
   switchType = type => {
@@ -50,7 +49,7 @@ class App extends React.Component {
           switchType={this.switchType}
           switchTypeSelection={this.state.switchType}
           searchEmployess={this.searchEmployees}
-          handleChanges={this.handleChanges}
+          changeDate={this.changeDate}
         />
       </div>
     );
