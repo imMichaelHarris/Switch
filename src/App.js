@@ -1,31 +1,49 @@
-import React from 'react';
-import './styles/App.css';
-import {weekOne} from './weekOne'
-import {weekTwo} from './weekTwo'
-import {schedule} from './schedule'
-import Setup from './components/Setup';
+import React from "react";
+import "./styles/App.css";
+import { weekOne } from "./weekOne";
+import { weekTwo } from "./weekTwo";
+// import { schedule } from "./schedule";
+import Setup from "./components/Setup";
 
 class App extends React.Component {
   state = {
-    selectedName: '',
+    schedule: [],
+    selectedName: "",
     dayoff: null,
     timeChange: null,
     switchType: null
-
-  }
-  
-  switchType = (type) => {
+  };
+  componentDidMount() {
+    const schedule = [];
+    weekOne.map(emp => {
+      weekTwo.map(empTwo => {
+        if (empTwo.name === emp.name) {
+          schedule.push({ ...emp, ...empTwo });
+        }
+      });
+    });
     this.setState({
-        switchType: type
-    })
-}
-  render(){
-    console.log(schedule);
-  return (
-    <div className="App">
-      <Setup weekOne={weekOne} switchType={this.switchType} switchTypeSelection={this.state.switchType}/>
-    </div>
-  );
+      schedule: schedule
+    });
+  }
+
+  switchType = type => {
+    this.setState({
+      switchType: type
+    });
+  };
+
+  render() {
+    console.log(this.state);
+    return (
+      <div className="App">
+        <Setup
+          schedule={this.state.schedule}
+          switchType={this.switchType}
+          switchTypeSelection={this.state.switchType}
+        />
+      </div>
+    );
   }
 }
 
