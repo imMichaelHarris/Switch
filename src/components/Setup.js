@@ -7,10 +7,20 @@ import DateandTime from "./DateandTime";
 
 class Setup extends Component {
 
+  state = {
+    selectedEmp: {}
+  }
 
+  selectName = (e) => {
 
+    const selectedEmp = this.props.schedule.filter(emp => emp.name === e.target.textContent)
+    this.setState({
+      selectedEmp: selectedEmp[0]
+    })
+  }
 
   render() {
+    console.log(this.state.selectedEmp)
     const { switchType, switchTypeSelection } = this.props;
     return (
       <div className="setup">
@@ -19,6 +29,7 @@ class Setup extends Component {
           search
           selection
           options={this.props.schedule}
+          onChange={this.selectName}
         />
         <Button.Group size="large">
           <Button
@@ -39,7 +50,7 @@ class Setup extends Component {
           <DateandTime switchTypeSelection={this.props.switchTypeSelection} />
         )}
 
-        <Button inverted color="blue">Find my switch</Button>
+        <Button onClick={() => this.props.searchEmployees()}inverted color="blue">Find my switch</Button>
       </div>
     );
   }

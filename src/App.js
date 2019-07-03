@@ -9,6 +9,8 @@ class App extends React.Component {
   state = {
     schedule: [],
     selectedName: "",
+    type: "",
+    availablePeople: [],
     dayoff: null,
     timeChange: null,
     switchType: null
@@ -27,6 +29,8 @@ class App extends React.Component {
     });
   }
 
+  searchEmployees = name => {};
+
   switchType = type => {
     this.setState({
       switchType: type
@@ -40,6 +44,7 @@ class App extends React.Component {
           schedule={this.state.schedule}
           switchType={this.switchType}
           switchTypeSelection={this.state.switchType}
+          searchEmployess={this.searchEmployees}
         />
       </div>
     );
