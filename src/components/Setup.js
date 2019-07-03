@@ -6,21 +6,9 @@ import "react-datepicker/dist/react-datepicker.css";
 import DateandTime from "./DateandTime";
 
 class Setup extends Component {
-  state = {
-    names: []
-  };
 
-  componentDidMount() {
-    this.setState({
-      names: this.props.weekOne.map(emp => {
-        return {
-          ...emp,
-          value: emp.name, //need value to select
-          text: emp.name //need text value for semantic ui to display names
-        };
-      })
-    });
-  }
+
+
 
   render() {
     const { switchType, switchTypeSelection } = this.props;
@@ -30,7 +18,7 @@ class Setup extends Component {
           placeholder="Select your name"
           search
           selection
-          options={this.state.names}
+          options={this.props.schedule}
         />
         <Button.Group size="large">
           <Button

@@ -18,7 +18,7 @@ class App extends React.Component {
     weekOne.map(emp => {
       weekTwo.map(empTwo => {
         if (empTwo.name === emp.name) {
-          schedule.push({ ...emp, ...empTwo });
+          schedule.push({ ...emp, ...empTwo, value: emp.name, text: emp.name });
         }
       });
     });
@@ -34,7 +34,6 @@ class App extends React.Component {
   };
 
   render() {
-    console.log(this.state);
     return (
       <div className="App">
         <Setup
