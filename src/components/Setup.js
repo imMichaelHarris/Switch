@@ -1,25 +1,45 @@
 import React, { Component } from "react";
 import "semantic-ui-css/semantic.min.css";
-import { Dropdown } from "semantic-ui-react";
+import { Dropdown, Button } from "semantic-ui-react";
+import Datepicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import DateandTime from "./DateandTime";
 
 class Setup extends Component {
-  state = {
-    names: []
-  };
 
-  componentDidMount() {
-    this.setState({
-      names: this.props.weekOne.map(emp => {
-          return {
-              ...emp,
-              value: emp.name, //need value to select
-              text: emp.name //need text value for semantic ui to display names
-          }
-      })
-    });
-  }
+
+
+
   render() {
-    return <div><Dropdown placeholder="Select your name" search selection options={this.state.names}/></div>;
+    const { switchType, switchTypeSelection } = this.props;
+    return (
+      <div>
+        <Dropdown
+          placeholder="Select your name"
+          search
+          selection
+          options={this.props.schedule}
+        />
+        <Button.Group size="large">
+          <Button
+            onClick={() => switchType("Day Off")}
+            color={switchTypeSelection === "Day Off" ? "blue" : ""}
+          >
+            Day Off
+          </Button>
+          <Button.Or />
+          <Button
+            onClick={() => switchType("Time Change")}
+            color={switchTypeSelection === "Time Change" ? "blue" : ""}
+          >
+            Time Change
+          </Button>
+        </Button.Group>
+        {switchTypeSelection && (
+          <DateandTime switchTypeSelection={this.props.switchTypeSelection} />
+        )}
+      </div>
+    );
   }
 }
 
