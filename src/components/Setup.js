@@ -13,7 +13,7 @@ class Setup extends Component {
   render() {
     const { switchType, switchTypeSelection } = this.props;
     return (
-      <div>
+      <div className="setup">
         <Dropdown
           placeholder="Select your name"
           search
@@ -38,6 +38,8 @@ class Setup extends Component {
         {switchTypeSelection && (
           <DateandTime switchTypeSelection={this.props.switchTypeSelection} />
         )}
+
+        <Button inverted color="blue">Find my switch</Button>
       </div>
     );
   }

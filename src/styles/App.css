@@ -5,6 +5,13 @@ input {
   text-align: center;
   padding: 5px; }
 
+.setup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60vh; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,6 +19,7 @@ input {
 
 .App {
   text-align: center;
-  font-size: 1.75rem; }
+  font-size: 1.75rem;
+  min-height: 100vh; }
 
 /*# sourceMappingURL=App.css.map */
