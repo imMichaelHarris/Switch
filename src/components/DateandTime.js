@@ -1,9 +1,10 @@
 import React from "react";
 import Datepicker from "react-datepicker";
+import moment from 'moment'
 
 class DateandTime extends React.Component {
   state = {
-    startDate: null,
+    date: null,
     weekOne: 7/1/19
   };
 
@@ -13,14 +14,15 @@ class DateandTime extends React.Component {
     // });
   }
   handleChanges = e => {
-    this.setState({
-      startDate: e
-    });
+    console.log(e)
+    // this.setState({
+    //   date: e
+    // });
+    // this.props.handleChanges(e)
   };
 
   addDays = (start, end) => start + end
   render() {
-    console.log(this.state.startDate)
     const { switchTypeSelection } = this.props;
 
     if (switchTypeSelection === "Time Change") {
@@ -28,7 +30,7 @@ class DateandTime extends React.Component {
         <div>
           <Datepicker
             placeholderText="Time you want to be off by"
-            selected={this.state.startDate}
+            selected={this.state.date}
             onChange={this.handleChanges}
             showTimeSelect
             withPortal
@@ -39,8 +41,9 @@ class DateandTime extends React.Component {
       return (
         <div>
           <Datepicker
+            name="date"
             placeholderText="Click to select a date"
-            selected={this.state.startDate}
+            selected={this.state.date}
             onChange={this.handleChanges}
             withPortal
           />

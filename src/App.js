@@ -11,7 +11,7 @@ class App extends React.Component {
     selectedName: "",
     type: "",
     availablePeople: [],
-    dayoff: null,
+    date: null,
     timeChange: null,
     switchType: null
   };
@@ -29,8 +29,13 @@ class App extends React.Component {
     });
   }
 
-  searchEmployees = name => {};
-
+  searchEmployees = (selectedEmp, switchType, day) => {};
+  handleChanges = e => {
+    console.log(e)
+    this.setState({
+      [e.target.name]: e.target.value
+    })
+  }
   switchType = type => {
     this.setState({
       switchType: type
@@ -45,6 +50,7 @@ class App extends React.Component {
           switchType={this.switchType}
           switchTypeSelection={this.state.switchType}
           searchEmployess={this.searchEmployees}
+          handleChanges={this.handleChanges}
         />
       </div>
     );
