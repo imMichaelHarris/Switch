@@ -20,7 +20,6 @@ class Setup extends Component {
   }
 
   render() {
-    console.log(this.state.selectedEmp)
     const { switchType, switchTypeSelection } = this.props;
     return (
       <div className="setup">

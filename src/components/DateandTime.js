@@ -20,6 +20,7 @@ class DateandTime extends React.Component {
 
   addDays = (start, end) => start + end
   render() {
+    console.log(this.state.startDate)
     const { switchTypeSelection } = this.props;
 
     if (switchTypeSelection === "Time Change") {
