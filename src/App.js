@@ -42,6 +42,7 @@ class App extends React.Component {
   };
 
   render() {
+    console.log(this.state.selectedEmp)
     return (
       <div className="App">
         <Setup

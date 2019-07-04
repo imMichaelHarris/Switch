@@ -20,7 +20,7 @@ class DateandTime extends React.Component {
     this.props.changeDate(moment(e).format('dddd'))
   };
 
-  addDays = (start, end) => start + end
+
   render() {
     const { switchTypeSelection } = this.props;
 
@@ -42,6 +42,8 @@ class DateandTime extends React.Component {
           <Datepicker
             name="date"
             placeholderText="Click to select a date"
+            minDate={new Date()}
+            maxDate={moment().add(9, 'days').toDate()}
             selected={this.state.date}
             onChange={this.handleChanges}
             withPortal
