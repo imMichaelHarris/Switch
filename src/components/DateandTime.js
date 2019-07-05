@@ -34,7 +34,7 @@ class DateandTime extends React.Component {
           
             placeholderText="Time you want to be off by"
             minDate={new Date()}
-            maxDate={moment().add(9, 'days').toDate()}
+            maxDate={moment().add(8, 'days').toDate()}
             selected={this.state.date}
             onChange={this.handleChanges}
             showTimeSelect
@@ -49,7 +49,7 @@ class DateandTime extends React.Component {
             name="date"
             placeholderText="Click to select a date"
             minDate={new Date()}
-            maxDate={moment().add(9, 'days').toDate()}
+            maxDate={moment().add(8, 'days').toDate()}
             selected={this.state.date}
             onChange={this.handleChanges}
             withPortal

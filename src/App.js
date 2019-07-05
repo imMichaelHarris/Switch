@@ -75,7 +75,6 @@ class App extends React.Component {
         parseInt(timeOff) <= parseInt(time) &&
         parseInt(timeOff.substring(0, 3)) != "00"
       ) {
-        console.log("hi");
         availablePeople.push(emp);
         if (
           parseInt(time.substring(0, 3)) == parseInt(timeOff.substring(0, 3)) &&
@@ -99,6 +98,8 @@ class App extends React.Component {
     this.setState({
       availablePeople: availablePeople
     });
+    this.props.history.push("/results")
+
   };
   changeDate = e => {
     const date = moment(e).isAfter("Jul 6 2019")
@@ -138,7 +139,7 @@ class App extends React.Component {
             />
           )}
         />
-        <Route path="/results" render={props => <EmployeeList {...props} availablePeople={this.state.availablePeople} /> }/>
+        <Route path="/results" render={props => <EmployeeList {...props} availablePeople={this.state.availablePeople} day={this.state.date}/> }/>
       </div>
     );
   }
