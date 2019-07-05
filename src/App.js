@@ -1,18 +1,19 @@
 import React from "react";
 import "./styles/App.css";
 import schedule from './schedule';
+import {runners, bartenders, leadsBOH, leadsFOH, cooks. standAtt} from './types'
 import moment from "moment";
 
 import Setup from "./components/Setup";
 
 class App extends React.Component {
   state = {
-    runners: [],
-    leadsBOH: [],
-    bartenders: [],
-    leadsFOH: [],
-    cooks: [],
-    standAtt: [],
+    // runners: [],
+    // leadsBOH: [],
+    // bartenders: [],
+    // leadsFOH: [],
+    // cooks: [],
+    // standAtt: [],
     schedule: [],
     selectedName: "",
     type: "",
