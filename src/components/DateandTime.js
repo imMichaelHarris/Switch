@@ -13,13 +13,13 @@ class DateandTime extends React.Component {
     // });
   }
   handleChanges = e => {
-    console.log(moment(e).isAfter('Jul 8 2019'))
+    // console.log(moment(e).isAfter('Jul 6 2019'))
     this.setState({
       date: e
     });
+    
 
-
-    this.props.changeDate(moment(e).format('dddd'))
+    this.props.changeDate(e)
   };
 
 

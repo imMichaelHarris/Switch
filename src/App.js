@@ -2,7 +2,8 @@ import React from "react";
 import "./styles/App.css";
 import { weekOne } from "./weekOne";
 import { weekTwo } from "./weekTwo";
-// import { schedule } from "./schedule";
+import moment from 'moment';
+
 import Setup from "./components/Setup";
 
 class App extends React.Component {
