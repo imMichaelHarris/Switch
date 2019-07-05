@@ -12,8 +12,6 @@ import EmployeeList from "./components/EmployeeList";
 class App extends React.Component {
   state = {
     schedule: [],
-    selectedName: "",
-    type: "",
     availablePeople: [],
     date: null,
     timeChange: null,
@@ -139,7 +137,7 @@ class App extends React.Component {
             />
           )}
         />
-        <Route path="/results" render={props => <EmployeeList {...props} availablePeople={this.state.availablePeople} day={this.state.date}/> }/>
+        <Route path="/results" render={props => <EmployeeList {...props} availablePeople={this.state.availablePeople} day={this.state.date} switchType={this.state.switchType}/> }/>
       </div>
     );
   }

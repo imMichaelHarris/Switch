@@ -7,7 +7,8 @@ const EmployeeList = (props) => {
     return (
         <div>
             <Link to="/">Refine your search</Link>
-{props.availablePeople.map(emp => <Employee employee={emp} day={props.day} key={emp.name} />)}
+            {props.availablePeople.length == 0  ? <h1>There are no available employees</h1> :props.availablePeople.map(emp => <Employee employee={emp} day={props.day} key={emp.name} switchType={props.switchType}/>)}
+
         </div>
     );
 };
