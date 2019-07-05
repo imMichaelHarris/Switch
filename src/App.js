@@ -15,7 +15,8 @@ class App extends React.Component {
     availablePeople: [],
     date: null,
     timeChange: null,
-    switchType: null
+    switchType: null,
+    type: ""
   };
   componentDidMount() {
     this.setState({
@@ -38,6 +39,9 @@ class App extends React.Component {
     } else {
       type = standAtt;
     }
+    this.setState({
+      type: selectedEmp.type
+    });
     // this.daySearch(type, this.state.date);
     this.state.switchType === "Time Change"
       ? this.timeSearch(type, this.state.date, this.state.time)
@@ -54,7 +58,7 @@ class App extends React.Component {
         );
       })
     });
-    this.props.history.push("/results")
+    this.props.history.push("/results");
   };
 
   timeSearch = (type, date, time) => {
@@ -96,8 +100,7 @@ class App extends React.Component {
     this.setState({
       availablePeople: availablePeople
     });
-    this.props.history.push("/results")
-
+    this.props.history.push("/results");
   };
   changeDate = e => {
     const date = moment(e).isAfter("Jul 6 2019")
@@ -121,7 +124,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-
         <Route
           exact
           path="/"
@@ -137,7 +139,18 @@ class App extends React.Component {
             />
           )}
         />
-        <Route path="/results" render={props => <EmployeeList {...props} availablePeople={this.state.availablePeople} day={this.state.date} switchType={this.state.switchType}/> }/>
+        <Route
+          path="/results"
+          render={props => (
+            <EmployeeList
+              {...props}
+              availablePeople={this.state.availablePeople}
+              day={this.state.date}
+              switchType={this.state.switchType}
+              type={this.state.type}
+            />
+          )}
+        />
       </div>
     );
   }
