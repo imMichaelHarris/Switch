@@ -3,10 +3,11 @@ import "./styles/App.css";
 import schedule from "./schedule";
 import { runner, bartender, leadBOH, leadFOH, cook, standAtt } from "./types";
 import moment from "moment";
-import {Route} from 'react-router-dom'
+import { Route, withRouter } from "react-router-dom";
 
 import Setup from "./components/Setup";
-import Home from './components/Home';
+import Home from "./components/Home";
+import EmployeeList from "./components/EmployeeList";
 
 class App extends React.Component {
   state = {
@@ -55,6 +56,7 @@ class App extends React.Component {
         );
       })
     });
+    this.props.history.push("/results")
   };
 
   timeSearch = (type, date, time) => {
@@ -120,18 +122,26 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Setup
-          schedule={this.state.schedule}
-          switchType={this.switchType}
-          switchTypeSelection={this.state.switchType}
-          searchEmployees={this.searchEmployees}
-          changeDate={this.changeDate}
-          daySearch={this.daySearch}
+
+        <Route
+          exact
+          path="/"
+          render={props => (
+            <Home
+              {...props}
+              schedule={this.state.schedule}
+              switchType={this.switchType}
+              switchTypeSelection={this.state.switchType}
+              searchEmployees={this.searchEmployees}
+              changeDate={this.changeDate}
+              daySearch={this.daySearch}
+            />
+          )}
         />
-        <Route exact path="/" component={Home} />
+        <Route path="/results" render={props => <EmployeeList {...props} availablePeople={this.state.availablePeople} /> }/>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
