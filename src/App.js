@@ -8,6 +8,12 @@ import Setup from "./components/Setup";
 
 class App extends React.Component {
   state = {
+    runners: [],
+    leadsBOH: [],
+    bartenders: [],
+    leadsFOH: [],
+    cooks: [],
+    standAtt: [],
     schedule: [],
     selectedName: "",
     type: "",
@@ -31,7 +37,7 @@ class App extends React.Component {
   }
 
   searchEmployees = selectedEmp => {
-    console.log(selectedEmp, this.state.switchType, this.state.date);
+    console.log(selectedEmp, this.state.switchType,  this.state.date);
   };
   changeDate = e => {
    const date =  moment(e).isAfter("Jul 6 2019")
