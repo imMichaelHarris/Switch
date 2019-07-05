@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/App.css";
 import schedule from './schedule';
-import {runners, bartenders, leadsBOH, leadsFOH, cooks. standAtt} from './types'
+import {runners, bartenders, leadsBOH, leadsFOH, cooks, standAtt} from './types'
 import moment from "moment";
 
 import Setup from "./components/Setup";
