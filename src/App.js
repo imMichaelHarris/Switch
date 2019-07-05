@@ -1,19 +1,13 @@
 import React from "react";
 import "./styles/App.css";
 import schedule from './schedule';
-import {runners, bartenders, leadsBOH, leadsFOH, cooks, standAtt} from './types'
+import {runner, bartender, leadBOH, leadFOH, cook, standAtt} from './types'
 import moment from "moment";
 
 import Setup from "./components/Setup";
 
 class App extends React.Component {
   state = {
-    // runners: [],
-    // leadsBOH: [],
-    // bartenders: [],
-    // leadsFOH: [],
-    // cooks: [],
-    // standAtt: [],
     schedule: [],
     selectedName: "",
     type: "",
@@ -24,13 +18,36 @@ class App extends React.Component {
   };
   componentDidMount() {
     this.setState({
-      schedule: schedule
+      schedule: schedule,
     });
   }
 
   searchEmployees = selectedEmp => {
-    console.log(selectedEmp, this.state.switchType,  this.state.date);
+    // console.log(selectedEmp, this.state.switchType,  this.state.date);
+    const type = []
+    if(selectedEmp.type === "runner"){
+      type = runner
+  } else if(selectedEmp.type === "bartender"){
+    type = bartender
+  } else if (selectedEmp.type === "leadBOH"){
+    type = leadBOH
+  } else if(selectedEmp.type === "cook"){
+    type = cook
+  } else if (selectedEmp.type === "leadFOH"){
+    type = leadFOH
+  } else {
+    type = standAtt
+  }
   };
+
+  daySearch = (type, day) => {
+    this.setState({
+      availablePeople: type.filter(emp => {
+        return emp[day].includes('AVL') || emp[day] === 'A' || emp[day].substring(0,7) == 'A - PDO'
+      })
+    })
+
+  }
   changeDate = e => {
    const date =  moment(e).isAfter("Jul 6 2019")
       ? `sec${moment(e).format("dddd")}`
@@ -54,6 +71,7 @@ class App extends React.Component {
           switchTypeSelection={this.state.switchType}
           searchEmployees={this.searchEmployees}
           changeDate={this.changeDate}
+          daySearch={this.daySearch}
         />
       </div>
     );

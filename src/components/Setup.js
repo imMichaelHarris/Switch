@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "semantic-ui-css/semantic.min.css";
 import { Dropdown, Button } from "semantic-ui-react";
-import Datepicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import DateandTime from "./DateandTime";
 
@@ -11,11 +10,7 @@ class Setup extends Component {
     selectedEmp: {}
   }
 
-  componentDidMount(){
-    this.setState({
-      selectedEmp: {text: "Test"}
-    })
-  }
+
   selectName = (e) => {
 
     const selectedEmp = this.props.schedule.filter(emp => emp.name === e.target.textContent)
