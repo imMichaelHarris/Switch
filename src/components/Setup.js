@@ -11,6 +11,11 @@ class Setup extends Component {
     selectedEmp: {}
   }
 
+  componentDidMount(){
+    this.setState({
+      selectedEmp: {text: "Test"}
+    })
+  }
   selectName = (e) => {
 
     const selectedEmp = this.props.schedule.filter(emp => emp.name === e.target.textContent)
@@ -34,14 +39,14 @@ class Setup extends Component {
         <Button.Group size="large">
           <Button
             onClick={() => switchType("Day Off")}
-            color={switchTypeSelection === "Day Off" ? "blue" : ""}
+            color={switchTypeSelection === "Day Off" ? "blue" : "grey"}
           >
             Day Off
           </Button>
           <Button.Or />
           <Button
             onClick={() => switchType("Time Change")}
-            color={switchTypeSelection === "Time Change" ? "blue" : ""}
+            color={switchTypeSelection === "Time Change" ? "blue" : "grey"}
           >
             Time Change
           </Button>
@@ -50,7 +55,7 @@ class Setup extends Component {
           <DateandTime switchTypeSelection={this.props.switchTypeSelection} changeDate={this.props.changeDate}/>
         )}
 
-        <Button onClick={() => this.props.searchEmployees(this.state.selectedEmp, switchType, this)}inverted color="blue">Find my switch</Button>
+        <Button onClick={() => this.props.searchEmployees(this.state.selectedEmp)}inverted color="blue">Find my switch</Button>
       </div>
     );
   }

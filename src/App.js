@@ -29,7 +29,9 @@ class App extends React.Component {
     });
   }
 
-  searchEmployees = (selectedEmp, switchType, day) => {};
+  searchEmployees = (selectedEmp) => {
+    console.log(selectedEmp, this.state.switchType, this.state.date)
+  };
   changeDate = e => {
     this.setState({
       date: e
@@ -42,14 +44,13 @@ class App extends React.Component {
   };
 
   render() {
-    console.log(this.state.selectedEmp)
     return (
       <div className="App">
         <Setup
           schedule={this.state.schedule}
           switchType={this.switchType}
           switchTypeSelection={this.state.switchType}
-          searchEmployess={this.searchEmployees}
+          searchEmployees={this.searchEmployees}
           changeDate={this.changeDate}
         />
       </div>

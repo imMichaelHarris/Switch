@@ -4,8 +4,7 @@ import moment from 'moment'
 
 class DateandTime extends React.Component {
   state = {
-    date: null,
-    weekOne: 7/1/19
+    date: null
   };
 
   componentDidMount() {
@@ -14,9 +13,12 @@ class DateandTime extends React.Component {
     // });
   }
   handleChanges = e => {
+    console.log(moment(e).isAfter('Jul 8 2019'))
     this.setState({
       date: e
     });
+
+
     this.props.changeDate(moment(e).format('dddd'))
   };
 
@@ -28,7 +30,10 @@ class DateandTime extends React.Component {
       return (
         <div>
           <Datepicker
+          
             placeholderText="Time you want to be off by"
+            minDate={new Date()}
+            maxDate={moment().add(9, 'days').toDate()}
             selected={this.state.date}
             onChange={this.handleChanges}
             showTimeSelect
