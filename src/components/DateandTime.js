@@ -14,6 +14,7 @@ class DateandTime extends React.Component {
   }
   handleChanges = e => {
     // console.log(moment(e).isAfter('Jul 6 2019'))
+    console.log(e)
     this.setState({
       date: e
     });

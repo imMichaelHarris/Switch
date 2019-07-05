@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/App.css";
-import schedule from './schedule';
-import {runner, bartender, leadBOH, leadFOH, cook, standAtt} from './types'
+import schedule from "./schedule";
+import { runner, bartender, leadBOH, leadFOH, cook, standAtt } from "./types";
 import moment from "moment";
 
 import Setup from "./components/Setup";
@@ -18,43 +18,68 @@ class App extends React.Component {
   };
   componentDidMount() {
     this.setState({
-      schedule: schedule,
+      schedule: schedule
     });
   }
 
   searchEmployees = selectedEmp => {
-    let type = []
-    if(selectedEmp.type === "runner"){
-      type = runner
-  } else if(selectedEmp.type === "bartender"){
-    type = bartender
-  } else if (selectedEmp.type === "leadBOH"){
-    type = leadBOH
-  } else if(selectedEmp.type === "cook"){
-    type = cook
-  } else if (selectedEmp.type === "leadFOH"){
-    type = leadFOH
-  } else {
-    type = standAtt
-  }
-  this.daySearch(type, this.state.date)
+    let type = [];
+    if (selectedEmp.type === "runner") {
+      type = runner;
+    } else if (selectedEmp.type === "bartender") {
+      type = bartender;
+    } else if (selectedEmp.type === "leadBOH") {
+      type = leadBOH;
+    } else if (selectedEmp.type === "cook") {
+      type = cook;
+    } else if (selectedEmp.type === "leadFOH") {
+      type = leadFOH;
+    } else {
+      type = standAtt;
+    }
+    this.daySearch(type, this.state.date);
   };
 
   daySearch = (type, day) => {
     this.setState({
       availablePeople: type.filter(emp => {
-        return emp[day].includes('AVL') || emp[day] === 'A' || emp[day].substring(0,7) == 'A - PDO'
+        return (
+          emp[day].includes("AVL") ||
+          emp[day] === "A" ||
+          emp[day].substring(0, 7) == "A - PDO"
+        );
       })
-    })
+    });
+  };
 
-  }
+  timeSearch = (type, date, time) => {
+    const hours = "-";
+
+    this.setState({
+      availablePeople: type.filter(emp => {
+        const timeOff = emp[date]
+          .split(hours)
+          .pop()
+          .substring(0, 6);
+        return (
+          parseInt(timeOff) <= parseInt(time) &&
+          parseInt(timeOff.substring(0, 3)) !== "00"
+        );
+      })
+    });
+  };
   changeDate = e => {
-   const date =  moment(e).isAfter("Jul 6 2019")
+    const date = moment(e).isAfter("Jul 6 2019")
       ? `sec${moment(e).format("dddd")}`
       : moment(e).format("dddd");
-    this.setState({
-      date: date
-    });
+    this.state.switchType === "Time Change"
+      ? this.setState({
+          date: date,
+          time: moment(e).format("kk:mm")
+        })
+      : this.setState({
+          date: date
+        });
   };
   switchType = type => {
     this.setState({
