@@ -37,7 +37,8 @@ class App extends React.Component {
     } else {
       type = standAtt;
     }
-    this.daySearch(type, this.state.date);
+    // this.daySearch(type, this.state.date);
+    this.timeSearch(type, this.state.date, this.state.time);
   };
 
   daySearch = (type, day) => {
@@ -54,18 +55,41 @@ class App extends React.Component {
 
   timeSearch = (type, date, time) => {
     const hours = "-";
+    const availablePeople = [];
+    type.map(emp => {
+      const timeOff = emp[date]
+        .split(hours)
+        .pop()
+        .substring(0, 6);
+      if (timeOff === "A" || emp[date].startsWith("P:")) {
+        return;
+      }
+
+      if (
+        parseInt(timeOff) <= parseInt(time) &&
+        parseInt(timeOff.substring(0, 3)) != "00"
+      ) {
+        console.log('hi')
+        availablePeople.push(emp);
+        if (
+          parseInt(time.substring(0, 3)) == parseInt(timeOff.substring(0, 3)) &&
+          timeOff.substring(3, 6) == ":30"
+        ) {
+          availablePeople.pop(emp);
+        }
+      }
+    });
+    availablePeople.map(emp => {
+      const timeOff = emp[date].split(hours).pop().substring(0,6);
+
+      if(timeOff === 'A' || emp[date].startsWith('P:')){
+        availablePeople.pop(emp)
+      }
+
+    })
 
     this.setState({
-      availablePeople: type.filter(emp => {
-        const timeOff = emp[date]
-          .split(hours)
-          .pop()
-          .substring(0, 6);
-        return (
-          parseInt(timeOff) <= parseInt(time) &&
-          parseInt(timeOff.substring(0, 3)) !== "00"
-        );
-      })
+      availablePeople: availablePeople
     });
   };
   changeDate = e => {
