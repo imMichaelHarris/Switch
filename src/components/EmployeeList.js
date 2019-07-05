@@ -1,11 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+import ResultInfo from "./ResultInfo";
 import Employee from "./Employee";
 
 const EmployeeList = props => {
   return (
     <div>
-        <h4>Showing results for available {`${props.type}s`}</h4>
+      <ResultInfo
+        type={props.type}
+        switchType={props.switchType}
+        time={props.time}
+        normalDate={props.normalDate}
+      />
       <Link to="/">Refine your search</Link>
       {props.availablePeople.length == 0 ? (
         <h1>There are no available employees</h1>

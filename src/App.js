@@ -13,7 +13,9 @@ class App extends React.Component {
   state = {
     schedule: [],
     availablePeople: [],
+    giveUpDay: null,
     date: null,
+    normalDate: null,
     timeChange: null,
     switchType: null,
     type: ""
@@ -23,7 +25,10 @@ class App extends React.Component {
       schedule: schedule
     });
   }
+swap = (selectedEmp, emp2) => {
+  const swappedDay = emp2.date
 
+}
   searchEmployees = selectedEmp => {
     let type = [];
     if (selectedEmp.type === "runner") {
@@ -40,7 +45,8 @@ class App extends React.Component {
       type = standAtt;
     }
     this.setState({
-      type: selectedEmp.type
+      type: selectedEmp.type,
+      giveUpDay: selectedEmp[this.state.date]
     });
     // this.daySearch(type, this.state.date);
     this.state.switchType === "Time Change"
@@ -49,6 +55,7 @@ class App extends React.Component {
   };
 
   daySearch = (type, day) => {
+
     this.setState({
       availablePeople: type.filter(emp => {
         return (
@@ -58,6 +65,7 @@ class App extends React.Component {
         );
       })
     });
+
     this.props.history.push("/results");
   };
 
@@ -108,10 +116,13 @@ class App extends React.Component {
       : moment(e).format("dddd");
     this.state.switchType === "Time Change"
       ? this.setState({
+          normalDate: moment(e).format("ddd, MMM Do"),
           date: date,
           time: moment(e).format("kk:mm")
         })
       : this.setState({
+          normalDate: moment(e).format("ddd, MMM Do"),
+          
           date: date
         });
   };
@@ -122,6 +133,7 @@ class App extends React.Component {
   };
 
   render() {
+    console.log(this.state)
     return (
       <div className="App">
         <Route
@@ -148,6 +160,8 @@ class App extends React.Component {
               day={this.state.date}
               switchType={this.state.switchType}
               type={this.state.type}
+              time={this.state.time}
+              normalDate={this.state.normalDate}
             />
           )}
         />
