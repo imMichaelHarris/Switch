@@ -38,7 +38,9 @@ class App extends React.Component {
       type = standAtt;
     }
     // this.daySearch(type, this.state.date);
-    this.timeSearch(type, this.state.date, this.state.time);
+    this.state.switchType === "Time Change"
+      ? this.timeSearch(type, this.state.date, this.state.time)
+      : this.daySearch(type, this.state.date);
   };
 
   daySearch = (type, day) => {
@@ -69,7 +71,7 @@ class App extends React.Component {
         parseInt(timeOff) <= parseInt(time) &&
         parseInt(timeOff.substring(0, 3)) != "00"
       ) {
-        console.log('hi')
+        console.log("hi");
         availablePeople.push(emp);
         if (
           parseInt(time.substring(0, 3)) == parseInt(timeOff.substring(0, 3)) &&
@@ -80,13 +82,15 @@ class App extends React.Component {
       }
     });
     availablePeople.map(emp => {
-      const timeOff = emp[date].split(hours).pop().substring(0,6);
+      const timeOff = emp[date]
+        .split(hours)
+        .pop()
+        .substring(0, 6);
 
-      if(timeOff === 'A' || emp[date].startsWith('P:')){
-        availablePeople.pop(emp)
+      if (timeOff === "A" || emp[date].startsWith("P:")) {
+        availablePeople.pop(emp);
       }
-
-    })
+    });
 
     this.setState({
       availablePeople: availablePeople
