@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "semantic-ui-react";
+import ReactCardFlip from 'react-card-flip'
 
 const Employee = props => {
     const {name} = props.employee

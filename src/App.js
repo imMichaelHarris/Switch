@@ -26,7 +26,8 @@ class App extends React.Component {
     });
   }
 swap = (selectedEmp, emp2) => {
-  const swappedDay = emp2.date
+  selectedEmp.date = emp2.date
+  emp2.date = this.state.giveUpDay
 
 }
   searchEmployees = selectedEmp => {
