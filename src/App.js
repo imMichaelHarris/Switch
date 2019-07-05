@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/App.css";
 import { weekOne } from "./weekOne";
 import { weekTwo } from "./weekTwo";
-import moment from 'moment';
+import moment from "moment";
 
 import Setup from "./components/Setup";
 
@@ -30,14 +30,17 @@ class App extends React.Component {
     });
   }
 
-  searchEmployees = (selectedEmp) => {
-    console.log(selectedEmp, this.state.switchType, this.state.date)
+  searchEmployees = selectedEmp => {
+    console.log(selectedEmp, this.state.switchType, this.state.date);
   };
   changeDate = e => {
+   const date =  moment(e).isAfter("Jul 6 2019")
+      ? `sec${moment(e).format("dddd")}`
+      : moment(e).format("dddd");
     this.setState({
-      date: e
-    })
-  }
+      date: date
+    });
+  };
   switchType = type => {
     this.setState({
       switchType: type
