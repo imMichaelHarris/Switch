@@ -3,8 +3,10 @@ import "./styles/App.css";
 import schedule from "./schedule";
 import { runner, bartender, leadBOH, leadFOH, cook, standAtt } from "./types";
 import moment from "moment";
+import {Route} from 'react-router-dom'
 
 import Setup from "./components/Setup";
+import Home from './components/Home';
 
 class App extends React.Component {
   state = {
@@ -126,6 +128,7 @@ class App extends React.Component {
           changeDate={this.changeDate}
           daySearch={this.daySearch}
         />
+        <Route exact path="/" component={Home} />
       </div>
     );
   }
