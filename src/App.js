@@ -23,8 +23,7 @@ class App extends React.Component {
   }
 
   searchEmployees = selectedEmp => {
-    // console.log(selectedEmp, this.state.switchType,  this.state.date);
-    const type = []
+    let type = []
     if(selectedEmp.type === "runner"){
       type = runner
   } else if(selectedEmp.type === "bartender"){
@@ -38,6 +37,7 @@ class App extends React.Component {
   } else {
     type = standAtt
   }
+  this.daySearch(type, this.state.date)
   };
 
   daySearch = (type, day) => {
