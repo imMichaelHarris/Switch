@@ -1,6 +1,7 @@
 import React from "react";
 import Datepicker from "react-datepicker";
 import moment from 'moment'
+import {Icon} from 'semantic-ui-react'
 
 class DateandTime extends React.Component {
   state = {
@@ -31,10 +32,11 @@ class DateandTime extends React.Component {
       return (
         <div>
           <Datepicker
-          
+                    autoComplete="off"
+
             placeholderText="Time you want to be off by"
             minDate={new Date()}
-            maxDate={moment().add(9, 'days').toDate()}
+            maxDate={moment().add(8, 'days').toDate()}
             selected={this.state.date}
             onChange={this.handleChanges}
             showTimeSelect
@@ -46,13 +48,15 @@ class DateandTime extends React.Component {
       return (
         <div>
           <Datepicker
+          autoComplete="off"
             name="date"
             placeholderText="Click to select a date"
             minDate={new Date()}
-            maxDate={moment().add(9, 'days').toDate()}
+            maxDate={moment().add(8, 'days').toDate()}
             selected={this.state.date}
             onChange={this.handleChanges}
             withPortal
+            
           />
         </div>
       );

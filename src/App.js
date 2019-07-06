@@ -1,4 +1,6 @@
 import React from "react";
+import "semantic-ui-css/semantic.min.css";
+
 import "./styles/App.css";
 import schedule from "./schedule";
 import { runner, bartender, leadBOH, leadFOH, cook, standAtt } from "./types";
@@ -12,19 +14,24 @@ import EmployeeList from "./components/EmployeeList";
 class App extends React.Component {
   state = {
     schedule: [],
-    selectedName: "",
-    type: "",
     availablePeople: [],
+    giveUpDay: null,
     date: null,
+    normalDate: null,
     timeChange: null,
-    switchType: null
+    switchType: null,
+    type: ""
   };
   componentDidMount() {
     this.setState({
       schedule: schedule
     });
   }
+swap = (selectedEmp, emp2) => {
+  selectedEmp.date = emp2.date
+  emp2.date = this.state.giveUpDay
 
+}
   searchEmployees = selectedEmp => {
     let type = [];
     if (selectedEmp.type === "runner") {
@@ -40,6 +47,10 @@ class App extends React.Component {
     } else {
       type = standAtt;
     }
+    this.setState({
+      type: selectedEmp.type,
+      giveUpDay: selectedEmp[this.state.date]
+    });
     // this.daySearch(type, this.state.date);
     this.state.switchType === "Time Change"
       ? this.timeSearch(type, this.state.date, this.state.time)
@@ -47,6 +58,7 @@ class App extends React.Component {
   };
 
   daySearch = (type, day) => {
+
     this.setState({
       availablePeople: type.filter(emp => {
         return (
@@ -56,7 +68,8 @@ class App extends React.Component {
         );
       })
     });
-    this.props.history.push("/results")
+
+    this.props.history.push("/results");
   };
 
   timeSearch = (type, date, time) => {
@@ -75,7 +88,6 @@ class App extends React.Component {
         parseInt(timeOff) <= parseInt(time) &&
         parseInt(timeOff.substring(0, 3)) != "00"
       ) {
-        console.log("hi");
         availablePeople.push(emp);
         if (
           parseInt(time.substring(0, 3)) == parseInt(timeOff.substring(0, 3)) &&
@@ -99,6 +111,7 @@ class App extends React.Component {
     this.setState({
       availablePeople: availablePeople
     });
+    this.props.history.push("/results");
   };
   changeDate = e => {
     const date = moment(e).isAfter("Jul 6 2019")
@@ -106,10 +119,13 @@ class App extends React.Component {
       : moment(e).format("dddd");
     this.state.switchType === "Time Change"
       ? this.setState({
+          normalDate: moment(e).format("ddd, MMM Do"),
           date: date,
           time: moment(e).format("kk:mm")
         })
       : this.setState({
+          normalDate: moment(e).format("ddd, MMM Do"),
+          
           date: date
         });
   };
@@ -122,7 +138,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-
         <Route
           exact
           path="/"
@@ -138,7 +153,20 @@ class App extends React.Component {
             />
           )}
         />
-        <Route path="/results" render={props => <EmployeeList {...props} availablePeople={this.state.availablePeople} /> }/>
+        <Route
+          path="/results"
+          render={props => (
+            <EmployeeList
+              {...props}
+              availablePeople={this.state.availablePeople}
+              day={this.state.date}
+              switchType={this.state.switchType}
+              type={this.state.type}
+              time={this.state.time}
+              normalDate={this.state.normalDate}
+            />
+          )}
+        />
       </div>
     );
   }

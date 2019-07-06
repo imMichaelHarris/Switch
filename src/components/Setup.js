@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import "semantic-ui-css/semantic.min.css";
-import { Dropdown, Button } from "semantic-ui-react";
+import { Dropdown, Button, Icon } from "semantic-ui-react";
 import "react-datepicker/dist/react-datepicker.css";
 import DateandTime from "./DateandTime";
 
@@ -36,21 +35,22 @@ class Setup extends Component {
             onClick={() => switchType("Day Off")}
             color={switchTypeSelection === "Day Off" ? "blue" : "grey"}
           >
-            Day Off
+            <Icon name="calendar"  /> Day Off           
+
           </Button>
           <Button.Or />
           <Button
             onClick={() => switchType("Time Change")}
             color={switchTypeSelection === "Time Change" ? "blue" : "grey"}
           >
-            Time Change
+            <Icon  name="clock" />Time Change 
           </Button>
         </Button.Group>
         {switchTypeSelection && (
           <DateandTime switchTypeSelection={this.props.switchTypeSelection} changeDate={this.props.changeDate}/>
         )}
 
-        <Button onClick={() => this.props.searchEmployees(this.state.selectedEmp)}inverted color="blue">Find my switch</Button>
+        <Button onClick={() => this.props.searchEmployees(this.state.selectedEmp)}inverted color="blue" size="big"> <Icon name="search"/>Find my switch  </Button>
       </div>
     );
   }

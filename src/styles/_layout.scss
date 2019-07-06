@@ -5,3 +5,27 @@
     align-items: center;
     min-height: 60vh;
 }
+
+table.ui.celled.table  {
+    font-size: 1rem;
+}
+.ui.card {
+    margin: .5em auto;
+}
+.ui.card>.content {
+    font-size: 1.4rem;
+    padding: .75em
+}
+.ui.card>.content>.header:not(.ui) {
+    font-size: 1.4rem !important;
+}
+.ui.card>.content>.meta+.description{
+    font-size: 1.2rem;
+}
+.ui.card:last-child {
+    margin: .5em auto;
+}
+
+.results-header {
+    margin-bottom: 1em;
+}
