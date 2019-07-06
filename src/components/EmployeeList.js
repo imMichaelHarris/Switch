@@ -1,21 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import ResultInfo from "./ResultInfo";
 import Employee from "./Employee";
+import { Divider, Header } from "semantic-ui-react";
 
 const EmployeeList = props => {
   return (
     <div>
-      <ResultInfo
-        type={props.type}
-        switchType={props.switchType}
-        time={props.time}
-        normalDate={props.normalDate}
-      />
-      <Link to="/">Refine your search</Link>
+      <header className="results-header">
+        <ResultInfo
+          type={props.type}
+          switchType={props.switchType}
+          time={props.time}
+          normalDate={props.normalDate}
+        />
+        <Link to="/">Search again</Link>
+      </header>
+      <Divider />
       {props.availablePeople.length == 0 ? (
-        <h1>There are no available employees</h1>
+        <Header as="h1" color="red">
+          There are no avaiable employees
+        </Header>
       ) : (
         props.availablePeople.map(emp => (
           <Employee

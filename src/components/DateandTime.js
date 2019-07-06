@@ -1,6 +1,7 @@
 import React from "react";
 import Datepicker from "react-datepicker";
 import moment from 'moment'
+import {Icon} from 'semantic-ui-react'
 
 class DateandTime extends React.Component {
   state = {
@@ -55,6 +56,7 @@ class DateandTime extends React.Component {
             selected={this.state.date}
             onChange={this.handleChanges}
             withPortal
+            
           />
         </div>
       );
