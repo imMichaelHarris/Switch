@@ -38,6 +38,7 @@ class DateandTime extends React.Component {
             minDate={moment().add(1, 'days').toDate()}
             maxDate={moment().add(14, 'days').toDate()}
             selected={this.state.date}
+            dateFormat="MMMM d, yyyy h:mm aa"
             onChange={this.handleChanges}
             showTimeSelect
             withPortal
@@ -53,6 +54,7 @@ class DateandTime extends React.Component {
             placeholderText="Click to select a date"
             minDate={moment().add(1, 'days').toDate()}
             maxDate={moment().add(14, 'days').toDate()}
+            dateFormat="MMMM d, yyyy"
             selected={this.state.date}
             onChange={this.handleChanges}
             withPortal
