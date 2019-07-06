@@ -35,8 +35,8 @@ class DateandTime extends React.Component {
                     autoComplete="off"
 
             placeholderText="Time you want to be off by"
-            minDate={new Date()}
-            maxDate={moment().add(8, 'days').toDate()}
+            minDate={moment().add(1, 'days').toDate()}
+            maxDate={moment().add(14, 'days').toDate()}
             selected={this.state.date}
             onChange={this.handleChanges}
             showTimeSelect
@@ -51,8 +51,8 @@ class DateandTime extends React.Component {
           autoComplete="off"
             name="date"
             placeholderText="Click to select a date"
-            minDate={new Date()}
-            maxDate={moment().add(8, 'days').toDate()}
+            minDate={moment().add(1, 'days').toDate()}
+            maxDate={moment().add(14, 'days').toDate()}
             selected={this.state.date}
             onChange={this.handleChanges}
             withPortal
