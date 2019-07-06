@@ -134,7 +134,6 @@ swap = (selectedEmp, emp2) => {
   };
 
   render() {
-    console.log(this.state)
     return (
       <div className="App">
         <Route

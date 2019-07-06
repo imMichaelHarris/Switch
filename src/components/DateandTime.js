@@ -31,7 +31,8 @@ class DateandTime extends React.Component {
       return (
         <div>
           <Datepicker
-          
+                    autoComplete="off"
+
             placeholderText="Time you want to be off by"
             minDate={new Date()}
             maxDate={moment().add(8, 'days').toDate()}
@@ -46,6 +47,7 @@ class DateandTime extends React.Component {
       return (
         <div>
           <Datepicker
+          autoComplete="off"
             name="date"
             placeholderText="Click to select a date"
             minDate={new Date()}
