@@ -6,8 +6,7 @@ import schedule from "./schedule";
 import { runner, bartender, leadBOH, leadFOH, cook, standAtt } from "./types";
 import moment from "moment";
 import { Route, withRouter } from "react-router-dom";
-
-import Setup from "./components/Setup";
+import PrivateRoute from './utility/PrivateRoute';
 import Home from "./components/Home";
 import EmployeeList from "./components/EmployeeList";
 
