@@ -135,7 +135,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Route
+        <PrivateRoute
           exact
           path="/"
           render={props => (
