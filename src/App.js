@@ -6,8 +6,8 @@ import schedule from "./schedule";
 import { runner, bartender, leadBOH, leadFOH, cook, standAtt } from "./types";
 import moment from "moment";
 import { Route, withRouter } from "react-router-dom";
-import PrivateRoute from './utility/PrivateRoute';
-import Login from './components/Login';
+import PrivateRoute from "./utility/PrivateRoute";
+import Login from "./components/Login";
 import Home from "./components/Home";
 import EmployeeList from "./components/EmployeeList";
 
@@ -134,9 +134,10 @@ class App extends React.Component {
   };
 
   render() {
+    console.log('app')
     return (
       <div className="App">
-        <PrivateRoute
+        <Route
           exact
           path="/"
           render={props => (
@@ -151,7 +152,7 @@ class App extends React.Component {
             />
           )}
         />
-        <Route path='/login' component={Login} />
+
         <Route
           path="/results"
           render={props => (

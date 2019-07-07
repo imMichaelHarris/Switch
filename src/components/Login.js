@@ -31,7 +31,7 @@ class Login extends React.Component {
         <Message
           error
           header="Login Denied"
-          content="This app is only to be used my employees. Contact Michael Harris if additional info is needed."
+          content="This app is only to be used by employees. Contact Michael Harris if additional info is needed."
         />
         <Button>Login</Button>
       </Form>
