@@ -1,19 +1,39 @@
 import React from "react";
 import { Button, Form, Message } from "semantic-ui-react";
+import {withRouter} from 'react-router-dom';
 
 class Login extends React.Component {
-  state = {};
+  state = {
+    password: '',
+    error: false
+  };
 
+  handleChange = e => {
+    this.setState({
+      password: e.target.value
+    })
+  }
+  onSubmit = () => {
+    if(this.state.password === "butterscotch"){
+      localStorage.setItem('tester', 'beta-July')
+      this.props.history.push('/')
+    } else {
+      this.setState({
+        error: true,
+        password: ''
+      })
+    }
+  }
   render() {
     return (
-      <Form>
-        <Form.Input label="Email" placeholder="joe@schmoe.com" />
+      <Form onSubmit={this.onSubmit} error={this.state.error}>
+        <Form.Input label="Please login beta testers" placeholder="Like shortbread and " onChange={this.handleChange} value={this.state.password} type="password"/>
         <Message
           error
-          header="Action Forbidden"
-          content="You can only sign up for an account once with a given e-mail address."
+          header="Login Denied"
+          content="This app is only to be used my employees. Contact Michael Harris if additional info is needed."
         />
-        <Button>Submit</Button>
+        <Button>Login</Button>
       </Form>
     );
   }
