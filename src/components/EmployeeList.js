@@ -5,6 +5,7 @@ import Employee from "./Employee";
 import { Divider, Header } from "semantic-ui-react";
 
 const EmployeeList = props => {
+  console.log('props', props)
   return (
     <div>
       <header className="results-header">

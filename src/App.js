@@ -27,11 +27,10 @@ class App extends React.Component {
       schedule: schedule
     });
   }
-swap = (selectedEmp, emp2) => {
-  selectedEmp.date = emp2.date
-  emp2.date = this.state.giveUpDay
-
-}
+  swap = (selectedEmp, emp2) => {
+    selectedEmp.date = emp2.date;
+    emp2.date = this.state.giveUpDay;
+  };
   searchEmployees = selectedEmp => {
     let type = [];
     if (selectedEmp.type === "runner") {
@@ -44,7 +43,7 @@ swap = (selectedEmp, emp2) => {
       type = cook;
     } else if (selectedEmp.type === "leadFOH") {
       type = leadFOH;
-    } else {
+    } else if (selectedEmp.type === "standAtt") {
       type = standAtt;
     }
     this.setState({
@@ -58,7 +57,6 @@ swap = (selectedEmp, emp2) => {
   };
 
   daySearch = (type, day) => {
-
     this.setState({
       availablePeople: type.filter(emp => {
         return (
@@ -125,7 +123,7 @@ swap = (selectedEmp, emp2) => {
         })
       : this.setState({
           normalDate: moment(e).format("ddd, MMM Do"),
-          
+
           date: date
         });
   };
