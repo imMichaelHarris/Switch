@@ -31,6 +31,14 @@ table.ui.celled.table {
 .ui.card:last-child {
   margin: .5em auto; }
 
+.ui.form {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  margin: 0 auto; }
+
 .results-header {
   margin-bottom: 1em; }
 
