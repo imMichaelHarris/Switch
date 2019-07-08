@@ -34,9 +34,12 @@ class DateandTime extends React.Component {
           <Datepicker
                     autoComplete="off"
 
-            placeholderText="Time you want to be off by"
-            minDate={moment().add(1, 'days').toDate()}
-            maxDate={moment().add(13, 'days').toDate()}
+            placeholderText="I want to be off by..."
+            minDate={new Date()}
+            maxDate={moment().add(12, 'days').toDate()}
+            timeCaption="Time"
+            timeFormat="HH:mm"
+            timeIntervals={30}
             selected={this.state.date}
             dateFormat="MMMM d, yyyy h:mm aa"
             onChange={this.handleChanges}
@@ -51,9 +54,9 @@ class DateandTime extends React.Component {
           <Datepicker
           autoComplete="off"
             name="date"
-            placeholderText="Click to select a date"
-            minDate={moment().add(1, 'days').toDate()}
-            maxDate={moment().add(13, 'days').toDate()}
+            placeholderText="Select a date"
+            minDate={new Date()}
+            maxDate={moment().add(12, 'days').toDate()}
             dateFormat="MMMM d, yyyy"
             selected={this.state.date}
             onChange={this.handleChanges}
