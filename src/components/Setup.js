@@ -9,7 +9,11 @@ class Setup extends Component {
     selectedEmp: {}
   }
 
-
+// componentDidMount(){
+//   this.setState({
+//     selectedEmp: JSON.parse(localStorage.getItem('switchEmployee'))
+//   })
+// }
   selectName = (e) => {
 
     const selectedEmp = this.props.schedule.filter(emp => emp.name === e.target.textContent)
@@ -19,7 +23,6 @@ class Setup extends Component {
   }
 
   render() {
-    // console.log(this.state.selectedEmp)
     const { switchType, switchTypeSelection } = this.props;
     return (
       <div className="setup">
