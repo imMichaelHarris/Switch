@@ -45,6 +45,7 @@ class App extends React.Component {
       type = standAtt;
     }
     this.setState({
+      selectedEmp: selectedEmp,
       type: selectedEmp.type,
       giveUpDay: selectedEmp[this.state.date]
     });
@@ -158,6 +159,7 @@ class App extends React.Component {
           render={props => (
             <EmployeeList
               {...props}
+              selectedEmp={this.state.selectedEmp}
               availablePeople={this.state.availablePeople}
               day={this.state.date}
               switchType={this.state.switchType}

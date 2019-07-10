@@ -33,6 +33,7 @@ class Employee extends React.Component {
       secFriday,
       secSaturday
     } = this.props.employee;
+    const selected = this.props.selectedEmp;
     return (
       <ReactCardFlip isFlipped={this.state.isFlipped}>
         {/* <h1 key="front">Test</h1>
@@ -55,6 +56,7 @@ class Employee extends React.Component {
 
         <Table className="empTable" celled key="back" onClick={this.flipCard}>
           <Table.Header>
+            <Label as="a"color="blue" ribbon>{name} </Label>
             <Table.Row>
               <Table.HeaderCell>Sunday</Table.HeaderCell>
               <Table.HeaderCell>Monday</Table.HeaderCell>
@@ -64,6 +66,7 @@ class Employee extends React.Component {
               <Table.HeaderCell>Friday</Table.HeaderCell>
               <Table.HeaderCell>Saturday</Table.HeaderCell>
             </Table.Row>
+
           </Table.Header>
           <Table.Body>
             <Table.Row>
@@ -83,6 +86,39 @@ class Employee extends React.Component {
               <Table.Cell>{secThursday}</Table.Cell>
               <Table.Cell>{secFriday}</Table.Cell>
               <Table.Cell>{secSaturday}</Table.Cell>
+            </Table.Row>
+          </Table.Body>
+          <Table.Header>
+          <Label as="a"color="blue" ribbon>{selected.name} </Label>
+
+            <Table.Row>
+              <Table.HeaderCell>Sunday</Table.HeaderCell>
+              <Table.HeaderCell>Monday</Table.HeaderCell>
+              <Table.HeaderCell>Tuesday</Table.HeaderCell>
+              <Table.HeaderCell>Wednesday</Table.HeaderCell>
+              <Table.HeaderCell>Thursday</Table.HeaderCell>
+              <Table.HeaderCell>Friday</Table.HeaderCell>
+              <Table.HeaderCell>Saturday</Table.HeaderCell>
+            </Table.Row>
+          </Table.Header>
+          <Table.Body>
+            <Table.Row>
+              <Table.Cell>{selected.Sunday}</Table.Cell>
+              <Table.Cell>{selected.Monday}</Table.Cell>
+              <Table.Cell>{selected.Tuesday}</Table.Cell>
+              <Table.Cell>{selected.Wednesday}</Table.Cell>
+              <Table.Cell>{selected.Thursday}</Table.Cell>
+              <Table.Cell>{selected.Friday}</Table.Cell>
+              <Table.Cell>{selected.Saturday}</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <Table.Cell>{selected.secSunday}</Table.Cell>
+              <Table.Cell>{selected.secMonday}</Table.Cell>
+              <Table.Cell>{selected.secTuesday}</Table.Cell>
+              <Table.Cell>{selected.secWednesday}</Table.Cell>
+              <Table.Cell>{selected.secThursday}</Table.Cell>
+              <Table.Cell>{selected.secFriday}</Table.Cell>
+              <Table.Cell>{selected.secSaturday}</Table.Cell>
             </Table.Row>
           </Table.Body>
         </Table>

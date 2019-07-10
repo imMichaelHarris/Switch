@@ -5,7 +5,6 @@ import Employee from "./Employee";
 import { Divider, Header } from "semantic-ui-react";
 
 const EmployeeList = props => {
-  console.log('props', props)
   return (
     <div>
       <header className="results-header">
@@ -26,6 +25,7 @@ const EmployeeList = props => {
       ) : (
         props.availablePeople.map(emp => (
           <Employee
+            selectedEmp={props.selectedEmp}
             employee={emp}
             day={props.day}
             key={emp.name}
