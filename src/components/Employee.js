@@ -34,6 +34,8 @@ class Employee extends React.Component {
       secSaturday
     } = this.props.employee;
     const selected = this.props.selectedEmp;
+
+    const highlight = (day) => this.props.day === day ? true : false
     return (
       <ReactCardFlip isFlipped={this.state.isFlipped}>
         {/* <h1 key="front">Test</h1>
@@ -70,18 +72,18 @@ class Employee extends React.Component {
           </Table.Header>
           <Table.Body>
             <Table.Row>
-              <Table.Cell>{Sunday}</Table.Cell>
-              <Table.Cell>{Monday}</Table.Cell>
-              <Table.Cell>{Tuesday}</Table.Cell>
-              <Table.Cell>{Wednesday}</Table.Cell>
+              <Table.Cell positive={this.props.day === "secTuesday" ? true : false}>{Sunday}</Table.Cell>
+              <Table.Cell positive={this.props.day === "secTuesday" ? true : false}>{Monday}</Table.Cell>
+              <Table.Cell >Tuesday}</Table.Cell>
+              <Table.Cell positive>{Wednesday}</Table.Cell>
               <Table.Cell>{Thursday}</Table.Cell>
               <Table.Cell>{Friday}</Table.Cell>
-              <Table.Cell>{Saturday}</Table.Cell>
+              <Table.Cell positive={highlight("Saturday")}>{Saturday}</Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>{secSunday}</Table.Cell>
               <Table.Cell>{secMonday}</Table.Cell>
-              <Table.Cell>{secTuesday}</Table.Cell>
+              <Table.Cell positive={this.props.day === "secTuesday" ? true : false}>{secTuesday}</Table.Cell>
               <Table.Cell>{secWednesday}</Table.Cell>
               <Table.Cell>{secThursday}</Table.Cell>
               <Table.Cell>{secFriday}</Table.Cell>
