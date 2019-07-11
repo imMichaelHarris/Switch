@@ -72,22 +72,22 @@ class Employee extends React.Component {
           </Table.Header>
           <Table.Body>
             <Table.Row>
-              <Table.Cell positive={this.props.day === "secTuesday" ? true : false}>{Sunday}</Table.Cell>
-              <Table.Cell positive={this.props.day === "secTuesday" ? true : false}>{Monday}</Table.Cell>
-              <Table.Cell >Tuesday}</Table.Cell>
-              <Table.Cell positive>{Wednesday}</Table.Cell>
-              <Table.Cell>{Thursday}</Table.Cell>
-              <Table.Cell>{Friday}</Table.Cell>
+              <Table.Cell positive={highlight("Sunday")}>{Sunday}</Table.Cell>
+              <Table.Cell positive={highlight("Monday")}>{Monday}</Table.Cell>
+              <Table.Cell positive={highlight("Tuesday")}>Tuesday}</Table.Cell>
+              <Table.Cell positive={highlight("Wednesday")}>{Wednesday}</Table.Cell>
+              <Table.Cell positive={highlight("Thursday")}>{Thursday}</Table.Cell>
+              <Table.Cell positive={highlight("Friday")}>{Friday}</Table.Cell>
               <Table.Cell positive={highlight("Saturday")}>{Saturday}</Table.Cell>
             </Table.Row>
             <Table.Row>
-              <Table.Cell>{secSunday}</Table.Cell>
-              <Table.Cell>{secMonday}</Table.Cell>
-              <Table.Cell positive={this.props.day === "secTuesday" ? true : false}>{secTuesday}</Table.Cell>
-              <Table.Cell>{secWednesday}</Table.Cell>
-              <Table.Cell>{secThursday}</Table.Cell>
-              <Table.Cell>{secFriday}</Table.Cell>
-              <Table.Cell>{secSaturday}</Table.Cell>
+              <Table.Cell positive={highlight("secSunday")}>{secSunday}</Table.Cell>
+              <Table.Cell positive={highlight("secMonday")}>{secMonday}</Table.Cell>
+              <Table.Cell positive={highlight("secTuesday")}>{secTuesday}</Table.Cell>
+              <Table.Cell positive={highlight("secWednesday")}>{secWednesday}</Table.Cell>
+              <Table.Cell positive={highlight("secThursday")}>{secThursday}</Table.Cell>
+              <Table.Cell positive={highlight("secFriday")}>{secFriday}</Table.Cell>
+              <Table.Cell positive={highlight("secSaturday")}>{secSaturday}</Table.Cell>
             </Table.Row>
           </Table.Body>
           <Table.Header>
@@ -105,22 +105,22 @@ class Employee extends React.Component {
           </Table.Header>
           <Table.Body>
             <Table.Row>
-              <Table.Cell>{selected.Sunday}</Table.Cell>
-              <Table.Cell>{selected.Monday}</Table.Cell>
-              <Table.Cell>{selected.Tuesday}</Table.Cell>
-              <Table.Cell>{selected.Wednesday}</Table.Cell>
-              <Table.Cell>{selected.Thursday}</Table.Cell>
-              <Table.Cell>{selected.Friday}</Table.Cell>
-              <Table.Cell>{selected.Saturday}</Table.Cell>
+              <Table.Cell positive={highlight("Sunday")}>{selected.Sunday}</Table.Cell>
+              <Table.Cell positive={highlight("Monday")}>{selected.Monday}</Table.Cell>
+              <Table.Cell positive={highlight("Tuesday")}>{selected.Tuesday}</Table.Cell>
+              <Table.Cell positive={highlight("Wednesday")}>{selected.Wednesday}</Table.Cell>
+              <Table.Cell positive={highlight("Thursday")}>{selected.Thursday}</Table.Cell>
+              <Table.Cell positive={highlight("Friday")}>{selected.Friday}</Table.Cell>
+              <Table.Cell positive={highlight("Saturday")}>{selected.Saturday}</Table.Cell>
             </Table.Row>
             <Table.Row>
-              <Table.Cell>{selected.secSunday}</Table.Cell>
-              <Table.Cell>{selected.secMonday}</Table.Cell>
-              <Table.Cell>{selected.secTuesday}</Table.Cell>
-              <Table.Cell>{selected.secWednesday}</Table.Cell>
-              <Table.Cell>{selected.secThursday}</Table.Cell>
-              <Table.Cell>{selected.secFriday}</Table.Cell>
-              <Table.Cell>{selected.secSaturday}</Table.Cell>
+              <Table.Cell positive={highlight("secSunday")}>{selected.secSunday}</Table.Cell>
+              <Table.Cell positive={highlight("secMonday")}>{selected.secMonday}</Table.Cell>
+              <Table.Cell positive={highlight("secTuesday")}>{selected.secTuesday}</Table.Cell>
+              <Table.Cell positive={highlight("secWednesday")}>{selected.secWednesday}</Table.Cell>
+              <Table.Cell positive={highlight("secThursday")}>{selected.secThursday}</Table.Cell>
+              <Table.Cell positive={highlight("secFriday")}>{selected.secFriday}</Table.Cell>
+              <Table.Cell positive={highlight("secSaturday")}>{selected.secSaturday}</Table.Cell>
             </Table.Row>
           </Table.Body>
         </Table>
