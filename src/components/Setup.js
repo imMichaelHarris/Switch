@@ -9,7 +9,6 @@ class Setup extends Component {
     selectedEmp: {}
   }
 
-// componentDidMount(){
 //   this.setState({
 //     selectedEmp: JSON.parse(localStorage.getItem('switchEmployee'))
 //   })

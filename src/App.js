@@ -45,6 +45,7 @@ class App extends React.Component {
       type = standAtt;
     }
     this.setState({
+      selectedEmp: selectedEmp,
       type: selectedEmp.type,
       giveUpDay: selectedEmp[this.state.date]
     });
@@ -113,7 +114,7 @@ class App extends React.Component {
     this.props.history.push("/results");
   };
   changeDate = e => {
-    const date = moment(e).isAfter("Jul 13 2019")
+    const date = moment(e).isAfter("Jul 14 2019")
       ? `sec${moment(e).format("dddd")}`
       : moment(e).format("dddd");
     this.state.switchType === "Time Change"
@@ -158,6 +159,7 @@ class App extends React.Component {
           render={props => (
             <EmployeeList
               {...props}
+              selectedEmp={this.state.selectedEmp}
               availablePeople={this.state.availablePeople}
               day={this.state.date}
               switchType={this.state.switchType}
