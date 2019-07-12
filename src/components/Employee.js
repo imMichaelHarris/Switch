@@ -83,7 +83,7 @@ class Employee extends React.Component {
             <Table.Row>
               <Table.Cell positive={highlight("secSunday")}>{secSunday}</Table.Cell>
               <Table.Cell positive={highlight("secMonday")}>{secMonday}</Table.Cell>
-              <Table.Cell positive={highlight("secTuesday")}>{secTuesday}</Table.Cell>
+              <Table.Cell warning={highlight("secTuesday")}>{secTuesday}</Table.Cell>
               <Table.Cell positive={highlight("secWednesday")}>{secWednesday}</Table.Cell>
               <Table.Cell positive={highlight("secThursday")}>{secThursday}</Table.Cell>
               <Table.Cell positive={highlight("secFriday")}>{secFriday}</Table.Cell>
