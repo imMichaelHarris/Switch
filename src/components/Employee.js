@@ -14,6 +14,10 @@ class Employee extends React.Component {
       };
     });
   };
+  switch = (day) => {
+    const employee = {...this.props.employee, [day]: this.props.selectedEmp[day] } //this switches the selected emp day
+    return employee;
+  }
 
   render() {
     const {
@@ -32,8 +36,9 @@ class Employee extends React.Component {
       secThursday,
       secFriday,
       secSaturday
-    } = this.props.employee;
-    const selected = this.props.selectedEmp;
+    } = this.switch(this.props.day);
+    const selected = {...this.props.selectedEmp, [this.props.day]: this.props.employee[this.props.day]};
+    this.switch("secTuesday")
 
     const highlight = (day) => this.props.day === day ? true : false
     return (
@@ -74,7 +79,7 @@ class Employee extends React.Component {
             <Table.Row>
               <Table.Cell positive={highlight("Sunday")}>{Sunday}</Table.Cell>
               <Table.Cell positive={highlight("Monday")}>{Monday}</Table.Cell>
-              <Table.Cell positive={highlight("Tuesday")}>Tuesday}</Table.Cell>
+              <Table.Cell positive={highlight("Tuesday")}>{Tuesday}</Table.Cell>
               <Table.Cell positive={highlight("Wednesday")}>{Wednesday}</Table.Cell>
               <Table.Cell positive={highlight("Thursday")}>{Thursday}</Table.Cell>
               <Table.Cell positive={highlight("Friday")}>{Friday}</Table.Cell>
