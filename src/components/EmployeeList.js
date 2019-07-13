@@ -16,6 +16,7 @@ const EmployeeList = props => {
           results={props.availablePeople.length + 1}
         />
         <Link to="/">Search again</Link>
+        <a style={{fontSize: "1rem", display: "block", marginTop: "10px"}}href="mailto:mhguitar1997@gmail.com?Subject=Switch%20App%20Bug">If you notice something off please send a bug report</a>
       </header>
       <Divider />
       {props.availablePeople.length == 0 ? (
