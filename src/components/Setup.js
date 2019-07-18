@@ -48,7 +48,7 @@ class Setup extends Component {
             Time Change
           </Button>
         </Button.Group>
-        {switchTypeSelection && (
+        {switchTypeSelection && this.state.selectedEmp.name && (
           <DateandTime
             switchTypeSelection={this.props.switchTypeSelection}
             changeDate={this.props.changeDate}
