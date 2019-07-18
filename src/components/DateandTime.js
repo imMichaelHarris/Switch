@@ -5,7 +5,8 @@ import { Label } from "semantic-ui-react";
 
 class DateandTime extends React.Component {
   state = {
-    date: null
+    date: null,
+    giveUpDay: null
   };
 
   handleChanges = e => {
@@ -14,10 +15,19 @@ class DateandTime extends React.Component {
     });
     this.props.changeDate(e);
   };
+  handleGiveUp = e => {
+    this.setState({
+      giveUpDay: e
+    });
+  };
+  getOffDays = selectedEmp => {
+    const [day, value] = Object.entries(selectedEmp);
+    console.log(day);
+  };
 
   render() {
     const { switchTypeSelection } = this.props;
-
+    this.getOffDays(this.props.selectedEmp);
     if (switchTypeSelection === "Time Change") {
       return (
         <div>
@@ -56,6 +66,20 @@ class DateandTime extends React.Component {
             onChange={this.handleChanges}
             withPortal
           />
+          <Datepicker
+            autoComplete="off"
+            name="giveUpDay"
+            placeholderText="Give up day"
+            minDate={new Date()}
+            maxDate={moment()
+              .add(10, "days")
+              .toDate()}
+            dateFormat="MMMM d, yyyy"
+            selected={this.state.giveUpDay}
+            onChange={this.handleGiveUp}
+            withPortal
+          />
+          <Label pointing="above">Select the off day you will give</Label>
         </div>
       );
     }
