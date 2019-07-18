@@ -1,7 +1,7 @@
-export const weekOne = [
+export const weekOne =  [
   {
     "name": "Kenney Thomas",
-    "Sunday": "16:00 - 00:00 7.4hbtr2 LDDISP",
+    "Sunday": "A - PDOSCK",
     "Monday": "A - PDO",
     "Tuesday": "A",
     "Wednesday": "07:30 - 15:30 7.4hbtr2 LDDISP",
@@ -44,9 +44,9 @@ export const weekOne = [
   },
   {
     "name": "Delone D Reynolds",
-    "Sunday": "N - PDO",
+    "Sunday": "06:00 - 14:00 7.4h3brm COOK",
     "Monday": "N - PDO",
-    "Tuesday": "07:30 - 17:00 8.9h3brm COOK",
+    "Tuesday": "P: 04:00-17:00SCK",
     "Wednesday": "07:30 - 17:00 8.9h3brm COOK",
     "Thursday": "07:30 - 17:00 8.9h3brm COOK",
     "Friday": "06:30 - 15:00 7.9h3brm COOK",
@@ -76,10 +76,21 @@ export const weekOne = [
     "type": "bartender"
   },
   {
+    "name": "Erika Garcia",
+    "Sunday": "A",
+    "Monday": "08:30 - 16:30 7.4hisla BARTD",
+    "Tuesday": "08:30 - 16:30 7.4hisla BARTD",
+    "Wednesday": "12:00 - 20:00 7.4hisla BARTD",
+    "Thursday": "13:00 - 21:00 7.4hisla BARTD",
+    "Friday": "15:30 - 23:30 7.4hisla BARTD",
+    "Saturday": "A",
+    "type": "bartender"
+  },
+  {
     "name": "Dayra M Gonzalez",
     "Sunday": "N",
     "Monday": "P: 05:00-18:00",
-    "Tuesday": "07:30 - 16:00 7.9h3brm STAATT",
+    "Tuesday": "P: 05:00-18:00SCK",
     "Wednesday": "07:30 - 16:00 7.9h3brm STAATT",
     "Thursday": "07:30 - 16:00 7.9h3brm STAATT",
     "Friday": "07:30 - 15:30 7.4h3brm STAATT",
@@ -155,11 +166,11 @@ export const weekOne = [
     "name": "Paige Miller",
     "Sunday": "AOFF",
     "Monday": "A - PDOOFF",
-    "Tuesday": "A - PDOOFF",
+    "Tuesday": "13:00 - 22:30 9hisla SSUPFD",
     "Wednesday": "AOFF",
-    "Thursday": "AOFF",
-    "Friday": "AOFF",
-    "Saturday": "AOFF"
+    "Thursday": "13:00 - 22:30 9hisla SSUPFD",
+    "Friday": "13:00 - 22:30 9hisla SSUPFD",
+    "Saturday": "08:30 - 18:00 9hisla SSUPFD"
   },
   {
     "name": "Janet G Cuevas",
@@ -243,14 +254,14 @@ export const weekOne = [
     "Wednesday": "A",
     "Thursday": "10:30 - 18:30 7.4hisla BARTD",
     "Friday": "14:00 - 22:00 7.4hisla BARTD",
-    "Saturday": "15:30 - 23:30 7.4hisla BARTD",
+    "Saturday": "15:00 - 23:30 7.9hisla BARTD",
     "type": "bartender"
   },
   {
     "name": "Joseph L Velasco",
     "Sunday": "A - PDO",
-    "Monday": "06:30 - 14:30 7.4hbtr1 LDRUN",
-    "Tuesday": "06:30 - 14:30 7.4hbtr1 LDRUN",
+    "Monday": "16:30 - 00:30 7.4hbtr1 LDRUN",
+    "Tuesday": "16:30 - 00:30 7.4hbtr1 LDRUN",
     "Wednesday": "16:30 - 00:30 7.4hbtr1 LDRUN",
     "Thursday": "P: 05:00-16:00VAC",
     "Friday": "AVAC",
@@ -286,7 +297,7 @@ export const weekOne = [
     "Tuesday": "10:00 - 18:00 7.4h3brm PREP",
     "Wednesday": "N",
     "Thursday": "10:00 - 18:00 7.4h3brm PREP",
-    "Friday": "06:30 - 14:30 7.4h3brm COOK",
+    "Friday": "10:00 - 18:00 7.4h3brm PREP",
     "Saturday": "05:30 - 13:30 7.4h3brm COOK",
     "type": "cook"
   },
@@ -303,7 +314,7 @@ export const weekOne = [
   },
   {
     "name": "Raven A Douglass",
-    "Sunday": "15:30 - 21:30 6hmoes BARTD",
+    "Sunday": "P: 12:00-00:00SCK",
     "Monday": "N - PDO",
     "Tuesday": "N - PDO",
     "Wednesday": "15:30 - 21:30 6hmoes BARTD",
@@ -345,22 +356,11 @@ export const weekOne = [
     "type": "bartender"
   },
   {
-    "name": "Giancarlo De Leon",
-    "Sunday": "N",
-    "Monday": "N",
-    "Tuesday": "N",
-    "Wednesday": "N",
-    "Thursday": "11:30 - 21:30 9.4h3brm COOK",
-    "Friday": "P: 06:00-14:00",
-    "Saturday": "N",
-    "type": "cook"
-  },
-  {
     "name": "Jose A Escobar",
     "Sunday": "A",
     "Monday": "A",
-    "Tuesday": "15:00 - 23:00 7.4hmull LDBRTN",
-    "Wednesday": "15:00 - 23:00 7.4hmull LDBRTN",
+    "Tuesday": "ASCK",
+    "Wednesday": "ASCK",
     "Thursday": "15:00 - 23:00 7.4hmull LDBRTN",
     "Friday": "15:30 - 23:30 7.4hmull LDBRTN",
     "Saturday": "16:00 - 00:00 7.4hduff LDBRTN",
@@ -402,9 +402,9 @@ export const weekOne = [
     "name": "Briana R Amlin",
     "Sunday": "09:30 - 15:30 6hhogs BARTD",
     "Monday": "07:30 - 13:30 6hhogs BARTD",
-    "Tuesday": "07:30 - 13:30 6hhogs BARTD",
+    "Tuesday": "ASCK",
     "Wednesday": "09:00 - 15:00 6hmoes BARTD",
-    "Thursday": "07:30 - 13:30 6hhogs BARTD",
+    "Thursday": "08:00 - 14:00 6hhogs BARTD",
     "Friday": "A",
     "Saturday": "A",
     "type": "bartender"
@@ -412,8 +412,8 @@ export const weekOne = [
   {
     "name": "John Mangihut",
     "Sunday": "06:30 - 14:30 7.4hbtr1 LDRUN",
-    "Monday": "16:30 - 00:30 7.4hbtr1 LDRUN",
-    "Tuesday": "16:30 - 00:30 7.4hbtr1 LDRUN",
+    "Monday": "06:30 - 14:30 7.4hbtr1 LDRUN",
+    "Tuesday": "ARDO",
     "Wednesday": "A",
     "Thursday": "06:30 - 14:30 7.4hbtr1 LDRUN",
     "Friday": "06:30 - 14:30 7.4hbtr1 LDRUN",
@@ -427,7 +427,7 @@ export const weekOne = [
     "Tuesday": "11:00 - 19:00 7.4hbtr1 FDRUN",
     "Wednesday": "N",
     "Thursday": "N",
-    "Friday": "07:30 - 15:30 7.4hbtr1 FDRUN",
+    "Friday": "08:30 - 16:30 7.4hbtr1 FDRUN",
     "Saturday": "10:30 - 18:30 7.4hbtr1 FDRUN",
     "type": "runner"
   },
@@ -467,7 +467,7 @@ export const weekOne = [
   {
     "name": "Teri Chase",
     "Sunday": "P: 06:00-20:00RDO",
-    "Monday": "10:30 - 19:30 8.4h3brm STAATT",
+    "Monday": "P: 06:00-20:00SCK",
     "Tuesday": "10:00 - 19:30 8.9h3brm STAATT",
     "Wednesday": "10:00 - 19:30 8.9h3brm STAATT",
     "Thursday": "11:00 - 20:00 8.4h3brm STAATT",
@@ -491,8 +491,8 @@ export const weekOne = [
     "Monday": "16:00 - 00:00 7.4hbtr1 FDRUN",
     "Tuesday": "A - PDO",
     "Wednesday": "08:00 - 16:00 7.4hbtr1 FDRUN",
-    "Thursday": "15:30 - 23:30 7.4hbtr1 FDRUN",
-    "Friday": "15:00 - 23:00 7.4hbtr1 FDRUN",
+    "Thursday": "12:00 - 20:00 7.4hbtr1 FDRUN",
+    "Friday": "12:00 - 20:00 7.4hbtr1 FDRUN",
     "Saturday": "14:30 - 22:30 7.4hbtr1 FDRUN",
     "type": "runner"
   },
@@ -533,7 +533,7 @@ export const weekOne = [
     "name": "Oscar J Benitez",
     "Sunday": "16:30 - 00:30 7.4hbtr1 FDRUN",
     "Monday": "A",
-    "Tuesday": "16:00 - 00:00 7.4hbtr1 FDRUN",
+    "Tuesday": "06:30 - 14:30 7.4hbtr1 FDRUN",
     "Wednesday": "14:00 - 22:00 7.4hbtr1 FDRUN",
     "Thursday": "14:00 - 22:00 7.4hbtr1 FDRUN",
     "Friday": "16:30 - 00:30 7.4hbtr1 FDRUN",
@@ -552,22 +552,11 @@ export const weekOne = [
     "type": "standAtt"
   },
   {
-    "name": "Erika Garcia",
-    "Sunday": "A",
-    "Monday": "08:30 - 16:30 7.4hisla BARTD",
-    "Tuesday": "08:30 - 16:30 7.4hisla BARTD",
-    "Wednesday": "12:00 - 20:00 7.4hisla BARTD",
-    "Thursday": "13:00 - 21:00 7.4hisla BARTD",
-    "Friday": "15:30 - 23:30 7.4hisla BARTD",
-    "Saturday": "A",
-    "type": "bartender"
-  },
-  {
     "name": "Michael A Gonzalez",
     "Sunday": "A - PDO",
     "Monday": "09:30 - 17:30 7.4hbtr1 FDRUN",
-    "Tuesday": "08:30 - 16:30 7.4hbtr1 FDRUN",
-    "Wednesday": "08:30 - 16:30 7.4hbtr1 FDRUN",
+    "Tuesday": "09:30 - 17:30 7.4hbtr1 FDRUN",
+    "Wednesday": "09:30 - 17:30 7.4hbtr1 FDRUN",
     "Thursday": "11:00 - 19:00 7.4hbtr1 FDRUN",
     "Friday": "P: 06:00-19:00",
     "Saturday": "08:30 - 16:30 7.4hbtr1 FDRUN",
@@ -581,7 +570,7 @@ export const weekOne = [
     "Wednesday": "11:30 - 19:30 7.4hfood FDTRNR  JTFD",
     "Thursday": "11:00 - 20:30 8.9h3brm STAATT",
     "Friday": "11:30 - 21:30 9.4h3brm STAATT",
-    "Saturday": "06:30 - 14:30 7.4h3brm STAATT",
+    "Saturday": "07:00 - 15:00 7.4hbtr2 STAATT",
     "type": "standAtt"
   },
   {
@@ -600,7 +589,7 @@ export const weekOne = [
     "Sunday": "A - PDO",
     "Monday": "07:30 - 15:30 7.4hbtr2 LDDISP",
     "Tuesday": "07:30 - 15:30 7.4hbtr2 LDDISP",
-    "Wednesday": "16:00 - 00:00 7.4hbtr2 LDDISP",
+    "Wednesday": "ARDO",
     "Thursday": "16:00 - 00:00 7.4hbtr2 LDDISP",
     "Friday": "16:00 - 00:00 7.4hbtr2 LDDISP",
     "Saturday": "A",
@@ -642,9 +631,9 @@ export const weekOne = [
   {
     "name": "Julian A Manzano",
     "Sunday": "07:30 - 15:30 7.4hbtr2 LDDISP",
-    "Monday": "16:00 - 00:00 7.4hbtr2 LDDISP",
+    "Monday": "14:00 - 00:00 9.4hbtr2 LDDISP",
     "Tuesday": "16:00 - 00:00 7.4hbtr2 LDDISP",
-    "Wednesday": "12:00 - 20:00 7.4hbtr2 LDFOH",
+    "Wednesday": "14:00 - 00:00 9.4hbtr2 LDFOH",
     "Thursday": "A",
     "Friday": "07:30 - 15:30 7.4hbtr2 LDDISP",
     "Saturday": "06:30 - 14:30 7.4hbtr2 LDDISP",
@@ -656,7 +645,7 @@ export const weekOne = [
     "Monday": "P: 06:00-18:00VAC",
     "Tuesday": "N",
     "Wednesday": "N",
-    "Thursday": "08:30 - 16:30 7.4hbtr1 FDRUN",
+    "Thursday": "09:30 - 17:30 7.4hbtr1 FDRUN",
     "Friday": "09:30 - 17:30 7.4hbtr1 FDRUN",
     "Saturday": "08:30 - 16:30 7.4hbtr1 FDRUN",
     "type": "runner"
@@ -688,7 +677,7 @@ export const weekOne = [
     "Sunday": "06:30 - 15:30 8.4h3brm LDBOH",
     "Monday": "06:30 - 15:30 8.4h3brm LDBOH",
     "Tuesday": "06:30 - 15:30 8.4h3brm LDBOH",
-    "Wednesday": "07:30 - 15:30 7.4hfood FDTRNR  JTFD",
+    "Wednesday": "10:00 - 18:00 7.4h3brm LDBOH",
     "Thursday": "N",
     "Friday": "10:00 - 19:00 8.4h3brm LDBOH",
     "Saturday": "09:00 - 18:30 8.9h3brm LDBOH",
@@ -696,8 +685,8 @@ export const weekOne = [
   },
   {
     "name": "Dannell A Smith",
-    "Sunday": "P: 05:00-16:00 - PDO",
-    "Monday": "07:00 - 15:00 7.4h3brm COOK",
+    "Sunday": "15:00 - 23:00 7.4h3brm COOK s959",
+    "Monday": "06:00 - 14:00 7.4h3brm COOK",
     "Tuesday": "P: 05:00-16:00",
     "Wednesday": "07:00 - 15:00 7.4h3brm COOK",
     "Thursday": "07:00 - 15:00 7.4h3brm COOK",
@@ -729,7 +718,7 @@ export const weekOne = [
   },
   {
     "name": "Liliana Rosales Rodriguez",
-    "Sunday": "N",
+    "Sunday": "15:30 - 23:30 7.4h3brm STAATT s959",
     "Monday": "08:00 - 16:00 7.4h3brm STAATT",
     "Tuesday": "09:00 - 17:00 7.4h3brm STAATT",
     "Wednesday": "09:00 - 17:00 7.4h3brm STAATT",
@@ -740,7 +729,7 @@ export const weekOne = [
   },
   {
     "name": "Tony L Thompson Jr.",
-    "Sunday": "11:30 - 21:30 9.4h3brm STAATT",
+    "Sunday": "08:00 - 16:00 7.4h3brm STAATT",
     "Monday": "A",
     "Tuesday": "11:30 - 21:30 9.4h3brm STAATT",
     "Wednesday": "12:00 - 21:30 8.9h3brm STAATT",
@@ -786,7 +775,7 @@ export const weekOne = [
     "Sunday": "P: 02:00-18:00",
     "Monday": "08:00 - 18:00 9.4h3brm COOK",
     "Tuesday": "09:00 - 18:00 8.4h3brm COOK",
-    "Wednesday": "09:00 - 18:00 8.4h3brm COOK",
+    "Wednesday": "05:00 - 14:00 8.4h3brm COOK",
     "Thursday": "09:00 - 18:00 8.4h3brm COOK",
     "Friday": "10:00 - 18:00 7.4h3brm COOK",
     "Saturday": "10:00 - 18:00 7.4h3brm PREP",
@@ -808,7 +797,7 @@ export const weekOne = [
     "Monday": "08:00 - 16:00 7.4h3brm STAATT",
     "Tuesday": "12:00 - 21:30 8.9h3brm STAATT",
     "Wednesday": "11:00 - 20:00 8.4h3brm STAATT",
-    "Thursday": "12:30 - 21:30 8.4h3brm STAATT",
+    "Thursday": "P: 10:00-23:00SCK",
     "Friday": "N",
     "Saturday": "N",
     "type": "standAtt"
@@ -818,9 +807,9 @@ export const weekOne = [
     "Sunday": "08:00 - 16:00 7.4h3brm STAATT",
     "Monday": "08:00 - 16:00 7.4h3brm STAATT",
     "Tuesday": "14:30 - 23:30 8.4hbtr1 STAATT",
-    "Wednesday": "14:30 - 23:30 8.4hbtr1 STAATT",
+    "Wednesday": "A",
     "Thursday": "N",
-    "Friday": "N",
+    "Friday": "10:30 - 17:30 6.4h3brm STAATT",
     "Saturday": "10:00 - 20:00 9.4h3brm STAATT",
     "type": "standAtt"
   },
@@ -839,7 +828,7 @@ export const weekOne = [
     "name": "Marco A Lopez Jr.",
     "Sunday": "N",
     "Monday": "N",
-    "Tuesday": "12:30 - 21:30 8.4h3brm STAATT",
+    "Tuesday": "P: 09:00-22:00SCK",
     "Wednesday": "12:30 - 21:00 7.9h3brm STAATT",
     "Thursday": "12:30 - 20:30 7.4h3brm STAATT",
     "Friday": "11:00 - 20:30 8.9h3brm STAATT",
@@ -859,7 +848,7 @@ export const weekOne = [
   },
   {
     "name": "Haisy Gomez",
-    "Sunday": "08:00 - 16:00 7.4h3brm STAATT",
+    "Sunday": "11:30 - 19:30 7.4h3brm STAATT  19:30 - 21:30 2h3brm STAATT s959",
     "Monday": "11:00 - 20:30 8.9h3brm STAATT",
     "Tuesday": "12:30 - 21:00 7.9h3brm STAATT",
     "Wednesday": "N",
@@ -905,8 +894,8 @@ export const weekOne = [
     "name": "Adrian J Gonzalez",
     "Sunday": "P: 04:00-13:00",
     "Monday": "P: 04:00-13:00",
-    "Tuesday": "N - PDO",
-    "Wednesday": "N - PDO",
+    "Tuesday": "N - PDOONC",
+    "Wednesday": "N - PDOONC",
     "Thursday": "P: 04:00-13:00",
     "Friday": "N - PDO",
     "Saturday": "N - PDO"
@@ -914,12 +903,12 @@ export const weekOne = [
   {
     "name": "Sara E Yamada",
     "Sunday": "A - PDOOFF",
-    "Monday": "AOFF",
+    "Monday": "12:30 - 22:00 9hjcaf SSUPFD",
     "Tuesday": "AOFF",
-    "Wednesday": "AOFF",
-    "Thursday": "AOFF",
-    "Friday": "AOFF",
-    "Saturday": "AOFF"
+    "Wednesday": "12:30 - 22:00 9hjcaf SSUPFD",
+    "Thursday": "11:00 - 19:30 8hjcaf SSUPFD",
+    "Friday": "13:00 - 22:30 9hjcaf SSUPFD",
+    "Saturday": "13:00 - 22:30 9hjcaf SSUPFD"
   },
   {
     "name": "Robint R Rodriguez",
@@ -956,8 +945,8 @@ export const weekOne = [
   },
   {
     "name": "Kassandra Sanchez",
-    "Sunday": "12:30 - 22:00 8.9h3brm STAATT",
-    "Monday": "14:00 - 23:30 8.9hbtr1 STAATT",
+    "Sunday": "11:30 - 20:30 8.4h3brm STAATT  20:30 - 22:30 2h3brm STAATT s959",
+    "Monday": "16:00 - 00:00 7.4h3brm STAATT",
     "Tuesday": "A",
     "Wednesday": "A",
     "Thursday": "15:30 - 23:30 7.4h3brm STAATT",
@@ -1003,8 +992,8 @@ export const weekOne = [
     "Sunday": "P: 06:00-17:00",
     "Monday": "08:00 - 16:00 7.4hbtr1 STAATT",
     "Tuesday": "09:00 - 17:00 7.4hbtr1 STAATT",
-    "Wednesday": "09:00 - 17:00 7.4hbtr1 STAATT",
-    "Thursday": "09:00 - 17:00 7.4hbtr1 STAATT",
+    "Wednesday": "12:00 - 18:00 6h3brm ZZST",
+    "Thursday": "09:30 - 17:30 7.4hbtr1 STAATT",
     "Friday": "P: 06:00-17:00",
     "Saturday": "08:00 - 16:00 7.4h3brm STAATT",
     "type": "standAtt"
@@ -1014,10 +1003,10 @@ export const weekOne = [
     "Sunday": "16:00 - 00:00 7.4h3brm LDBOH",
     "Monday": "A",
     "Tuesday": "10:00 - 19:00 8.4h3brm LDBOH",
-    "Wednesday": "06:30 - 15:30 8.4h3brm LDBOH",
-    "Thursday": "06:30 - 15:30 8.4h3brm LDBOH",
-    "Friday": "06:30 - 15:30 8.4h3brm LDBOH",
-    "Saturday": "05:30 - 13:30 7.4h3brm LDBOH",
+    "Wednesday": "15:00 - 00:00 8.4h3brm LDBOH",
+    "Thursday": "10:00 - 19:00 8.4h3brm LDBOH",
+    "Friday": "16:00 - 00:00 7.4h3brm LDBOH",
+    "Saturday": "16:00 - 00:00 7.4h3brm LDBOH",
     "type": "leadBOH"
   },
   {
@@ -1080,10 +1069,10 @@ export const weekOne = [
     "Sunday": "A",
     "Monday": "16:00 - 00:00 7.4h3brm LDBOH",
     "Tuesday": "15:00 - 00:00 8.4h3brm LDBOH",
-    "Wednesday": "15:00 - 00:00 8.4h3brm LDBOH",
-    "Thursday": "10:00 - 19:00 8.4h3brm LDBOH",
-    "Friday": "16:00 - 00:00 7.4h3brm LDBOH",
-    "Saturday": "16:00 - 00:00 7.4h3brm LDBOH",
+    "Wednesday": "06:30 - 15:30 8.4h3brm LDBOH",
+    "Thursday": "06:30 - 15:30 8.4h3brm LDBOH",
+    "Friday": "06:30 - 15:30 8.4h3brm LDBOH",
+    "Saturday": "05:30 - 13:30 7.4h3brm LDBOH",
     "type": "leadBOH"
   },
   {
@@ -1110,7 +1099,7 @@ export const weekOne = [
   },
   {
     "name": "Eduardo Hernandez",
-    "Sunday": "13:00 - 22:30 8.9h3brm COOK",
+    "Sunday": "13:00 - 22:30 8.9h3brm COOK  22:30 - 00:30 2h3brm COOK s959",
     "Monday": "N",
     "Tuesday": "14:00 - 22:30 7.9h3brm COOK",
     "Wednesday": "15:30 - 23:30 7.4h3brm COOK",
@@ -1146,7 +1135,7 @@ export const weekOne = [
     "Sunday": "08:00 - 14:00 6hhogs BARTD",
     "Monday": "N",
     "Tuesday": "N",
-    "Wednesday": "07:30 - 13:30 6hhogs BARTD",
+    "Wednesday": "08:00 - 14:00 6hhogs BARTD",
     "Thursday": "N",
     "Friday": "N",
     "Saturday": "13:30 - 20:30 6.4hhogs BARTD",
@@ -1158,7 +1147,7 @@ export const weekOne = [
     "Monday": "N",
     "Tuesday": "09:30 - 17:30 7.4hbtr1 STAATT",
     "Wednesday": "N",
-    "Thursday": "09:30 - 17:30 7.4hbtr1 STAATT",
+    "Thursday": "09:00 - 17:00 7.4hbtr1 STAATT",
     "Friday": "09:30 - 17:30 7.4h3brm STAATT",
     "Saturday": "10:00 - 18:00 7.4h3brm STAATT",
     "type": "standAtt"
@@ -1176,7 +1165,7 @@ export const weekOne = [
   {
     "name": "Sandy M Molina Cruz",
     "Sunday": "15:00 - 23:00 7.4hbtr1 FDRUN",
-    "Monday": "15:00 - 23:00 7.4hbtr1 FDRUN",
+    "Monday": "12:00 - 20:00 7.4hbtr1 FDRUN",
     "Tuesday": "14:00 - 22:00 7.4hbtr1 FDRUN",
     "Wednesday": "11:00 - 19:00 7.4hbtr1 FDRUN",
     "Thursday": "16:30 - 00:30 7.4hbtr1 FDRUN",
@@ -1199,10 +1188,10 @@ export const weekOne = [
     "name": "Jacqueline Cortes",
     "Sunday": "07:00 - 15:00 7.4h3brm COOK",
     "Monday": "13:30 - 22:30 8.4h3brm COOK",
-    "Tuesday": "N",
+    "Tuesday": "09:00 - 17:00 7.4h3brm ZZCKZZ",
     "Wednesday": "10:00 - 18:00 7.4h3brm PREP",
     "Thursday": "N",
-    "Friday": "10:00 - 18:00 7.4h3brm PREP",
+    "Friday": "P: 07:00-19:00",
     "Saturday": "P: 06:00-16:00",
     "type": "cook"
   },
@@ -1214,7 +1203,7 @@ export const weekOne = [
     "Wednesday": "08:00 - 16:00 7.4hbtr1 STAATT",
     "Thursday": "09:00 - 17:00 7.4h3brm STAATT",
     "Friday": "08:00 - 16:00 7.4hbtr2 STAATT",
-    "Saturday": "07:00 - 15:00 7.4hbtr2 STAATT",
+    "Saturday": "06:30 - 14:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1285,12 +1274,12 @@ export const weekOne = [
     "name": "Francisco J Pelayo-Bibian",
     "Sunday": "N",
     "Monday": "N",
-    "Tuesday": "10:00 - 18:00 7.4h3brm PREP",
+    "Tuesday": "P: 05:00-18:00SCK",
     "Wednesday": "10:00 - 18:00 7.4h3brm PREP",
     "Thursday": "10:00 - 18:00 7.4h3brm COOK",
     "Friday": "P: 05:00-17:00",
     "Saturday": "06:00 - 14:00 7.4h3brm COOK",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "David Mendoza",
@@ -1306,7 +1295,7 @@ export const weekOne = [
   {
     "name": "Liseth Reynoso",
     "Sunday": "N",
-    "Monday": "11:00 - 19:00 7.4h3brm STAATT",
+    "Monday": "P: 09:30-19:00SCK",
     "Tuesday": "N",
     "Wednesday": "11:00 - 18:30 6.9h3brm STAATT",
     "Thursday": "N",
@@ -1318,27 +1307,27 @@ export const weekOne = [
     "name": "Esteban Salas",
     "Sunday": "N",
     "Monday": "N",
-    "Tuesday": "09:00 - 17:00 7.4h3brm ZZCKZZ",
+    "Tuesday": "10:00 - 18:00 7.4h3brm PREP",
     "Wednesday": "09:00 - 17:00 7.4h3brm ZZCKZZ",
-    "Thursday": "P: 06:00-17:00",
-    "Friday": "P: 06:00-17:00",
-    "Saturday": "P: 06:00-17:00",
-    "type": "standAtt"
+    "Thursday": "10:00 - 18:00 7.4h3brm PREP",
+    "Friday": "06:30 - 14:30 7.4h3brm COOK",
+    "Saturday": "P: 06:00-17:00ONC",
+    "type": "cook"
   },
   {
     "name": "Raymond Gonzalez",
-    "Sunday": "14:00 - 22:00 7.4h3brm ZZCKZZ",
+    "Sunday": "14:00 - 22:00 7.4h3brm ZZCKZZ s959",
     "Monday": "NRDO",
     "Tuesday": "P: 06:00-20:00RDO",
     "Wednesday": "07:30 - 15:30 7.4hfood FDTRNR  JTFD",
     "Thursday": "09:30 - 17:30 7.4hfood FDTRNR  JTFD",
     "Friday": "11:30 - 19:30 7.4hfood FDTRNR  JTFD",
     "Saturday": "09:30 - 17:30 7.4h3brm COOK",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Lurleen N Frazier",
-    "Sunday": "11:30 - 20:30 8.4h3brm STAATT",
+    "Sunday": "12:30 - 22:00 8.9h3brm STAATT  22:00 - 01:00 3h3brm STAATT s959",
     "Monday": "N",
     "Tuesday": "15:30 - 23:30 7.4h3brm STAATT",
     "Wednesday": "N",
@@ -1384,7 +1373,7 @@ export const weekOne = [
     "Sunday": "08:00 - 16:00 7.4hbtr1 STAATT",
     "Monday": "08:00 - 16:00 7.4hbtr2 STAATT",
     "Tuesday": "P: 05:00-17:00",
-    "Wednesday": "08:00 - 15:00 6.4h3brm STAATT",
+    "Wednesday": "P: 05:00-17:00SCK",
     "Thursday": "08:00 - 15:00 6.4h3brm STAATT",
     "Friday": "P: 05:00-17:00",
     "Saturday": "07:30 - 15:00 6.9h3brm STAATT",
@@ -1392,7 +1381,7 @@ export const weekOne = [
   },
   {
     "name": "Marissa Rodriguez",
-    "Sunday": "12:30 - 21:30 8.4h3brm STAATT",
+    "Sunday": "ASCK",
     "Monday": "N",
     "Tuesday": "N",
     "Wednesday": "N",
@@ -1425,7 +1414,7 @@ export const weekOne = [
   },
   {
     "name": "Rebekah Mendoza",
-    "Sunday": "12:30 - 21:30 8.4h3brm STAATT",
+    "Sunday": "12:30 - 21:30 8.4h3brm STAATT  21:30 - 23:30 2h3brm STAATT s959",
     "Monday": "12:30 - 21:30 8.4h3brm STAATT",
     "Tuesday": "P: 12:30-23:00",
     "Wednesday": "12:30 - 20:30 7.4hbtr1 STAATT",
@@ -1448,10 +1437,10 @@ export const weekOne = [
   {
     "name": "Christopher D Wilson",
     "Sunday": "07:00 - 15:00 7.4h3brm COOK",
-    "Monday": "P: 07:00-17:00",
-    "Tuesday": "P: 07:00-17:00",
-    "Wednesday": "P: 07:00-17:00",
-    "Thursday": "P: 07:00-17:00",
+    "Monday": "P: 07:00-17:00ONC",
+    "Tuesday": "P: 07:00-17:00ONC",
+    "Wednesday": "10:00 - 18:00 7.4h3brm COOK",
+    "Thursday": "P: 07:00-17:00ONC",
     "Friday": "P: 07:00-17:00 - PDO",
     "Saturday": "P: 07:00-17:00 - PDO",
     "type": "cook"
@@ -1465,12 +1454,12 @@ export const weekOne = [
     "Thursday": "10:00 - 18:00 7.4h3brm PREP",
     "Friday": "P: 08:00-20:00OFF",
     "Saturday": "10:00 - 18:00 7.4h3brm PREP",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Annie B Escamilla-Mamani",
     "Sunday": "15:30 - 23:30 7.4h3brm STAATT",
-    "Monday": "11:30 - 20:30 8.4h3brm STAATT",
+    "Monday": "14:00 - 23:00 8.4hbtr1 STAATT",
     "Tuesday": "A",
     "Wednesday": "A",
     "Thursday": "15:00 - 23:00 7.4hneep STAATT",
@@ -1513,12 +1502,12 @@ export const weekOne = [
   {
     "name": "Emely P Ramos",
     "Sunday": "A",
-    "Monday": "N - PDO",
+    "Monday": "10:30 - 17:30 6.4h3brm STAATT",
     "Tuesday": "15:00 - 23:00 7.4hneep STAATT",
     "Wednesday": "15:30 - 23:30 7.4hbtr2 STAATT",
     "Thursday": "15:30 - 23:30 7.4h3brm STAATT",
     "Friday": "AVAC",
-    "Saturday": "16:00 - 00:00 7.4hneep STAATT",
+    "Saturday": "A",
     "type": "standAtt"
   },
   {
@@ -1529,7 +1518,7 @@ export const weekOne = [
     "Wednesday": "16:00 - 00:00 7.4hbtr2 STAATT",
     "Thursday": "15:30 - 23:30 7.4hbtr2 STAATT",
     "Friday": "15:30 - 23:30 7.4h3brm STAATT",
-    "Saturday": "15:30 - 23:30 7.4h3brm STAATT",
+    "Saturday": "15:00 - 23:00 7.4hbtr2 STAATT",
     "type": "standAtt"
   },
   {
@@ -1537,7 +1526,7 @@ export const weekOne = [
     "Sunday": "A",
     "Monday": "09:30 - 17:30 7.4hfood FDTRNR  JTFD",
     "Tuesday": "11:30 - 19:30 7.4hfood FDTRNR  JTFD",
-    "Wednesday": "11:00 - 19:00 7.4h3brm ZZCKZZ",
+    "Wednesday": "07:30 - 15:30 7.4h3brm FDTRNR  JTFD",
     "Thursday": "09:30 - 17:30 7.4hfood FDTRNR  JTFD",
     "Friday": "11:30 - 19:30 7.4hfood FDTRNR  JTFD",
     "Saturday": "11:30 - 19:30 7.4h3brm COOK",
@@ -1569,7 +1558,7 @@ export const weekOne = [
     "name": "Samer G Nassar",
     "Sunday": "07:30 - 16:00 7.9h3brm LDFOH",
     "Monday": "16:00 - 00:00 7.4h3brm LDFOH",
-    "Tuesday": "12:00 - 20:00 7.4h3brm LDFOH",
+    "Tuesday": "15:30 - 00:00 7.9h3brm LDFOH",
     "Wednesday": "A",
     "Thursday": "07:30 - 17:00 8.9h3brm LDFOH",
     "Friday": "07:30 - 16:00 7.9h3brm LDFOH",
@@ -1600,7 +1589,7 @@ export const weekOne = [
   },
   {
     "name": "Kevon J Taite",
-    "Sunday": "11:00 - 20:00 8.4h3brm COOK",
+    "Sunday": "11:00 - 20:00 8.4h3brm COOK  20:00 - 00:00 4h3brm COOK s959",
     "Monday": "10:00 - 18:00 7.4h3brm COOK",
     "Tuesday": "15:00 - 23:00 7.4h3brm ZZCKZZ",
     "Wednesday": "A",
@@ -1613,8 +1602,8 @@ export const weekOne = [
     "name": "Regan C Danner",
     "Sunday": "N",
     "Monday": "07:30 - 16:00 7.9h3brm LDFOH",
-    "Tuesday": "15:30 - 00:00 7.9h3brm LDFOH",
-    "Wednesday": "15:30 - 00:00 7.9h3brm LDFOH",
+    "Tuesday": "12:00 - 20:00 7.4h3brm LDFOH",
+    "Wednesday": "07:30 - 17:00 8.9h3brm LDFOH",
     "Thursday": "10:00 - 19:30 8.9h3brm LDFOH",
     "Friday": "A",
     "Saturday": "15:30 - 00:00 7.9h3brm LDFOH",
@@ -1639,7 +1628,7 @@ export const weekOne = [
     "Wednesday": "N",
     "Thursday": "N",
     "Friday": "15:30 - 23:30 7.4h3brm STAATT",
-    "Saturday": "15:00 - 23:00 7.4hbtr2 STAATT",
+    "Saturday": "15:30 - 23:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1667,9 +1656,9 @@ export const weekOne = [
   {
     "name": "Shelly X Cabrera",
     "Sunday": "15:00 - 23:00 7.4hbtr2 STAATT",
-    "Monday": "16:00 - 00:00 7.4h3brm STAATT",
+    "Monday": "ASCK",
     "Tuesday": "A",
-    "Wednesday": "12:30 - 20:30 7.4h3brm STAATT",
+    "Wednesday": "15:30 - 21:30 6hneep STAATT",
     "Thursday": "A",
     "Friday": "15:00 - 23:00 7.4hbtr2 STAATT",
     "Saturday": "15:30 - 23:30 7.4hbtr1 STAATT",
@@ -1680,7 +1669,7 @@ export const weekOne = [
     "Sunday": "16:00 - 00:00 7.4hbtr1 FDRUN",
     "Monday": "A",
     "Tuesday": "15:30 - 23:30 7.4hbtr1 FDRUN",
-    "Wednesday": "15:30 - 23:30 7.4hbtr1 FDRUN",
+    "Wednesday": "12:00 - 20:00 7.4hbtr1 FDRUN",
     "Thursday": "A",
     "Friday": "16:00 - 00:00 7.4hbtr1 FDRUN",
     "Saturday": "16:00 - 00:00 7.4hbtr1 FDRUN",
@@ -1721,7 +1710,7 @@ export const weekOne = [
   },
   {
     "name": "Morgan B Beattie",
-    "Sunday": "13:30 - 22:30 8.4h3brm COOK",
+    "Sunday": "13:30 - 22:30 8.4h3brm COOK  22:30 - 00:30 2h3brm COOK s959",
     "Monday": "A",
     "Tuesday": "10:00 - 18:00 7.4h3brm PREP",
     "Wednesday": "15:30 - 23:30 7.4h3brm COOK",
@@ -1732,7 +1721,7 @@ export const weekOne = [
   },
   {
     "name": "Christopher Mcelroy",
-    "Sunday": "11:00 - 19:30 7.9h3brm COOK",
+    "Sunday": "11:00 - 19:30 7.9h3brm COOK  19:30 - 23:30 4h3brm COOK s959",
     "Monday": "A",
     "Tuesday": "15:30 - 23:30 7.4h3brm COOK",
     "Wednesday": "16:00 - 00:00 7.4h3brm COOK",
@@ -1755,7 +1744,7 @@ export const weekOne = [
   {
     "name": "Andrew Avila",
     "Sunday": "A",
-    "Monday": "15:30 - 23:30 7.4hneep STAATT",
+    "Monday": "A - PDOSCK",
     "Tuesday": "13:30 - 21:00 6.9hbtr1 STAATT",
     "Wednesday": "A - PDO",
     "Thursday": "11:30 - 19:00 6.9hbtr1 STAATT",
@@ -1765,7 +1754,7 @@ export const weekOne = [
   },
   {
     "name": "Desirae Valdez A Valdez",
-    "Sunday": "10:30 - 18:30 7.4hbtr1 STAATT",
+    "Sunday": "P: 06:00-21:00SCK",
     "Monday": "N",
     "Tuesday": "N",
     "Wednesday": "N",
@@ -1779,7 +1768,7 @@ export const weekOne = [
     "Sunday": "16:00 - 00:00 7.4h3brm LDFOH",
     "Monday": "A",
     "Tuesday": "07:30 - 17:00 8.9h3brm LDFOH",
-    "Wednesday": "07:30 - 17:00 8.9h3brm LDFOH",
+    "Wednesday": "15:30 - 00:00 7.9h3brm LDFOH",
     "Thursday": "15:30 - 00:00 7.9h3brm LDFOH",
     "Friday": "16:00 - 00:00 7.4h3brm LDFOH",
     "Saturday": "A",
@@ -1811,7 +1800,7 @@ export const weekOne = [
     "Sunday": "15:30 - 23:30 7.4h3brm COOK",
     "Monday": "15:30 - 23:30 7.4h3brm COOK",
     "Tuesday": "A",
-    "Wednesday": "10:00 - 18:00 7.4h3brm COOK",
+    "Wednesday": "09:24 - 17:24 7.4htak5 COOK",
     "Thursday": "A",
     "Friday": "10:00 - 18:00 7.4h3brm PREP",
     "Saturday": "10:00 - 18:00 7.4h3brm PREP",
@@ -1833,7 +1822,7 @@ export const weekOne = [
     "Sunday": "N",
     "Monday": "07:30 - 14:30 6.4h3brm STAATT",
     "Tuesday": "11:30 - 19:00 6.9hbtr1 STAATT",
-    "Wednesday": "12:00 - 18:00 6hhpfd ZZSTZZ",
+    "Wednesday": "09:00 - 17:00 7.4hbtr1 STAATT",
     "Thursday": "N",
     "Friday": "N",
     "Saturday": "N",
@@ -1882,25 +1871,24 @@ export const weekOne = [
   },
   {
     "name": "Jorge L Mac",
-    "Sunday": "11:00 - 19:00 7.4h3brm ZZCKZZ",
+    "Sunday": "P: 05:00-13:00SCK",
     "Monday": "10:00 - 18:00 7.4h3brm PREP",
     "Tuesday": "P: 05:00-13:00",
     "Wednesday": "10:00 - 18:00 7.4h3brm PREP",
     "Thursday": "10:00 - 18:00 7.4h3brm PREP",
     "Friday": "10:00 - 18:00 7.4h3brm PREP",
     "Saturday": "N",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Vanessa Fierro",
     "Sunday": "N",
     "Monday": "N",
     "Tuesday": "N",
-    "Wednesday": "N",
+    "Wednesday": "NSCK",
     "Thursday": "N",
-    "Friday": "10:30 - 17:30 6.4h3brm STAATT",
-    "Saturday": "N",
-    "type": "standAtt"
+    "Friday": "P: 10:00-20:00",
+    "Saturday": "N"
   },
   {
     "name": "Allison A Norris",
@@ -1958,9 +1946,9 @@ export const weekOne = [
   },
   {
     "name": "Raul Cossio",
-    "Sunday": "15:30 - 23:30 7.4h3brm COOK",
-    "Monday": "15:30 - 23:30 7.4h3brm COOK",
-    "Tuesday": "15:30 - 23:30 7.4h3brm COOK",
+    "Sunday": "ASCK",
+    "Monday": "ASCK",
+    "Tuesday": "ASCK",
     "Wednesday": "A",
     "Thursday": "A",
     "Friday": "10:00 - 18:00 7.4h3brm PREP",
@@ -1969,7 +1957,7 @@ export const weekOne = [
   },
   {
     "name": "Mario Ortiz",
-    "Sunday": "15:30 - 23:30 7.4hneep STAATT",
+    "Sunday": "A - PDOSCK",
     "Monday": "11:00 - 18:00 6.4h3brm STAATT",
     "Tuesday": "10:00 - 16:00 6h3brm STAATT",
     "Wednesday": "10:00 - 16:00 6h3brm STAATT",
@@ -1991,8 +1979,8 @@ export const weekOne = [
   },
   {
     "name": "Katherine A Resnik",
-    "Sunday": "12:30 - 20:00 6.9hbtr1 STAATT",
-    "Monday": "15:00 - 23:00 7.4hbtr2 STAATT",
+    "Sunday": "12:30 - 20:00 6.9hbtr1 STAATT  20:00 - 22:30 2.5hbtr1 STAATT s959",
+    "Monday": "08:30 - 14:30 6hbtr2 STAATT",
     "Tuesday": "AAVL",
     "Wednesday": "13:30 - 21:00 6.9hvend STAATT",
     "Thursday": "13:30 - 21:00 6.9hvend STAATT",
@@ -2024,14 +2012,14 @@ export const weekOne = [
   },
   {
     "name": "Jonathan Saavedra",
-    "Sunday": "10:00 - 18:00 7.4h3brm PREP",
-    "Monday": "10:00 - 18:00 7.4h3brm PREP",
+    "Sunday": "10:00 - 18:00 7.4h3brm PREP s959",
+    "Monday": "06:30 - 14:30 7.4h3brm PREP",
     "Tuesday": "16:00 - 00:00 7.4h3brm COOK",
     "Wednesday": "A",
     "Thursday": "A",
     "Friday": "10:00 - 18:00 7.4h3brm PREP",
     "Saturday": "10:00 - 18:00 7.4h3brm PREP",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Sean D Vasquez",
@@ -2042,18 +2030,18 @@ export const weekOne = [
     "Thursday": "A",
     "Friday": "10:00 - 18:00 7.4h3brm PREP",
     "Saturday": "10:00 - 18:00 7.4h3brm PREP",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Robert T Velasco",
-    "Sunday": "10:00 - 18:00 7.4h3brm PREP",
-    "Monday": "10:00 - 18:00 7.4h3brm PREP",
+    "Sunday": "10:00 - 18:00 7.4h3brm PREP s959",
+    "Monday": "06:30 - 14:30 7.4h3brm PREP",
     "Tuesday": "10:00 - 18:00 7.4h3brm PREP",
     "Wednesday": "10:00 - 18:00 7.4h3brm PREP",
     "Thursday": "10:00 - 18:00 7.4h3brm PREP",
     "Friday": "A",
     "Saturday": "A",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Marissa Tovar",
@@ -2068,14 +2056,14 @@ export const weekOne = [
   },
   {
     "name": "Dedrick R Hayes",
-    "Sunday": "10:00 - 18:00 7.4h3brm PREP",
+    "Sunday": "06:00 - 14:00 7.4h3brm PREP",
     "Monday": "10:00 - 18:00 7.4h3brm PREP",
     "Tuesday": "10:00 - 18:00 7.4h3brm PREP",
     "Wednesday": "10:00 - 18:00 7.4h3brm PREP",
     "Thursday": "A",
     "Friday": "A",
     "Saturday": "10:00 - 18:00 7.4h3brm PREP",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Melissa S Horn",
@@ -2086,14 +2074,14 @@ export const weekOne = [
     "Thursday": "ARDO",
     "Friday": "ARDO",
     "Saturday": "ARDO",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Jennah R Lluna",
-    "Sunday": "07:30 - 14:30 6.4h3brm STAATT",
-    "Monday": "12:30 - 20:00 6.9hbtr1 STAATT",
+    "Sunday": "ASCK",
+    "Monday": "ASCK",
     "Tuesday": "P: 19:00-05:00",
-    "Wednesday": "10:00 - 16:00 6h3brm STAATT",
+    "Wednesday": "ASCK",
     "Thursday": "P: 19:00-05:00",
     "Friday": "10:00 - 16:00 6h3brm STAATT",
     "Saturday": "09:30 - 15:30 6hbtr1 STAATT",
@@ -2119,7 +2107,7 @@ export const weekOne = [
     "Thursday": "10:00 - 18:00 7.4h3brm PREP",
     "Friday": "A",
     "Saturday": "A",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Kimberly E Cortez",
@@ -2135,17 +2123,17 @@ export const weekOne = [
   {
     "name": "Rogelio Diaz",
     "Sunday": "10:00 - 17:00 6.4h3brm STAATT",
-    "Monday": "10:30 - 17:30 6.4h3brm STAATT",
+    "Monday": "A",
     "Tuesday": "10:30 - 16:30 6h3brm STAATT",
     "Wednesday": "10:30 - 16:30 6h3brm STAATT",
     "Thursday": "10:00 - 16:00 6h3brm STAATT",
     "Friday": "A",
-    "Saturday": "A",
+    "Saturday": "16:00 - 00:00 7.4hneep STAATT",
     "type": "standAtt"
   },
   {
     "name": "Julia M Lopez",
-    "Sunday": "10:00 - 17:00 6.4h3brm STAATT",
+    "Sunday": "ASCK",
     "Monday": "09:30 - 16:30 6.4hbtr1 STAATT",
     "Tuesday": "10:30 - 16:30 6h3brm STAATT",
     "Wednesday": "10:30 - 16:30 6h3brm STAATT",
@@ -2159,11 +2147,11 @@ export const weekOne = [
     "Sunday": "10:00 - 18:00 7.4h3brm PREP",
     "Monday": "10:00 - 18:00 7.4h3brm PREP",
     "Tuesday": "10:00 - 18:00 7.4h3brm PREP",
-    "Wednesday": "14:00 - 22:00 7.4h3brm ZZCKZZ",
+    "Wednesday": "14:00 - 22:00 7.4h3brm ZZCK",
     "Thursday": "A",
     "Friday": "10:00 - 18:00 7.4h3brm PREP",
     "Saturday": "A",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Julie M Moreno",
@@ -2178,14 +2166,14 @@ export const weekOne = [
   },
   {
     "name": "Jacob E Peril",
-    "Sunday": "10:00 - 18:00 7.4h3brm PREP",
-    "Monday": "10:00 - 18:00 7.4h3brm PREP",
+    "Sunday": "ASCK",
+    "Monday": "ASCK",
     "Tuesday": "A",
     "Wednesday": "A",
     "Thursday": "10:00 - 18:00 7.4h3brm PREP",
     "Friday": "10:00 - 18:00 7.4h3brm PREP",
     "Saturday": "10:00 - 18:00 7.4h3brm PREP",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Alejandro P Rodriguez",
@@ -2207,7 +2195,7 @@ export const weekOne = [
     "Thursday": "10:00 - 18:00 7.4h3brm XXCKXX",
     "Friday": "10:00 - 18:00 7.4h3brm XXCKXX",
     "Saturday": "10:00 - 18:00 7.4h3brm PREP",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Erick G Villarreal",
@@ -2222,14 +2210,14 @@ export const weekOne = [
   },
   {
     "name": "Rosario M Zaragoza",
-    "Sunday": "10:00 - 18:00 7.4h3brm PREP",
+    "Sunday": "ASCK",
     "Monday": "10:00 - 18:00 7.4h3brm PREP",
     "Tuesday": "A",
     "Wednesday": "A",
     "Thursday": "10:00 - 18:00 7.4h3brm PREP",
     "Friday": "10:00 - 18:00 7.4h3brm PREP",
     "Saturday": "10:00 - 18:00 7.4h3brm PREP",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Sheyla A Alarcon",
@@ -2257,10 +2245,10 @@ export const weekOne = [
     "name": "Kathryn E Anderson",
     "Sunday": "11:00 - 17:00 6h3brm STAATT",
     "Monday": "11:00 - 17:00 6h3brm STAATT",
-    "Tuesday": "11:00 - 17:00 6h3brm STAATT",
+    "Tuesday": "A",
     "Wednesday": "10:30 - 16:30 6h3brm STAATT",
     "Thursday": "A",
-    "Friday": "A",
+    "Friday": "11:00 - 17:00 6h3brm STAATT",
     "Saturday": "10:00 - 16:00 6hneep STAATT",
     "type": "standAtt"
   },
@@ -2277,7 +2265,7 @@ export const weekOne = [
   },
   {
     "name": "Sarah Choi",
-    "Sunday": "11:00 - 17:00 6h3brm STAATT",
+    "Sunday": "11:00 - 19:00 7.4h3brm STAATT  19:00 - 21:00 2h3brm STAATT s959",
     "Monday": "A",
     "Tuesday": "A",
     "Wednesday": "11:00 - 17:00 6h3brm STAATT",
@@ -2290,10 +2278,10 @@ export const weekOne = [
     "name": "Zaida A Hernandez",
     "Sunday": "11:00 - 17:00 6h3brm STAATT",
     "Monday": "A",
-    "Tuesday": "A",
+    "Tuesday": "11:00 - 17:00 6h3brm STAATT",
     "Wednesday": "10:00 - 16:00 6h3brm STAATT",
     "Thursday": "11:00 - 17:00 6h3brm STAATT",
-    "Friday": "11:00 - 17:00 6h3brm STAATT",
+    "Friday": "A",
     "Saturday": "10:30 - 16:30 6hbtr2 STAATT",
     "type": "standAtt"
   },
@@ -2310,7 +2298,7 @@ export const weekOne = [
   },
   {
     "name": "Patricia Huelgas",
-    "Sunday": "17:30 - 23:30 6h3brm STAATT",
+    "Sunday": "ASCK",
     "Monday": "17:30 - 23:30 6h3brm STAATT",
     "Tuesday": "A",
     "Wednesday": "A",
@@ -2354,7 +2342,7 @@ export const weekOne = [
   },
   {
     "name": "Samantha R Maldonado",
-    "Sunday": "12:00 - 18:00 6hhpfd ZZSTZZ",
+    "Sunday": "12:00 - 18:00 6h3brm ZZSTZZ  18:00 - 22:36 4h3brm ZZSTZZ s959",
     "Monday": "11:00 - 17:00 6h3brm STAATT",
     "Tuesday": "A",
     "Wednesday": "A",
@@ -2411,7 +2399,7 @@ export const weekOne = [
     "name": "Aaron K Bullock",
     "Sunday": "08:30 - 14:30 6hbtr2 STAATT",
     "Monday": "A",
-    "Tuesday": "11:30 - 17:30 6hbtr2 STAATT",
+    "Tuesday": "ASCK",
     "Wednesday": "11:30 - 17:30 6hbtr2 STAATT",
     "Thursday": "A",
     "Friday": "09:00 - 15:00 6hvend STAATT",
@@ -2443,7 +2431,7 @@ export const weekOne = [
   {
     "name": "Shayna G Gonzalez",
     "Sunday": "10:30 - 16:30 6hbtr2 STAATT",
-    "Monday": "08:30 - 14:30 6hbtr2 STAATT",
+    "Monday": "15:00 - 23:00 7.4hbtr2 STAATT",
     "Tuesday": "09:30 - 15:30 6hneep STAATT",
     "Wednesday": "09:30 - 15:30 6hneep STAATT",
     "Thursday": "A",
@@ -2491,7 +2479,7 @@ export const weekOne = [
     "Tuesday": "A",
     "Wednesday": "08:30 - 14:30 6hvend STAATT",
     "Thursday": "12:30 - 18:30 6hbtr2 STAATT",
-    "Friday": "14:00 - 20:00 6hbtr2 STAATT",
+    "Friday": "08:30 - 14:30 6hvend STAATT",
     "Saturday": "14:00 - 20:00 6hhpfd ZZSTZZ",
     "type": "standAtt"
   },
@@ -2502,19 +2490,19 @@ export const weekOne = [
     "Tuesday": "A",
     "Wednesday": "A",
     "Thursday": "08:30 - 14:30 6hvend STAATT",
-    "Friday": "08:30 - 14:30 6hvend STAATT",
+    "Friday": "14:00 - 20:00 6hbtr2 STAATT",
     "Saturday": "12:30 - 18:30 6hbtr2 STAATT",
     "type": "standAtt"
   },
   {
     "name": "Lizette Lopez",
     "Sunday": "09:00 - 15:00 6hvend STAATT",
-    "Monday": "10:30 - 16:30 6hneep STAATT",
-    "Tuesday": "A",
-    "Wednesday": "A",
-    "Thursday": "09:00 - 15:00 6hbtr2 STAATT",
-    "Friday": "11:30 - 17:30 6hbtr2 STAATT",
-    "Saturday": "08:30 - 14:30 6hbtr2 STAATT",
+    "Monday": "ADNS",
+    "Tuesday": "ADNS",
+    "Wednesday": "ADNS",
+    "Thursday": "ADNS",
+    "Friday": "ADNS",
+    "Saturday": "ADNS",
     "type": "standAtt"
   },
   {
@@ -2544,7 +2532,7 @@ export const weekOne = [
     "Sunday": "16:00 - 22:00 6hneep STAATT",
     "Monday": "16:00 - 22:00 6hneep STAATT",
     "Tuesday": "15:30 - 21:30 6hneep STAATT",
-    "Wednesday": "15:30 - 21:30 6hneep STAATT",
+    "Wednesday": "12:30 - 20:30 7.4h3brm STAATT",
     "Thursday": "A",
     "Friday": "A",
     "Saturday": "07:30 - 13:30 6hbtr2 STAATT",
@@ -2564,19 +2552,19 @@ export const weekOne = [
   {
     "name": "Ailec L Ochoa",
     "Sunday": "15:30 - 21:30 6hvend STAATT",
-    "Monday": "11:30 - 17:30 6hvend STAATT",
-    "Tuesday": "A",
-    "Wednesday": "A",
-    "Thursday": "09:30 - 15:30 6hneep STAATT",
-    "Friday": "10:30 - 16:30 6hneep STAATT",
-    "Saturday": "07:30 - 13:30 6hneep STAATT",
+    "Monday": "ADNS",
+    "Tuesday": "ADNS",
+    "Wednesday": "ADNS",
+    "Thursday": "ADNS",
+    "Friday": "ADNS",
+    "Saturday": "ADNS",
     "type": "standAtt"
   },
   {
     "name": "Kieran Press-reynolds",
     "Sunday": "ARDO",
     "Monday": "10:30 - 16:30 6hvend STAATT",
-    "Tuesday": "10:30 - 16:30 6h3brm STAATT",
+    "Tuesday": "ASCK",
     "Wednesday": "08:30 - 14:30 6hneep STAATT",
     "Thursday": "08:30 - 14:30 6hneep STAATT",
     "Friday": "08:30 - 14:30 6hneep STAATT",
@@ -2585,7 +2573,7 @@ export const weekOne = [
   },
   {
     "name": "Cynthia T Romero",
-    "Sunday": "16:00 - 22:00 6hvend STAATT",
+    "Sunday": "16:00 - 22:00 6hvend STAATT  22:00 - 00:36 2hvend STAATT s959",
     "Monday": "15:30 - 21:30 6hvend STAATT",
     "Tuesday": "16:00 - 22:00 6hvend STAATT",
     "Wednesday": "P: 12:00-00:00",
@@ -2608,7 +2596,7 @@ export const weekOne = [
   {
     "name": "Mikayla S Smith",
     "Sunday": "11:30 - 17:30 6hvend STAATT",
-    "Monday": "10:00 - 16:00 6hhpfd ZZSTZZ",
+    "Monday": "10:00 - 16:00 6h3brm ZZSTZZ",
     "Tuesday": "09:00 - 15:00 6hvend STAATT",
     "Wednesday": "A",
     "Thursday": "A",
@@ -2620,7 +2608,7 @@ export const weekOne = [
     "name": "Jessica A Younger",
     "Sunday": "16:00 - 22:00 6hvend STAATT",
     "Monday": "16:00 - 22:00 6hvend STAATT",
-    "Tuesday": "12:00 - 18:00 6hhpfd ZZSTZZ",
+    "Tuesday": "12:30 - 21:30 8.4h3brm ZZSTZZ",
     "Wednesday": "A",
     "Thursday": "A",
     "Friday": "11:00 - 17:00 6hhpfd ZZSTZZ",
@@ -2646,18 +2634,18 @@ export const weekOne = [
     "Thursday": "10:00 - 18:00 7.4h3brm PREP",
     "Friday": "A",
     "Saturday": "A",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Zammia R Quintero",
     "Sunday": "10:00 - 18:00 7.4h3brm PREP",
-    "Monday": "11:00 - 19:00 7.4h3brm ZZCKZZ",
+    "Monday": "ASCK",
     "Tuesday": "A",
     "Wednesday": "A",
     "Thursday": "10:00 - 18:00 7.4h3brm PREP",
     "Friday": "10:00 - 18:00 7.4h3brm PREP",
     "Saturday": "10:00 - 18:00 7.4h3brm PREP",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Dominic Cardinale",
@@ -2670,19 +2658,9 @@ export const weekOne = [
     "Saturday": "DNS"
   },
   {
-    "name": "Ella Cartnal",
-    "Sunday": "DNS",
-    "Monday": "DNS",
-    "Tuesday": "DNS",
-    "Wednesday": "DNS",
-    "Thursday": "DNS",
-    "Friday": "DNS",
-    "Saturday": "DNS"
-  },
-  {
     "name": "Andrew C Einmo",
-    "Sunday": "11:00 - 17:00 6hhpfd ZZSTZZ",
-    "Monday": "12:00 - 18:00 6hhpfd ZZSTZZ",
+    "Sunday": "11:00 - 18:00 6.4h3brm ZZSTZZ",
+    "Monday": "11:00 - 17:00 6h3brm ZZSTZZ",
     "Tuesday": "",
     "Wednesday": "",
     "Thursday": "10:30 - 16:30 6hvend STAATT",
@@ -2693,17 +2671,16 @@ export const weekOne = [
   {
     "name": "Eric Gonzalez",
     "Sunday": "A",
-    "Monday": "11:00 - 17:00 6hhpfd ZZSTZZ",
-    "Tuesday": "13:00 - 19:00 6hhpfd ZZSTZZ",
-    "Wednesday": "A",
-    "Thursday": "10:00 - 16:00 6hhpfd ZZSTZZ",
-    "Friday": "11:30 - 17:30 6hvend STAATT",
-    "Saturday": "11:30 - 17:30 6hvend STAATT",
-    "type": "standAtt"
+    "Monday": "ADNS",
+    "Tuesday": "ADNS",
+    "Wednesday": "ADNS",
+    "Thursday": "ADNS",
+    "Friday": "ADNS",
+    "Saturday": "ADNS"
   },
   {
     "name": "Benjamin G Hayes",
-    "Sunday": "15:30 - 21:30 6hhpfd ZZSTZZ",
+    "Sunday": "15:30 - 23:30 7.4h3brm ZZSTZZ s959",
     "Monday": "P: 09:00-13:00",
     "Tuesday": "A",
     "Wednesday": "09:30 - 15:30 6hbtr2 STAATT",
@@ -2714,10 +2691,10 @@ export const weekOne = [
   },
   {
     "name": "Madeline R Huffaker",
-    "Sunday": "14:00 - 20:00 6hhpfd ZZSTZZ",
-    "Monday": "14:00 - 20:00 6hhpfd ZZSTZZ",
+    "Sunday": "16:00 - 00:00 7.4h3brm ZZSTZZ s959",
+    "Monday": "14:00 - 22:00 7.4h3brm ZZSTZZ",
     "Tuesday": "A",
-    "Wednesday": "10:00 - 16:00 6hhpfd ZZSTZZ",
+    "Wednesday": "16:00 - 22:00 6hvend ZZSTZZ",
     "Thursday": "12:00 - 18:00 6hhpfd ZZSTZZ",
     "Friday": "16:00 - 22:00 6hvend STAATT",
     "Saturday": "A",
@@ -2725,10 +2702,10 @@ export const weekOne = [
   },
   {
     "name": "Alejandra S Lax",
-    "Sunday": "15:00 - 21:00 6hhpfd ZZSTZZ",
-    "Monday": "15:00 - 21:00 6hhpfd ZZSTZZ",
+    "Sunday": "16:00 - 00:00 7.4h3brm ZZSTZZ s959",
+    "Monday": "15:00 - 21:00 6hneep ZZSTZZ",
     "Tuesday": "A",
-    "Wednesday": "16:00 - 22:00 6hhpfd ZZSTZZ",
+    "Wednesday": "10:00 - 16:00 6h3brm ZZSTZZ",
     "Thursday": "A",
     "Friday": "16:00 - 22:00 6hvend STAATT",
     "Saturday": "15:00 - 21:00 6hhpfd ZZSTZZ",
@@ -2736,9 +2713,9 @@ export const weekOne = [
   },
   {
     "name": "Lexus M Lopez",
-    "Sunday": "15:00 - 21:00 6hhpfd ZZSTZZ",
-    "Monday": "16:00 - 22:00 6hhpfd ZZSTZZ",
-    "Tuesday": "14:00 - 20:00 6hhpfd ZZSTZZ",
+    "Sunday": "16:00 - 00:00 7.4h3brm ZZSTZZ s959",
+    "Monday": "16:00 - 22:00 6hvend ZZSTZZ",
+    "Tuesday": "14:00 - 20:00 6hbtr1 ZZSTZZ",
     "Wednesday": "11:00 - 17:00 6hbtr2 STAATT",
     "Thursday": "A",
     "Friday": "09:30 - 15:30 6hbtr2 STAATT",
@@ -2747,28 +2724,29 @@ export const weekOne = [
   },
   {
     "name": "Alma Marin Torres",
-    "Sunday": "14:00 - 20:00 6hhpfd ZZSTZZ",
-    "Monday": "13:00 - 19:00 6hhpfd ZZSTZZ",
-    "Tuesday": "15:00 - 21:00 6hhpfd ZZSTZZ",
-    "Wednesday": "13:00 - 19:00 6hhpfd ZZSTZZ",
+    "Sunday": "16:00 - 00:00 7.4h3brm ZZSTZZ s959",
+    "Monday": "12:30 - 18:30 6h3brm ZZSTZZ",
+    "Tuesday": "15:00 - 21:00 6h3brm ZZSTZZ",
+    "Wednesday": "13:00 - 20:00 6.4hbtr1 ZZSTZZ",
     "Thursday": "15:00 - 21:00 6hhpfd ZZSTZZ",
     "Friday": "",
-    "Saturday": ""
+    "Saturday": "",
+    "type": "standAtt"
   },
   {
     "name": "Angelica M Palacio",
     "Sunday": "10:30 - 16:30 6hvend STAATT",
     "Monday": "11:00 - 17:00 6h3brm STAATT",
     "Tuesday": "10:30 - 16:30 6hvend STAATT",
-    "Wednesday": "14:00 - 20:00 6hhpfd ZZSTZZ",
+    "Wednesday": "14:00 - 20:00 6hbtr2 ZZST",
     "Thursday": "N",
     "Friday": "N",
-    "Saturday": "15:00 - 21:00 6hhpfd ZZSTZZ",
+    "Saturday": "ARDO",
     "type": "standAtt"
   },
   {
     "name": "Angie N Quintanilla",
-    "Sunday": "09:00 - 15:00 6hhpfd ZZSTZZ",
+    "Sunday": "09:00 - 15:00 6h3brm ZZSTZZ",
     "Monday": "N",
     "Tuesday": "A",
     "Wednesday": "10:30 - 16:30 6hvend STAATT",
@@ -2799,20 +2777,10 @@ export const weekOne = [
     "type": "standAtt"
   },
   {
-    "name": "Chelsea Shafer",
-    "Sunday": "DNS",
-    "Monday": "DNS",
-    "Tuesday": "DNS",
-    "Wednesday": "DNS",
-    "Thursday": "DNS",
-    "Friday": "DNS",
-    "Saturday": "DNS"
-  },
-  {
     "name": "Sophia D Szekely",
-    "Sunday": "A",
+    "Sunday": "18:00 - 00:00 6h3brm STAATT s959",
     "Monday": "11:00 - 17:00 6h3brm STAATT",
-    "Tuesday": "10:00 - 16:00 6hhpfd ZZSTZZ",
+    "Tuesday": "ASCK",
     "Wednesday": "11:00 - 17:00 6hbtr1 STAATT",
     "Thursday": "14:00 - 20:00 6hbtr2 STAATT",
     "Friday": "14:00 - 20:00 6hbtr2 STAATT",
@@ -2821,31 +2789,20 @@ export const weekOne = [
   },
   {
     "name": "Sean T Trainotti",
-    "Sunday": "10:00 - 16:00 6hhpfd ZZSTZZ",
-    "Monday": "16:00 - 22:00 6hvend STAATT",
-    "Tuesday": "A",
-    "Wednesday": "16:00 - 22:00 6hvend STAATT",
-    "Thursday": "14:00 - 20:00 6hhpfd ZZSTZZ",
-    "Friday": "15:30 - 21:30 6hhpfd ZZSTZZ",
-    "Saturday": "A",
-    "type": "standAtt"
-  },
-  {
-    "name": "Ashley M Vargas",
-    "Sunday": "DNS",
-    "Monday": "DNS",
-    "Tuesday": "DNS",
-    "Wednesday": "DNS",
-    "Thursday": "DNS",
-    "Friday": "DNS",
-    "Saturday": "DNS"
+    "Sunday": "10:00 - 18:00 7.4hbtr1 ZZSTZZ",
+    "Monday": "ADNS",
+    "Tuesday": "ADNS",
+    "Wednesday": "ADNS",
+    "Thursday": "ADNS",
+    "Friday": "ADNS",
+    "Saturday": "ADNS"
   },
   {
     "name": "Hayden Weiss",
     "Sunday": "A",
     "Monday": "14:00 - 20:00 6hbtr2 STAATT",
-    "Tuesday": "11:00 - 17:00 6hhpfd ZZSTZZ",
-    "Wednesday": "11:00 - 17:00 6hhpfd ZZSTZZ",
+    "Tuesday": "10:30 - 16:30 6h3brm ZZSTZZ",
+    "Wednesday": "11:00 - 17:00 6hbtr1 ZZST",
     "Thursday": "13:00 - 19:00 6hhpfd ZZSTZZ",
     "Friday": "15:00 - 21:00 6hhpfd ZZSTZZ",
     "Saturday": "A",
@@ -2855,8 +2812,8 @@ export const weekOne = [
     "name": "Michelle A Zelaya",
     "Sunday": "A",
     "Monday": "10:30 - 16:30 6hbtr2 STAATT",
-    "Tuesday": "16:00 - 22:00 6hhpfd ZZSTZZ",
-    "Wednesday": "15:00 - 21:00 6hhpfd ZZSTZZ",
+    "Tuesday": "16:00 - 22:00 6h3brm ZZSTZZ",
+    "Wednesday": "15:00 - 21:00 6h3brm ZZSTZZ",
     "Thursday": "16:00 - 22:00 6hhpfd ZZSTZZ",
     "Friday": "14:00 - 20:00 6hhpfd ZZSTZZ",
     "Saturday": "A",
@@ -2864,25 +2821,25 @@ export const weekOne = [
   },
   {
     "name": "Jeanette n Hardy",
-    "Sunday": "10:00 - 18:00 7.4h3brm PREP",
-    "Monday": "14:00 - 22:00 7.4h3brm ZZCKZZ",
+    "Sunday": "10:00 - 18:00 7.4h3brm PREP s959",
+    "Monday": "14:00 - 22:00 7.4h3brm ZZCK",
     "Tuesday": "10:30 - 18:30 7.4h3brm COOK",
     "Wednesday": "10:00 - 18:00 7.4h3brm PREP",
     "Thursday": "10:00 - 18:00 7.4h3brm PREP",
     "Friday": "A",
     "Saturday": "A",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Marvina M Hubbard",
-    "Sunday": "10:00 - 18:00 7.4h3brm PREP",
+    "Sunday": "10:00 - 18:00 7.4h3brm PREP s959",
     "Monday": "15:00 - 23:00 7.4h3brm ZZCKZZ",
-    "Tuesday": "14:00 - 22:00 7.4h3brm ZZCKZZ",
+    "Tuesday": "14:00 - 22:00 7.4h3brm ZZCK",
     "Wednesday": "A",
     "Thursday": "10:00 - 18:00 7.4h3brm PREP",
     "Friday": "10:00 - 18:00 7.4h3brm PREP",
     "Saturday": "A",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Pablo A Morales",
@@ -2893,7 +2850,7 @@ export const weekOne = [
     "Thursday": "15:00 - 23:00 7.4h3brm ZZCKZZ",
     "Friday": "AOFF",
     "Saturday": "15:30 - 23:30 7.4h3brm COOK",
-    "type": "standAtt"
+    "type": "cook"
   },
   {
     "name": "Cherry Lynne F Aguilar",
@@ -2936,16 +2893,6 @@ export const weekOne = [
     "Saturday": "ADNS"
   },
   {
-    "name": "Kiplin E Evans",
-    "Sunday": "ADNS",
-    "Monday": "ADNS",
-    "Tuesday": "ADNS",
-    "Wednesday": "ADNS",
-    "Thursday": "ADNS",
-    "Friday": "ADNS",
-    "Saturday": "ADNS"
-  },
-  {
     "name": "Delylah I Fuentes",
     "Sunday": "ADNS",
     "Monday": "ADNS",
@@ -2966,16 +2913,6 @@ export const weekOne = [
     "Saturday": "ADNS"
   },
   {
-    "name": "Emely G Hernandez-Vega",
-    "Sunday": "ADNS",
-    "Monday": "ADNS",
-    "Tuesday": "ADNS",
-    "Wednesday": "ADNS",
-    "Thursday": "ADNS",
-    "Friday": "ADNS",
-    "Saturday": "ADNS"
-  },
-  {
     "name": "Doniece L McGee",
     "Sunday": "ADNS",
     "Monday": "ADNS",
@@ -2986,27 +2923,7 @@ export const weekOne = [
     "Saturday": "ADNS"
   },
   {
-    "name": "Belkis Munguia",
-    "Sunday": "ADNS",
-    "Monday": "ADNS",
-    "Tuesday": "ADNS",
-    "Wednesday": "ADNS",
-    "Thursday": "ADNS",
-    "Friday": "ADNS",
-    "Saturday": "ADNS"
-  },
-  {
     "name": "David A Nguyen",
-    "Sunday": "ADNS",
-    "Monday": "ADNS",
-    "Tuesday": "ADNS",
-    "Wednesday": "ADNS",
-    "Thursday": "ADNS",
-    "Friday": "ADNS",
-    "Saturday": "ADNS"
-  },
-  {
-    "name": "Stacey L Owens",
     "Sunday": "ADNS",
     "Monday": "ADNS",
     "Tuesday": "ADNS",
@@ -3026,16 +2943,6 @@ export const weekOne = [
     "Saturday": "ADNS"
   },
   {
-    "name": "Bria J Theisgen",
-    "Sunday": "ADNS",
-    "Monday": "ADNS",
-    "Tuesday": "ADNS",
-    "Wednesday": "ADNS",
-    "Thursday": "NDNS",
-    "Friday": "NDNS",
-    "Saturday": "ADNS"
-  },
-  {
     "name": "Edward L Williams",
     "Sunday": "ADNS",
     "Monday": "ADNS",
@@ -3044,5 +2951,16 @@ export const weekOne = [
     "Thursday": "ADNS",
     "Friday": "ADNS",
     "Saturday": "ADNS"
+  },
+  {
+    "name": "Giancarlo De Leon",
+    "Sunday": "N",
+    "Monday": "N",
+    "Tuesday": "N",
+    "Wednesday": "N",
+    "Thursday": "11:30 - 21:30 9.4h3brm COOK",
+    "Friday": "P: 06:00-14:00",
+    "Saturday": "N",
+    "type": "cook"
   }
 ]

@@ -18,7 +18,7 @@ schedule.map(emp => {
         cook.push(emp)
     } else if (emp.type === "leadFOH"){
         leadFOH.push(emp)
-    } else {
+    } else if(emp.type === "standAtt"){
         standAtt.push(emp)
     }
 });
