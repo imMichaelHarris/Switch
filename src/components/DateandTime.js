@@ -1,7 +1,7 @@
 import React from "react";
 import Datepicker from "react-datepicker";
 import moment from "moment";
-import { Icon } from "semantic-ui-react";
+import { Label } from "semantic-ui-react";
 
 class DateandTime extends React.Component {
   state = {
@@ -42,6 +42,7 @@ class DateandTime extends React.Component {
     } else {
       return (
         <div>
+          <Label pointing="below">Select date you want off</Label>
           <Datepicker
             autoComplete="off"
             name="date"
