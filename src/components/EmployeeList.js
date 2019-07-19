@@ -16,12 +16,17 @@ const EmployeeList = props => {
           results={props.availablePeople.length + 1}
         />
         <Link to="/">Search again</Link>
-        <a style={{fontSize: "1rem", display: "block", marginTop: "10px"}}href="mailto:mhguitar1997@gmail.com?Subject=Switch%20App%20Bug">If you notice something off please send a bug report</a>
+        <a
+          style={{ fontSize: "1rem", display: "block", marginTop: "10px" }}
+          href="mailto:mhguitar1997@gmail.com?Subject=Switch%20App%20Bug"
+        >
+          If you notice something off please send a bug report
+        </a>
       </header>
       <Divider />
       {props.availablePeople.length == 0 ? (
         <Header as="h1" color="red">
-          There are no avaiable employees
+          There are no available employees
         </Header>
       ) : (
         props.availablePeople.map(emp => (
