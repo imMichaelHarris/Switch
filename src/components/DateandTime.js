@@ -21,8 +21,8 @@ class DateandTime extends React.Component {
     });
   };
   getOffDays = selectedEmp => {
-    const [day, value] = Object.entries(selectedEmp);
-    console.log(day);
+    const off = Object.entries(selectedEmp);
+    console.log(off);
   };
 
   render() {
