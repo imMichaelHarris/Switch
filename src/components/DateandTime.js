@@ -1,11 +1,12 @@
 import React from "react";
 import Datepicker from "react-datepicker";
 import moment from "moment";
-import { Icon } from "semantic-ui-react";
+import { Label } from "semantic-ui-react";
 
 class DateandTime extends React.Component {
   state = {
-    date: null
+    date: null,
+    giveUpDay: null
   };
 
   handleChanges = e => {
@@ -14,10 +15,19 @@ class DateandTime extends React.Component {
     });
     this.props.changeDate(e);
   };
+  handleGiveUp = e => {
+    this.setState({
+      giveUpDay: e
+    });
+  };
+  getOffDays = selectedEmp => {
+    const off = Object.entries(selectedEmp);
+    console.log(off);
+  };
 
   render() {
     const { switchTypeSelection } = this.props;
-
+    this.getOffDays(this.props.selectedEmp);
     if (switchTypeSelection === "Time Change") {
       return (
         <div>
@@ -26,7 +36,7 @@ class DateandTime extends React.Component {
             placeholderText="I want to be off by..."
             minDate={new Date()}
             maxDate={moment()
-              .add(11, "days")
+              .add(10, "days")
               .toDate()}
             timeCaption="Time"
             timeFormat="HH:mm"
@@ -42,19 +52,34 @@ class DateandTime extends React.Component {
     } else {
       return (
         <div>
+          <Label pointing="below">Select date you want off</Label>
           <Datepicker
             autoComplete="off"
             name="date"
             placeholderText="Select a date"
             minDate={new Date()}
             maxDate={moment()
-              .add(11, "days")
+              .add(10, "days")
               .toDate()}
             dateFormat="MMMM d, yyyy"
             selected={this.state.date}
             onChange={this.handleChanges}
             withPortal
           />
+          <Datepicker
+            autoComplete="off"
+            name="giveUpDay"
+            placeholderText="Give up day"
+            minDate={new Date()}
+            maxDate={moment()
+              .add(10, "days")
+              .toDate()}
+            dateFormat="MMMM d, yyyy"
+            selected={this.state.giveUpDay}
+            onChange={this.handleGiveUp}
+            withPortal
+          />
+          <Label pointing="above">Select the off day you will give</Label>
         </div>
       );
     }

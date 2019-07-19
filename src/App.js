@@ -29,6 +29,7 @@ class App extends React.Component {
     selectedEmp.date = emp2.date;
     emp2.date = this.state.giveUpDay;
   };
+
   searchEmployees = selectedEmp => {
     let type = [];
     if (selectedEmp.type === "runner") {
@@ -49,13 +50,11 @@ class App extends React.Component {
       type: selectedEmp.type,
       giveUpDay: selectedEmp[this.state.date]
     });
-    localStorage.setItem('switchEmployee', JSON.stringify(selectedEmp))
+    localStorage.setItem("switchEmployee", JSON.stringify(selectedEmp));
     // this.daySearch(type, this.state.date);
     this.state.switchType === "Time Change"
       ? this.timeSearch(type, this.state.date, this.state.time)
       : this.daySearch(type, this.state.date);
-
-
   };
 
   daySearch = (type, day) => {
