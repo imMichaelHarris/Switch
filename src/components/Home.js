@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Setup from "./Setup";
 
 const Home = props => {
@@ -14,7 +14,7 @@ const Home = props => {
       />
       <p style={{ marginTop: "20px", fontSize: ".8rem" }}>Work in progress</p>
       <p style={{ marginTop: "20px", fontSize: ".8rem" }}>
-        Schedule snapshot taken at 7/17/19 8:00PM PST
+        Schedule snapshot taken at 7/19/19 10:12PM PST
       </p>
 
       <p
@@ -27,7 +27,7 @@ const Home = props => {
           fontSize: "1rem"
         }}
       >
-        Switch app v0.2.4 by{" "}
+        Switch app v0.4.2 by{" "}
         <a href="https://immichaelharris.com">Michael Harris</a>
       </p>
     </div>
