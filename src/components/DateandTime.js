@@ -22,7 +22,13 @@ class DateandTime extends React.Component {
   };
   getOffDays = selectedEmp => {
     const off = Object.entries(selectedEmp);
-    console.log(off);
+    const days = off.filter(day => (
+      day[1].includes("AVL") ||
+      day[1] === "A" ||
+      day[1] === "N" ||
+      day[1].substring(0, 7) == "A - PDO"
+    )).map(day => day[0])
+    console.log(days);
   };
 
   render() {
