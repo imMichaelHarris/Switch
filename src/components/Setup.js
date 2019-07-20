@@ -4,22 +4,22 @@ import "react-datepicker/dist/react-datepicker.css";
 import DateandTime from "./DateandTime";
 
 class Setup extends Component {
-
   state = {
     selectedEmp: {}
-  }
+  };
 
-//   this.setState({
-//     selectedEmp: JSON.parse(localStorage.getItem('switchEmployee'))
-//   })
-// }
-  selectName = (e) => {
-
-    const selectedEmp = this.props.schedule.filter(emp => emp.name === e.target.textContent)
+  //   this.setState({
+  //     selectedEmp: JSON.parse(localStorage.getItem('switchEmployee'))
+  //   })
+  // }
+  selectName = e => {
+    const selectedEmp = this.props.schedule.filter(
+      emp => emp.name === e.target.textContent
+    );
     this.setState({
       selectedEmp: selectedEmp[0]
-    })
-  }
+    });
+  };
 
   render() {
     const { switchType, switchTypeSelection } = this.props;
@@ -37,22 +37,35 @@ class Setup extends Component {
             onClick={() => switchType("Day Off")}
             color={switchTypeSelection === "Day Off" ? "blue" : "grey"}
           >
-            <Icon name="calendar"  /> Day Off           
-
+            <Icon name="calendar" /> Day Off
           </Button>
           <Button.Or />
           <Button
             onClick={() => switchType("Time Change")}
             color={switchTypeSelection === "Time Change" ? "blue" : "grey"}
           >
-            <Icon  name="clock" />Time Change 
+            <Icon name="clock" />
+            Time Change
           </Button>
         </Button.Group>
-        {switchTypeSelection && (
-          <DateandTime switchTypeSelection={this.props.switchTypeSelection} changeDate={this.props.changeDate}/>
+        {switchTypeSelection && this.state.selectedEmp.name && (
+          <DateandTime
+            switchTypeSelection={this.props.switchTypeSelection}
+            changeDate={this.props.changeDate}
+            selectedEmp={this.state.selectedEmp}
+          />
         )}
 
-        <Button onClick={() => this.props.searchEmployees(this.state.selectedEmp)}inverted color="blue" size="big"> <Icon name="search"/>Find my switch  </Button>
+        <Button
+          onClick={() => this.props.searchEmployees(this.state.selectedEmp)}
+          inverted
+          color="blue"
+          size="big"
+        >
+          {" "}
+          <Icon name="search" />
+          Find my switch{" "}
+        </Button>
       </div>
     );
   }
