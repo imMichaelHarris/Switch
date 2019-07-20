@@ -34,9 +34,11 @@ class DateandTime extends React.Component {
           <Datepicker
             autoComplete="off"
             placeholderText="I want to be off by..."
-            minDate={new Date()}
+            minDate={moment()
+              .add(1, "days")
+              .toDate()}
             maxDate={moment()
-              .add(9, "days")
+              .add(14, "days")
               .toDate()}
             timeCaption="Time"
             timeFormat="HH:mm"
@@ -57,9 +59,11 @@ class DateandTime extends React.Component {
             autoComplete="off"
             name="date"
             placeholderText="Select a date"
-            minDate={new Date()}
+            minDate={moment()
+              .add(1, "days")
+              .toDate()}
             maxDate={moment()
-              .add(9, "days")
+              .add(14, "days")
               .toDate()}
             dateFormat="MMMM d, yyyy"
             selected={this.state.date}
@@ -70,9 +74,11 @@ class DateandTime extends React.Component {
             autoComplete="off"
             name="giveUpDay"
             placeholderText="Give up day"
-            minDate={new Date()}
+            minDate={moment()
+              .add(1, "days")
+              .toDate()}
             maxDate={moment()
-              .add(10, "days")
+              .add(14, "days")
               .toDate()}
             dateFormat="MMMM d, yyyy"
             selected={this.state.giveUpDay}
