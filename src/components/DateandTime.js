@@ -42,7 +42,7 @@ class DateandTime extends React.Component {
             placeholderText="I want to be off by..."
             minDate={new Date()}
             maxDate={moment()
-              .add(14, "days")
+              .add(10, "days")
               .toDate()}
             timeCaption="Time"
             timeFormat="HH:mm"
@@ -65,7 +65,7 @@ class DateandTime extends React.Component {
             placeholderText="Select a date"
             minDate={new Date()}
             maxDate={moment()
-              .add(14, "days")
+              .add(10, "days")
               .toDate()}
             dateFormat="MMMM d, yyyy"
             selected={this.state.date}
@@ -78,7 +78,7 @@ class DateandTime extends React.Component {
             placeholderText="Give up day"
             minDate={new Date()}
             maxDate={moment()
-              .add(14, "days")
+              .add(10, "days")
               .toDate()}
             dateFormat="MMMM d, yyyy"
             selected={this.state.giveUpDay}
