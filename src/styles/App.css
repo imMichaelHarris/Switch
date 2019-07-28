@@ -40,7 +40,9 @@ table.ui.celled.table {
   margin: 0 auto; }
 
 .results-header {
-  margin-bottom: 1em; }
+  margin: .8em; }
+  .results-header h4 {
+    margin: .5rem; }
 
 * {
   box-sizing: border-box;
@@ -50,6 +52,7 @@ table.ui.celled.table {
 .App {
   text-align: center;
   font-size: 1.75rem;
-  min-height: 100vh; }
+  min-height: 100vh;
+  overflow: hidden; }
 
 /*# sourceMappingURL=App.css.map */
