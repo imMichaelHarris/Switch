@@ -13,7 +13,7 @@ const EmployeeList = props => {
           switchType={props.switchType}
           time={props.time}
           normalDate={props.normalDate}
-          results={props.availablePeople.length + 1}
+          results={props.availablePeople.length}
         />
         <Link to="/">Search again</Link>
         <a
