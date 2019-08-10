@@ -14,7 +14,7 @@ const Home = props => {
       />
       <p style={{ marginTop: "20px", fontSize: ".8rem" }}>Work in progress</p>
       <p style={{ marginTop: "20px", fontSize: ".8rem" }}>
-        Schedule snapshot taken at 7/26/19 10:18PM PST
+        Schedule snapshot taken at 8/10/19 1:05PM PST
       </p>
 
       <p
@@ -27,7 +27,7 @@ const Home = props => {
           fontSize: "1rem"
         }}
       >
-        Switch app v0.4.6 by{" "}
+        Switch app v0.5.0 by{" "}
         <a href="https://immichaelharris.com">Michael Harris</a>
       </p>
     </div>
