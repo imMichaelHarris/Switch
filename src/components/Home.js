@@ -27,7 +27,7 @@ const Home = props => {
           fontSize: "1rem"
         }}
       >
-        Switch app v0.5.4 by{" "}
+        Switch app v0.5.5 by{" "}
         <a href="https://immichaelharris.com">Michael Harris</a>
       </p>
     </div>
