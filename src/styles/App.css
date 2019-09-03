@@ -1,0 +1,58 @@
+.ui.selection.dropdown {
+  margin-top: 5rem; }
+
+input {
+  text-align: center;
+  padding: 5px; }
+
+.setup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60vh; }
+
+table.ui.celled.table {
+  font-size: 1rem; }
+
+.ui.card {
+  margin: .5em auto; }
+
+.ui.card > .content {
+  font-size: 1.4rem;
+  padding: 0.75em; }
+
+.ui.card > .content > .header:not(.ui) {
+  font-size: 1.4rem !important; }
+
+.ui.card > .content > .meta + .description {
+  font-size: 1.2rem; }
+
+.ui.card:last-child {
+  margin: .5em auto; }
+
+.ui.form {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  margin: 0 auto; }
+
+.results-header {
+  margin: .8em; }
+  .results-header h4 {
+    margin: .5rem; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.App {
+  text-align: center;
+  font-size: 1.75rem;
+  min-height: 100vh;
+  overflow: hidden; }
+
+/*# sourceMappingURL=App.css.map */
