@@ -12,7 +12,7 @@ const Home = props => {
         changeDate={props.changeDate}
         daySearch={props.daySearch}
       />
-      <p style={{ marginTop: "20px", fontSize: ".8rem" }}>Work in progress</p>
+      <p style={{ marginTop: "20px", fontSize: ".8rem" }}>Very much a work in progress</p>
       <p style={{ marginTop: "20px", fontSize: ".8rem" }}>
         Schedule snapshot taken at 9/21/19 8:48am PST
       </p>
