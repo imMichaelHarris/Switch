@@ -28,8 +28,8 @@ class DateandTime extends React.Component {
       day[1] === "N" ||
       day[1].substring(0, 7) == "A - PDO"
     )).map(day => day[0])
-    console.log(days);
-    console.log(moment().calendar())
+    // console.log(days);
+    // console.log(moment().calendar())
   };
 
   render() {
