@@ -14,7 +14,7 @@ const Home = props => {
       />
       <p style={{ marginTop: "20px", fontSize: ".8rem" }}>Very much a work in progress</p>
       <p style={{ marginTop: "20px", fontSize: ".8rem" }}>
-        Schedule snapshot taken at 12/14/19 11:37am PST
+        Schedule snapshot taken at 12/21/19 11:40am PST
       </p>
 
       <p
