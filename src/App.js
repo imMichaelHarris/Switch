@@ -113,7 +113,7 @@ class App extends React.Component {
     this.props.history.push("/results");
   };
   changeDate = e => {
-    const date = moment(e).isAfter("Dec 29 2019")
+    const date = moment(e).isAfter("Jan 1 2020")
       ? `sec${moment(e).format("dddd")}`
       : moment(e).format("dddd");
     this.state.switchType === "Time Change"
