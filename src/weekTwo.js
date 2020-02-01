@@ -1,16 +1,5 @@
 export const weekTwo = [
   {
-    "name": "Juana Marlin",
-    "secSunday": "N",
-    "secMonday": "N",
-    "secTuesday": "09:00 - 17:00 7.4hkbur STAATT",
-    "secWednesday": "09:00 - 17:00 7.4hkbur STAATT",
-    "secThursday": "09:00 - 17:00 7.4hkbur STAATT",
-    "secFriday": "09:00 - 17:00 7.4hkbur STAATT",
-    "secSaturday": "08:30 - 16:30 7.4hlard STAATT",
-    "type": "standAtt"
-  },
-  {
     "name": "Kenney Thomas",
     "secSunday": "A - PDO",
     "secMonday": "A - PDO",
@@ -18,16 +7,16 @@ export const weekTwo = [
     "secWednesday": "09:00 - 17:00 7.4hbtr2 LDDISP",
     "secThursday": "09:00 - 17:00 7.4hbtr2 LDDISP",
     "secFriday": "12:00 - 20:00 7.4hbtr2 LDDISP",
-    "secSaturday": "13:00 - 21:00 7.4hbtr2 LDDISP",
+    "secSaturday": "11:00 - 19:00 7.4hbtr2 LDDISP",
     "type": "leadFOH"
   },
   {
     "name": "Silvia V Lopez",
     "secSunday": "08:00 - 16:00 7.4h3brm STAATT",
-    "secMonday": "09:00 - 17:00 7.4h3brm STAATT",
-    "secTuesday": "09:00 - 17:00 7.4h3brm STAATT",
-    "secWednesday": "09:00 - 17:00 7.4h3brm STAATT",
-    "secThursday": "09:00 - 17:00 7.4h3brm STAATT",
+    "secMonday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secTuesday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secWednesday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secThursday": "09:30 - 17:30 7.4h3brm STAATT",
     "secFriday": "N",
     "secSaturday": "N",
     "type": "standAtt"
@@ -40,29 +29,29 @@ export const weekTwo = [
     "secWednesday": "09:00 - 17:00 7.4hhogs BARTD",
     "secThursday": "09:00 - 17:00 7.4hhogs BARTD",
     "secFriday": "09:00 - 17:00 7.4hhogs BARTD",
-    "secSaturday": "08:00 - 16:00 7.4hhogs BARTD",
+    "secSaturday": "ARDO",
     "type": "bartender"
   },
   {
     "name": "Erika Garcia",
     "secSunday": "10:30 - 17:30 6.4hisla BARTD",
-    "secMonday": "13:00 - 20:00 6.4hisla BARTD",
-    "secTuesday": "13:00 - 20:00 6.4hisla BARTD",
-    "secWednesday": "13:00 - 20:00 6.4hisla BARTD",
-    "secThursday": "A",
-    "secFriday": "A",
-    "secSaturday": "14:00 - 21:00 6.4hisla BARTD",
+    "secMonday": "A",
+    "secTuesday": "A",
+    "secWednesday": "12:00 - 20:00 7.4hisla BARTD",
+    "secThursday": "11:30 - 18:30 6.4hisla BARTD",
+    "secFriday": "10:30 - 16:30 6hisla BARTD",
+    "secSaturday": "13:30 - 21:30 7.4hisla BARTD",
     "type": "bartender"
   },
   {
     "name": "Nicholas F Lozano",
-    "secSunday": "08:00 - 16:00 7.4hhogs LDBRTN",
-    "secMonday": "12:00 - 20:00 7.4hhogs LDBRTN",
-    "secTuesday": "A",
-    "secWednesday": "12:00 - 20:00 7.4hhogs LDBRTN",
-    "secThursday": "12:00 - 20:00 7.4hhogs LDBRTN",
+    "secSunday": "09:00 - 17:00 7.4hmoes LDBRTN",
+    "secMonday": "10:00 - 18:00 7.4hmoes LDBRTN",
+    "secTuesday": "10:00 - 18:00 7.4hmoes LDBRTN",
+    "secWednesday": "10:00 - 18:00 7.4hmoes LDBRTN",
+    "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "13:00 - 21:00 7.4hmoes BARTD",
+    "secSaturday": "11:30 - 19:30 7.4hmoes LDBRTN",
     "type": "bartender"
   },
   {
@@ -78,46 +67,46 @@ export const weekTwo = [
   },
   {
     "name": "Shawna E Foster",
-    "secSunday": "12:00 - 20:00 7.4hmoes BARTD",
+    "secSunday": "10:30 - 18:30 7.4hhogs BARTD",
     "secMonday": "13:00 - 20:00 6.4hmoes BARTD",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "13:00 - 20:00 6.4hduff BARTD",
-    "secSaturday": "10:30 - 17:30 6.4hhogs BARTD",
+    "secSaturday": "15:00 - 23:00 7.4hhogs BARTD",
     "type": "bartender"
   },
   {
     "name": "Dayra M Gonzalez",
     "secSunday": "N",
     "secMonday": "N",
-    "secTuesday": "10:00 - 16:00 6hbtr2 STAATT",
+    "secTuesday": "09:00 - 17:00 7.4h3brm STAATT",
     "secWednesday": "N",
-    "secThursday": "10:00 - 16:00 6hbtr2 STAATT",
+    "secThursday": "09:00 - 17:00 7.4h3brm STAATT",
     "secFriday": "09:00 - 17:00 7.4h3brm STAATT",
     "secSaturday": "08:00 - 16:00 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Katoncia L Holder",
-    "secSunday": "13:00 - 20:00 6.4hduff BARTD",
+    "secSunday": "12:00 - 20:00 7.4hmoes BARTD",
     "secMonday": "13:00 - 20:00 6.4hduff BARTD",
     "secTuesday": "13:00 - 20:00 6.4hmoes BARTD",
     "secWednesday": "13:00 - 20:00 6.4hmoes BARTD",
     "secThursday": "N",
-    "secFriday": "A",
+    "secFriday": "11:00 - 17:00 6hhogs BARTD",
     "secSaturday": "N",
     "type": "bartender"
   },
   {
     "name": "Neeranut Iamnoi",
-    "secSunday": "AVAC",
-    "secMonday": "AVAC",
+    "secSunday": "12:00 - 20:00 7.4hhogs LDBRTN",
+    "secMonday": "12:00 - 20:00 7.4hhogs LDBRTN",
     "secTuesday": "N - PDO",
     "secWednesday": "N - PDO",
-    "secThursday": "AVAC",
-    "secFriday": "AVAC",
-    "secSaturday": "13:00 - 21:00 7.4hhogs LDBRTN",
+    "secThursday": "12:00 - 20:00 7.4hhogs LDBRTN",
+    "secFriday": "12:00 - 20:00 7.4hhogs LDBRTN",
+    "secSaturday": "12:00 - 20:00 7.4hhogs LDBRTN",
     "type": "bartender"
   },
   {
@@ -139,18 +128,18 @@ export const weekTwo = [
     "secWednesday": "10:00 - 18:00 7.4hduff LDBRTN",
     "secThursday": "A",
     "secFriday": "P: 12:30-23:00",
-    "secSaturday": "10:00 - 18:00 7.4hduff LDBRTN",
+    "secSaturday": "15:00 - 23:00 7.4hduff LDBRTN",
     "type": "bartender"
   },
   {
     "name": "Gorbachev Lingad",
     "secSunday": "08:00 - 16:00 7.4h3brm LDFOH",
-    "secMonday": "12:00 - 20:00 7.4h3brm LDFOH",
+    "secMonday": "09:00 - 17:00 7.4h3brm LDFOH",
     "secTuesday": "P: 05:00-23:00",
     "secWednesday": "P: 05:00-23:00",
     "secThursday": "09:00 - 17:00 7.4h3brm LDFOH",
-    "secFriday": "09:00 - 17:00 7.4h3brm LDFOH",
-    "secSaturday": "13:00 - 21:00 7.4h3brm LDFOH",
+    "secFriday": "12:00 - 20:00 7.4h3brm LDFOH",
+    "secSaturday": "15:00 - 23:00 7.4h3brm LDFOH",
     "type": "leadFOH"
   },
   {
@@ -158,21 +147,21 @@ export const weekTwo = [
     "secSunday": "A",
     "secMonday": "A",
     "secTuesday": "12:00 - 20:00 7.4hhogs LDBRTN",
-    "secWednesday": "14:30 - 20:30 6hhogs BARTD",
-    "secThursday": "10:00 - 18:00 7.4hmoes LDBRTN",
+    "secWednesday": "12:00 - 20:00 7.4hhogs LDBRTN",
+    "secThursday": "10:00 - 18:00 7.4hduff LDBRTN",
     "secFriday": "10:00 - 18:00 7.4hduff LDBRTN",
-    "secSaturday": "ARDO",
+    "secSaturday": "10:00 - 18:00 7.4hduff LDBRTN",
     "type": "bartender"
   },
   {
     "name": "Stephanie Ruiz",
     "secSunday": "13:00 - 20:00 6.4hisla BARTD",
-    "secMonday": "A",
-    "secTuesday": "A",
-    "secWednesday": "ARDO",
-    "secThursday": "ARDO",
+    "secMonday": "13:00 - 19:00 6hisla BARTD",
+    "secTuesday": "11:30 - 17:30 6hisla BARTD",
+    "secWednesday": "A",
+    "secThursday": "A",
     "secFriday": "13:00 - 19:00 6hisla BARTD",
-    "secSaturday": "A",
+    "secSaturday": "11:30 - 19:30 7.4hisla BARTD",
     "type": "bartender"
   },
   {
@@ -188,25 +177,24 @@ export const weekTwo = [
   },
   {
     "name": "Paige Miller",
-    "secSunday": "09:00 - 17:00 7.4hmoes LDBRTN",
-    "secMonday": "10:00 - 18:00 7.4hmoes LDBRTN",
-    "secTuesday": "10:00 - 18:00 7.4hmoes LDBRTN",
-    "secWednesday": "A",
-    "secThursday": "A",
+    "secSunday": "A",
+    "secMonday": "P: 13:30-04:00",
+    "secTuesday": "A",
+    "secWednesday": "P: 13:30-04:00",
+    "secThursday": "10:00 - 18:00 7.4hmoes LDBRTN",
     "secFriday": "10:00 - 18:00 7.4hmoes LDBRTN",
-    "secSaturday": "11:30 - 19:30 7.4hmoes LDBRTN",
+    "secSaturday": "15:00 - 23:00 7.4hmoes BARTD",
     "type": "bartender"
   },
   {
     "name": "Danny A Cruz",
-    "secSunday": "07:00 - 15:00 7.4h3brm COOKHP",
-    "secMonday": "08:00 - 16:00 7.4h3brm COOKHP",
+    "secSunday": "P: 04:00-16:00RDO",
+    "secMonday": "P: 04:00-16:00VAC",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "NRDO",
-    "type": "cook"
+    "secSaturday": "N"
   },
   {
     "name": "Guillermo A Lino",
@@ -214,19 +202,20 @@ export const weekTwo = [
     "secMonday": "N",
     "secTuesday": "P: 10:00-21:00",
     "secWednesday": "P: 10:00-21:00",
-    "secThursday": "P: 10:00-21:00",
+    "secThursday": "13:00 - 20:00 6.4hmoes BARTD",
     "secFriday": "P: 10:00-21:00",
-    "secSaturday": "P: 10:00-21:00"
+    "secSaturday": "12:30 - 20:30 7.4hmoes BARTD",
+    "type": "bartender"
   },
   {
     "name": "Janee M Ervin",
     "secSunday": "A",
-    "secMonday": "A",
+    "secMonday": "10:30 - 16:30 6hisla BARTD",
     "secTuesday": "A",
-    "secWednesday": "A",
-    "secThursday": "11:30 - 17:30 6hisla BARTD",
-    "secFriday": "10:30 - 16:30 6hisla BARTD",
-    "secSaturday": "12:30 - 18:30 6hisla BARTD",
+    "secWednesday": "11:30 - 17:30 6hisla BARTD",
+    "secThursday": "A",
+    "secFriday": "A",
+    "secSaturday": "09:30 - 16:30 6.4hisla BARTD",
     "type": "bartender"
   },
   {
@@ -237,17 +226,18 @@ export const weekTwo = [
     "secWednesday": "N",
     "secThursday": "P: 09:00-22:00",
     "secFriday": "P: 09:00-22:00",
-    "secSaturday": "P: 09:00-22:00"
+    "secSaturday": "14:00 - 20:00 6hhogs BARTD",
+    "type": "bartender"
   },
   {
     "name": "Eric D Mulgannon",
-    "secSunday": "AOFF",
-    "secMonday": "AOFF",
-    "secTuesday": "AOFF",
-    "secWednesday": "AOFF",
-    "secThursday": "AOFF",
-    "secFriday": "AOFF",
-    "secSaturday": "AOFF"
+    "secSunday": "ADNS",
+    "secMonday": "ADNS",
+    "secTuesday": "ADNS",
+    "secWednesday": "ADNS",
+    "secThursday": "ADNS",
+    "secFriday": "ADNS",
+    "secSaturday": "ADNS"
   },
   {
     "name": "Jennifer Calzadilla",
@@ -261,35 +251,36 @@ export const weekTwo = [
   },
   {
     "name": "Joseph L Velasco",
-    "secSunday": "NVAC",
-    "secMonday": "NVAC",
+    "secSunday": "N",
+    "secMonday": "N",
     "secTuesday": "08:00 - 16:00 7.4hbtr1 LDRUN",
     "secWednesday": "08:00 - 16:00 7.4hbtr1 LDRUN",
     "secThursday": "08:00 - 16:00 7.4hbtr1 LDRUN",
-    "secFriday": "P: 05:00-16:00",
-    "secSaturday": "P: 05:00-16:00",
+    "secFriday": "08:00 - 16:00 7.4hbtr1 LDRUN",
+    "secSaturday": "07:00 - 15:00 7.4hbtr1 LDRUN",
     "type": "runner"
   },
   {
     "name": "Abby E Aaronson",
-    "secSunday": "07:30 - 15:30 7.4h3brm COOKHP",
+    "secSunday": "07:00 - 15:00 7.4h3brm COOKHP",
     "secMonday": "08:30 - 16:30 7.4h3brm COOKHP",
     "secTuesday": "08:30 - 16:30 7.4h3brm COOKHP",
     "secWednesday": "08:30 - 16:30 7.4h3brm COOKHP",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "07:30 - 15:30 7.4h3brm COOKHP",
+    "secSaturday": "07:00 - 15:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
     "name": "Steven A Walker",
-    "secSunday": "P: 09:00-02:00RDO",
-    "secMonday": "P: 09:00-02:00RDO",
+    "secSunday": "P: 09:00-02:00",
+    "secMonday": "P: 09:00-02:00",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "P: 09:00-02:00",
     "secFriday": "P: 09:00-02:00",
-    "secSaturday": "P: 09:00-02:00"
+    "secSaturday": "09:00 - 15:00 6hmoes BARTD",
+    "type": "bartender"
   },
   {
     "name": "Debbie G Otzoy",
@@ -298,8 +289,8 @@ export const weekTwo = [
     "secTuesday": "08:30 - 16:30 7.4h3brm COOKHP",
     "secWednesday": "08:30 - 16:30 7.4h3brm COOKHP",
     "secThursday": "08:00 - 16:00 7.4h3brm COOKHP",
-    "secFriday": "A",
-    "secSaturday": "A",
+    "secFriday": "N",
+    "secSaturday": "N",
     "type": "cook"
   },
   {
@@ -310,7 +301,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "14:30 - 20:30 6hduff BARTD",
+    "type": "bartender"
   },
   {
     "name": "Julio C Aceves",
@@ -325,14 +317,13 @@ export const weekTwo = [
   },
   {
     "name": "Raven A Douglass",
-    "secSunday": "12:00 - 20:00 7.4hhogs LDBRTN",
+    "secSunday": "A",
     "secMonday": "A - PDO",
     "secTuesday": "A - PDO",
-    "secWednesday": "10:00 - 18:00 7.4hmoes LDBRTN",
-    "secThursday": "A",
-    "secFriday": "A",
-    "secSaturday": "13:00 - 21:00 7.4hduff LDBRTN",
-    "type": "bartender"
+    "secWednesday": "A",
+    "secThursday": "ARDO",
+    "secFriday": "ARDO",
+    "secSaturday": "ARDO"
   },
   {
     "name": "April A Lovins",
@@ -361,10 +352,9 @@ export const weekTwo = [
     "secMonday": "A",
     "secTuesday": "A",
     "secWednesday": "A",
-    "secThursday": "10:00 - 18:00 7.4hduff LDBRTN",
-    "secFriday": "12:00 - 20:00 7.4hhogs LDBRTN",
-    "secSaturday": "A",
-    "type": "bartender"
+    "secThursday": "A",
+    "secFriday": "A",
+    "secSaturday": "A"
   },
   {
     "name": "Venus V Marcial",
@@ -383,8 +373,8 @@ export const weekTwo = [
     "secTuesday": "12:00 - 20:00 7.4hbtr1 FDRUN",
     "secWednesday": "N",
     "secThursday": "N",
-    "secFriday": "12:00 - 20:00 7.4hbtr1 FDRUN",
-    "secSaturday": "07:00 - 15:00 7.4hbtr1 FDRUN",
+    "secFriday": "08:00 - 16:00 7.4hbtr1 FDRUN",
+    "secSaturday": "11:00 - 19:00 7.4hbtr1 FDRUN",
     "type": "runner"
   },
   {
@@ -411,8 +401,8 @@ export const weekTwo = [
     "name": "Isaac Garcia",
     "secSunday": "N",
     "secMonday": "N",
-    "secTuesday": "09:00 - 17:00 7.4h3brm COOKHP",
-    "secWednesday": "09:00 - 17:00 7.4h3brm COOKHP",
+    "secTuesday": "09:30 - 17:30 7.4h3brm COOKHP",
+    "secWednesday": "09:30 - 17:30 7.4h3brm COOKHP",
     "secThursday": "09:00 - 17:00 7.4h3brm COOKHP",
     "secFriday": "08:30 - 16:30 7.4h3brm COOKHP",
     "secSaturday": "07:30 - 15:30 7.4h3brm COOKHP",
@@ -422,7 +412,7 @@ export const weekTwo = [
     "name": "Jesus Cortez",
     "secSunday": "07:00 - 15:00 7.4hbtr1 FDRUN",
     "secMonday": "08:00 - 16:00 7.4hbtr1 FDRUN",
-    "secTuesday": "08:00 - 16:00 7.4hbtr1 FDRUN",
+    "secTuesday": "P: 05:00-17:00VAC",
     "secWednesday": "08:00 - 16:00 7.4hbtr1 FDRUN",
     "secThursday": "08:00 - 16:00 7.4hbtr1 FDRUN",
     "secFriday": "N",
@@ -446,8 +436,8 @@ export const weekTwo = [
     "secTuesday": "N",
     "secWednesday": "12:00 - 20:00 7.4hbtr1 LDRUN",
     "secThursday": "N",
-    "secFriday": "08:00 - 16:00 7.4hbtr1 LDRUN",
-    "secSaturday": "07:00 - 15:00 7.4hbtr1 LDRUN",
+    "secFriday": "12:00 - 20:00 7.4hbtr1 LDRUN",
+    "secSaturday": "15:00 - 23:00 7.4hbtr1 LDRUN",
     "type": "runner"
   },
   {
@@ -469,7 +459,7 @@ export const weekTwo = [
     "secWednesday": "12:00 - 20:00 7.4hbtr1 FDRUN",
     "secThursday": "12:00 - 20:00 7.4hbtr1 FDRUN",
     "secFriday": "12:00 - 20:00 7.4hbtr1 FDRUN",
-    "secSaturday": "09:30 - 17:30 7.4hbtr1 FDRUN",
+    "secSaturday": "09:00 - 17:00 7.4hbtr1 FDRUN",
     "type": "runner"
   },
   {
@@ -478,20 +468,21 @@ export const weekTwo = [
     "secMonday": "09:00 - 17:00 7.4h3brm COOKHP",
     "secTuesday": "07:00 - 15:00 7.4h3brm PREP",
     "secWednesday": "N",
-    "secThursday": "09:00 - 17:00 7.4h3brm COOKHP",
-    "secFriday": "09:00 - 17:00 7.4h3brm COOKHP",
-    "secSaturday": "08:00 - 16:00 7.4h3brm COOKHP",
+    "secThursday": "P: 05:00-17:00VAC",
+    "secFriday": "P: 05:00-17:00VAC",
+    "secSaturday": "P: 05:00-17:00VAC",
     "type": "cook"
   },
   {
     "name": "Rafael Hernandez Lomeli",
     "secSunday": "N",
-    "secMonday": "P: 04:00-16:00VAC",
-    "secTuesday": "P: 04:00-16:00VAC",
-    "secWednesday": "P: 04:00-16:00VAC",
-    "secThursday": "P: 04:00-16:00VAC",
-    "secFriday": "P: 04:00-16:00VAC",
-    "secSaturday": "N"
+    "secMonday": "P: 04:00-16:00RDO",
+    "secTuesday": "07:00 - 15:00 7.4h3brm PREP",
+    "secWednesday": "07:00 - 15:00 7.4h3brm PREP",
+    "secThursday": "07:00 - 15:00 7.4h3brm PREP",
+    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
+    "secSaturday": "N",
+    "type": "cook"
   },
   {
     "name": "Irving Becerra",
@@ -499,75 +490,75 @@ export const weekTwo = [
     "secMonday": "09:30 - 17:30 7.4h3brm STAATT",
     "secTuesday": "N",
     "secWednesday": "N",
-    "secThursday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secThursday": "10:30 - 18:30 7.4h3brm STAATT",
     "secFriday": "09:30 - 17:30 7.4h3brm STAATT",
-    "secSaturday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secSaturday": "08:30 - 16:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Oscar J Benitez",
     "secSunday": "12:00 - 20:00 7.4hbtr1 FDRUN",
     "secMonday": "12:00 - 20:00 7.4hbtr1 FDRUN",
-    "secTuesday": "12:00 - 20:00 7.4hbtr1 FDRUN",
+    "secTuesday": "ARDO",
     "secWednesday": "A",
     "secThursday": "12:00 - 20:00 7.4hbtr1 FDRUN",
-    "secFriday": "A",
-    "secSaturday": "13:00 - 21:00 7.4hbtr1 FDRUN",
+    "secFriday": "AVAC",
+    "secSaturday": "AVAC",
     "type": "runner"
   },
   {
     "name": "Esmeralda Campos",
     "secSunday": "N",
     "secMonday": "N",
-    "secTuesday": "10:00 - 16:00 6hbtr1 STAATT",
-    "secWednesday": "10:00 - 16:00 6h3brm STAATT",
-    "secThursday": "10:00 - 16:00 6hbtr1 STAATT",
-    "secFriday": "10:00 - 16:00 6hbtr1 STAATT",
-    "secSaturday": "08:30 - 16:30 7.4hbtr1 STAATT",
+    "secTuesday": "10:00 - 16:00 6h3brm STAATT",
+    "secWednesday": "09:00 - 17:00 7.4h3brm STAATT",
+    "secThursday": "10:00 - 16:00 6h3brm STAATT",
+    "secFriday": "10:30 - 16:30 6h3brm STAATT",
+    "secSaturday": "08:30 - 16:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Michael A Gonzalez",
     "secSunday": "N",
     "secMonday": "N",
-    "secTuesday": "09:30 - 17:30 7.4h3brm STAATT",
-    "secWednesday": "09:30 - 17:30 7.4h3brm STAATT",
-    "secThursday": "11:30 - 19:30 7.4h3brm STAATT",
-    "secFriday": "08:00 - 16:00 7.4hbtr1 FDRUN",
-    "secSaturday": "11:30 - 19:30 7.4hbtr1 FDRUN",
-    "type": "standAtt"
+    "secTuesday": "12:00 - 20:00 7.4hbtr1 FDRUN",
+    "secWednesday": "11:00 - 19:00 7.4hneep STAATT",
+    "secThursday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secFriday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secSaturday": "10:00 - 18:00 7.4hbtr1 FDRUN",
+    "type": "runner"
   },
   {
     "name": "Frank J Ojeda",
     "secSunday": "N",
     "secMonday": "N",
-    "secTuesday": "09:30 - 17:30 7.4h3brm STAATT",
-    "secWednesday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secTuesday": "11:00 - 19:00 7.4hneep STAATT",
+    "secWednesday": "P: 09:00-19:30RDO",
     "secThursday": "10:00 - 18:00 7.4h3brm STAATT",
     "secFriday": "10:00 - 18:00 7.4h3brm STAATT",
-    "secSaturday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secSaturday": "08:30 - 16:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Jose O Pastrana Miranda",
     "secSunday": "N",
     "secMonday": "N",
-    "secTuesday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secTuesday": "09:30 - 17:30 7.4h3brm STAATT",
     "secWednesday": "10:00 - 18:00 7.4h3brm STAATT",
     "secThursday": "10:00 - 18:00 7.4h3brm STAATT",
     "secFriday": "10:00 - 18:00 7.4h3brm STAATT",
-    "secSaturday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secSaturday": "08:30 - 16:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "John Rivera",
     "secSunday": "A - PDO",
     "secMonday": "A - PDO",
-    "secTuesday": "11:00 - 19:00 7.4hneep STAATT",
-    "secWednesday": "10:00 - 18:00 7.4h3brm STAATT",
-    "secThursday": "12:00 - 20:00 7.4hbtr2 LDDISP",
-    "secFriday": "10:00 - 18:00 7.4h3brm STAATT",
-    "secSaturday": "11:00 - 19:00 7.4hbtr2 LDDISP",
+    "secTuesday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secWednesday": "12:00 - 20:00 7.4hbtr2 LDDISP",
+    "secThursday": "12:00 - 20:00 7.4hbtr2 STAATT",
+    "secFriday": "AVAC",
+    "secSaturday": "AVAC",
     "type": "standAtt"
   },
   {
@@ -576,42 +567,42 @@ export const weekTwo = [
     "secMonday": "N",
     "secTuesday": "10:00 - 18:00 7.4h3brm STAATT",
     "secWednesday": "N",
-    "secThursday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secThursday": "09:30 - 17:30 7.4hbtr1 STAATT",
     "secFriday": "10:00 - 18:00 7.4h3brm STAATT",
-    "secSaturday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secSaturday": "08:30 - 16:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Julian A Manzano",
     "secSunday": "12:00 - 20:00 7.4hbtr2 LDDISP",
-    "secMonday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secMonday": "11:00 - 19:00 7.4hneep STAATT",
     "secTuesday": "ARDO",
-    "secWednesday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secWednesday": "12:00 - 20:00 7.4hbtr2 STAATT",
     "secThursday": "A - PDO",
     "secFriday": "10:30 - 18:30 7.4h3brm STAATT",
-    "secSaturday": "13:00 - 21:00 7.4hbtr1 FDRUN",
+    "secSaturday": "15:00 - 23:00 7.4hbtr2 LDDISP",
     "type": "leadFOH"
   },
   {
     "name": "Cecillia S Williams",
     "secSunday": "08:00 - 16:00 7.4hbtr2 LDDISP",
-    "secMonday": "12:00 - 20:00 7.4hbtr2 STAATT",
+    "secMonday": "10:00 - 18:00 7.4h3brm STAATT",
     "secTuesday": "A - PDO",
     "secWednesday": "A - PDO",
     "secThursday": "10:30 - 18:30 7.4h3brm STAATT",
     "secFriday": "10:30 - 18:30 7.4h3brm STAATT",
-    "secSaturday": "13:00 - 21:00 7.4hbtr1 STAATT",
+    "secSaturday": "12:30 - 20:30 7.4h3brm STAATT",
     "type": "leadFOH"
   },
   {
     "name": "Jake H Evans",
-    "secSunday": "10:00 - 18:00 7.4h3brm COOKHP",
-    "secMonday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secSunday": "P: 10:00-20:00VAC",
+    "secMonday": "P: 10:00-20:00VAC",
     "secTuesday": "N",
     "secWednesday": "N",
-    "secThursday": "P: 10:00-20:00VAC",
-    "secFriday": "P: 10:00-20:00VAC",
-    "secSaturday": "P: 10:00-20:00VAC",
+    "secThursday": "10:00 - 18:00 7.4h3brm COOKHP",
+    "secFriday": "P: 10:00-20:00RDO",
+    "secSaturday": "10:00 - 18:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
@@ -619,10 +610,10 @@ export const weekTwo = [
     "secSunday": "07:00 - 15:00 7.4h3brm LDBOH",
     "secMonday": "08:00 - 16:00 7.4h3brm LDBOH",
     "secTuesday": "08:00 - 16:00 7.4h3brm LDBOH",
-    "secWednesday": "12:00 - 20:00 7.4h3brm LDBOH",
+    "secWednesday": "A",
     "secThursday": "A - PDO",
-    "secFriday": "A",
-    "secSaturday": "07:00 - 15:00 7.4h3brm LDPREP",
+    "secFriday": "12:00 - 20:00 7.4h3brm LDBOH",
+    "secSaturday": "15:00 - 23:00 7.4h3brm LDBOH",
     "type": "leadBOH"
   },
   {
@@ -639,9 +630,9 @@ export const weekTwo = [
   {
     "name": "Christopher S Heang",
     "secSunday": "N",
-    "secMonday": "10:00 - 16:00 6h3brm STAATT",
+    "secMonday": "10:00 - 16:00 6hbtr1 STAATT",
     "secTuesday": "10:00 - 16:00 6hbtr1 STAATT",
-    "secWednesday": "10:00 - 16:00 6hbtr1 STAATT",
+    "secWednesday": "10:00 - 16:00 6h3brm STAATT",
     "secThursday": "10:00 - 16:00 6hbtr1 STAATT",
     "secFriday": "10:00 - 16:00 6hbtr1 STAATT",
     "secSaturday": "N",
@@ -649,11 +640,11 @@ export const weekTwo = [
   },
   {
     "name": "Sandy M Molina Cruz",
-    "secSunday": "09:30 - 17:30 7.4h3brm STAATT",
-    "secMonday": "11:30 - 19:30 7.4hbtr2 STAATT",
-    "secTuesday": "11:30 - 19:30 7.4hbtr2 STAATT",
-    "secWednesday": "10:30 - 18:30 7.4h3brm STAATT",
-    "secThursday": "10:30 - 18:30 7.4h3brm STAATT",
+    "secSunday": "11:00 - 19:00 7.4hneep STAATT",
+    "secMonday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secTuesday": "08:00 - 16:00 7.4hbtr1 FDRUN",
+    "secWednesday": "12:00 - 20:00 7.4hbtr1 STAATT",
+    "secThursday": "11:00 - 19:00 7.4hneep STAATT",
     "secFriday": "N",
     "secSaturday": "N",
     "type": "standAtt"
@@ -664,37 +655,37 @@ export const weekTwo = [
     "secMonday": "09:30 - 17:30 7.4hbtr1 STAATT",
     "secTuesday": "09:30 - 17:30 7.4hbtr1 STAATT",
     "secWednesday": "09:30 - 17:30 7.4hbtr1 STAATT",
-    "secThursday": "09:30 - 17:30 7.4hbtr1 STAATT",
+    "secThursday": "09:30 - 17:30 7.4hbtr2 STAATT",
     "secFriday": "N",
     "secSaturday": "N",
     "type": "standAtt"
   },
   {
     "name": "Tony L Thompson Jr.",
-    "secSunday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secSunday": "10:00 - 18:00 7.4h3brm STAATT",
     "secMonday": "10:00 - 18:00 7.4h3brm STAATT",
-    "secTuesday": "10:30 - 18:30 7.4h3brm STAATT",
+    "secTuesday": "10:00 - 18:00 7.4h3brm STAATT",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "10:30 - 18:30 7.4h3brm STAATT",
-    "secSaturday": "10:30 - 18:30 7.4hbtr2 STAATT",
+    "secSaturday": "11:00 - 19:00 7.4hvend STAATT",
     "type": "standAtt"
   },
   {
     "name": "Cristian Villa Trinidad",
-    "secSunday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secSunday": "10:00 - 18:00 7.4h3brm STAATT",
     "secMonday": "N - PDO",
     "secTuesday": "09:30 - 17:30 7.4hbtr2 STAATT",
     "secWednesday": "N - PDO",
-    "secThursday": "09:30 - 17:30 7.4hbtr2 STAATT",
+    "secThursday": "10:00 - 18:00 7.4h3brm STAATT",
     "secFriday": "09:30 - 17:30 7.4hbtr1 STAATT",
-    "secSaturday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secSaturday": "08:30 - 16:30 7.4hbtr1 STAATT",
     "type": "standAtt"
   },
   {
     "name": "Marisa Avitia",
-    "secSunday": "11:30 - 19:30 7.4hbtr2 STAATT",
-    "secMonday": "11:00 - 19:00 7.4hneep STAATT",
+    "secSunday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secMonday": "12:00 - 20:00 7.4hbtr2 STAATT",
     "secTuesday": "10:30 - 18:30 7.4h3brm STAATT",
     "secWednesday": "10:30 - 18:30 7.4h3brm STAATT",
     "secThursday": "09:30 - 17:30 7.4hneep STAATT",
@@ -708,9 +699,9 @@ export const weekTwo = [
     "secMonday": "10:30 - 18:30 7.4h3brm STAATT",
     "secTuesday": "10:30 - 18:30 7.4h3brm STAATT",
     "secWednesday": "10:30 - 18:30 7.4h3brm STAATT",
-    "secThursday": "10:30 - 18:30 7.4h3brm STAATT",
-    "secFriday": "A - PDO",
-    "secSaturday": "11:00 - 19:00 7.4h3brm STAATT",
+    "secThursday": "ARDO",
+    "secFriday": "11:30 - 19:30 7.4hbtr2 STAATT",
+    "secSaturday": "11:30 - 19:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -725,56 +716,56 @@ export const weekTwo = [
   },
   {
     "name": "Efren Ceccaldi",
-    "secSunday": "A",
+    "secSunday": "12:00 - 20:00 7.4h3brm LDBOH",
     "secMonday": "12:00 - 20:00 7.4h3brm LDBOH",
     "secTuesday": "12:00 - 20:00 7.4h3brm LDBOH",
     "secWednesday": "08:00 - 16:00 7.4h3brm LDBOH",
-    "secThursday": "12:00 - 20:00 7.4h3brm LDBOH",
-    "secFriday": "08:00 - 16:00 7.4h3brm LDBOH",
+    "secThursday": "08:00 - 16:00 7.4h3brm LDBOH",
+    "secFriday": "A",
     "secSaturday": "A",
     "type": "leadBOH"
   },
   {
     "name": "Jacqueline Cortes",
     "secSunday": "07:30 - 15:30 7.4h3brm COOKHP",
-    "secMonday": "09:00 - 17:00 7.4h3brm COOKHP",
+    "secMonday": "09:30 - 17:30 7.4h3brm COOKHP",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
-    "secFriday": "09:00 - 17:00 7.4h3brm COOKHP",
-    "secSaturday": "08:00 - 16:00 7.4h3brm COOKHP",
+    "secFriday": "P: 07:00-19:00VAC",
+    "secSaturday": "P: 06:00-16:00VAC",
     "type": "cook"
   },
   {
     "name": "Dominic Aguas",
     "secSunday": "A - PDO",
     "secMonday": "A - PDO",
-    "secTuesday": "12:00 - 20:00 7.4h3brm LDFOH",
+    "secTuesday": "ARDO",
     "secWednesday": "09:00 - 17:00 7.4h3brm LDFOH",
     "secThursday": "12:00 - 20:00 7.4h3brm LDFOH",
-    "secFriday": "12:00 - 20:00 7.4h3brm LDFOH",
-    "secSaturday": "10:30 - 18:30 7.4h3brm LDFOH",
+    "secFriday": "09:00 - 17:00 7.4h3brm LDFOH",
+    "secSaturday": "08:00 - 16:00 7.4h3brm LDFOH",
     "type": "leadFOH"
   },
   {
     "name": "Liliana Aguilar Fuentes",
-    "secSunday": "08:30 - 14:30 6h3brm STAATT",
+    "secSunday": "P: 04:00-15:00RDO",
     "secMonday": "N",
-    "secTuesday": "10:00 - 16:00 6h3brm STAATT",
+    "secTuesday": "10:00 - 16:00 6hbtr2 STAATT",
     "secWednesday": "N",
-    "secThursday": "10:00 - 16:00 6h3brm STAATT",
-    "secFriday": "10:00 - 16:00 6h3brm STAATT",
-    "secSaturday": "08:00 - 14:00 6h3brm STAATT",
+    "secThursday": "10:00 - 16:00 6hbtr2 STAATT",
+    "secFriday": "P: 06:00-16:00RDO",
+    "secSaturday": "P: 04:00-15:00RDO",
     "type": "standAtt"
   },
   {
     "name": "Keion Drummond",
-    "secSunday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secSunday": "11:30 - 19:30 7.4hbtr1 STAATT",
     "secMonday": "10:30 - 18:30 7.4h3brm STAATT",
     "secTuesday": "10:30 - 18:30 7.4h3brm STAATT",
     "secWednesday": "10:30 - 18:30 7.4h3brm STAATT",
     "secThursday": "10:30 - 18:30 7.4h3brm STAATT",
-    "secFriday": "P: 08:00-21:00",
+    "secFriday": "N",
     "secSaturday": "N",
     "type": "standAtt"
   },
@@ -782,20 +773,20 @@ export const weekTwo = [
     "name": "Mark A Gutierrez",
     "secSunday": "11:30 - 19:30 7.4h3brm STAATT",
     "secMonday": "10:30 - 18:30 7.4h3brm STAATT",
-    "secTuesday": "11:30 - 19:30 7.4h3brm STAATT",
-    "secWednesday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secTuesday": "10:30 - 18:30 7.4h3brm STAATT",
+    "secWednesday": "10:30 - 18:30 7.4h3brm STAATT",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "11:00 - 19:00 7.4h3brm STAATT",
+    "secSaturday": "12:00 - 20:00 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Marco A Lopez Jr.",
-    "secSunday": "P: 09:00-22:00RDO",
+    "secSunday": "11:30 - 19:30 7.4h3brm STAATT",
     "secMonday": "10:30 - 18:30 7.4h3brm STAATT",
-    "secTuesday": "12:00 - 20:00 7.4h3brm STAATT",
-    "secWednesday": "12:00 - 20:00 7.4h3brm STAATT",
-    "secThursday": "12:00 - 20:00 7.4hbtr2 STAATT",
+    "secTuesday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secWednesday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secThursday": "10:30 - 18:30 7.4h3brm STAATT",
     "secFriday": "N",
     "secSaturday": "N",
     "type": "standAtt"
@@ -804,66 +795,66 @@ export const weekTwo = [
     "name": "Eduardo Ceccaldi",
     "secSunday": "P: 14:00-23:00",
     "secMonday": "P: 14:00-23:00",
-    "secTuesday": "09:30 - 17:30 7.4h3brm COOKHP",
-    "secWednesday": "09:30 - 17:30 7.4h3brm COOKHP",
+    "secTuesday": "10:00 - 18:00 7.4h3brm COOKHP",
+    "secWednesday": "10:00 - 18:00 7.4h3brm COOKHP",
     "secThursday": "P: 14:00-23:00",
     "secFriday": "P: 14:00-23:00",
-    "secSaturday": "P: 14:00-23:00",
+    "secSaturday": "14:00 - 22:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
     "name": "Haisy Gomez",
-    "secSunday": "08:30 - 16:30 7.4hbtr2 STAATT",
-    "secMonday": "P: 10:30-17:45",
+    "secSunday": "P: 05:00-18:00RDO",
+    "secMonday": "10:30 - 16:30 6h3brm STAATT",
     "secTuesday": "N",
     "secWednesday": "N",
-    "secThursday": "12:00 - 20:00 7.4h3brm STAATT",
-    "secFriday": "10:30 - 18:30 7.4h3brm STAATT",
-    "secSaturday": "10:30 - 18:30 7.4hbtr1 STAATT",
+    "secThursday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secFriday": "P: 10:30-20:00RDO",
+    "secSaturday": "08:30 - 16:30 7.4hbtr2 STAATT",
     "type": "standAtt"
   },
   {
     "name": "Rachid F Frihi",
     "secSunday": "11:30 - 19:30 7.4h3brm STAATT",
     "secMonday": "11:30 - 19:30 7.4h3brm STAATT",
-    "secTuesday": "11:30 - 19:30 7.4hbtr1 STAATT",
-    "secWednesday": "11:30 - 19:30 7.4hbtr1 STAATT",
-    "secThursday": "11:30 - 19:30 7.4hbtr1 STAATT",
+    "secTuesday": "12:00 - 20:00 7.4h3brm STAATT",
+    "secWednesday": "12:00 - 20:00 7.4h3brm STAATT",
+    "secThursday": "12:00 - 20:00 7.4h3brm STAATT",
     "secFriday": "N",
     "secSaturday": "N",
     "type": "standAtt"
   },
   {
     "name": "Abrahan Luna",
-    "secSunday": "ARDO",
+    "secSunday": "11:30 - 19:30 7.4h3brm STAATT",
     "secMonday": "12:00 - 20:00 7.4h3brm STAATT",
     "secTuesday": "N",
     "secWednesday": "N",
-    "secThursday": "12:00 - 20:00 7.4hbtr1 STAATT",
-    "secFriday": "11:30 - 19:30 7.4h3brm STAATT",
-    "secSaturday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secThursday": "11:30 - 19:30 7.4hbtr1 STAATT",
+    "secFriday": "10:30 - 18:30 7.4h3brm STAATT",
+    "secSaturday": "15:00 - 23:00 7.4hbtr1 FDRUN",
     "type": "standAtt"
   },
   {
     "name": "David E Lobo",
     "secSunday": "A - PDO",
     "secMonday": "A - PDO",
-    "secTuesday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secTuesday": "10:30 - 18:30 7.4h3brm COOKHP",
     "secWednesday": "04:00 - 12:00 7.4h3brm LDBOH",
-    "secThursday": "08:00 - 16:00 7.4h3brm LDBOH",
-    "secFriday": "07:00 - 15:00 7.4h3brm LDPREP",
-    "secSaturday": "13:00 - 21:00 7.4h3brm LDBOH",
+    "secThursday": "12:00 - 20:00 7.4h3brm LDBOH",
+    "secFriday": "08:00 - 16:00 7.4h3brm LDBOH",
+    "secSaturday": "07:00 - 15:00 7.4h3brm LDBOH",
     "type": "cook"
   },
   {
     "name": "David Mendoza",
     "secSunday": "07:30 - 15:30 7.4h3brm COOKHP",
-    "secMonday": "09:30 - 17:30 7.4h3brm COOKHP",
-    "secTuesday": "A",
+    "secMonday": "10:00 - 18:00 7.4h3brm COOKHP",
+    "secTuesday": "12:00 - 20:00 7.4h3brm COOKHP",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "09:00 - 17:00 7.4h3brm COOKHP",
+    "secSaturday": "08:00 - 16:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
@@ -873,41 +864,41 @@ export const weekTwo = [
     "secTuesday": "P: 06:00-16:00",
     "secWednesday": "N",
     "secThursday": "07:00 - 15:00 7.4h3brm PREP",
-    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
-    "secSaturday": "07:00 - 15:00 7.4h3brm PREP",
+    "secFriday": "09:00 - 17:00 7.4h3brm COOKHP",
+    "secSaturday": "08:00 - 16:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
     "name": "Lurleen N Frazier",
     "secSunday": "11:30 - 19:30 7.4h3brm STAATT",
     "secMonday": "N",
-    "secTuesday": "12:00 - 20:00 7.4hbtr1 STAATT",
+    "secTuesday": "11:30 - 19:30 7.4hbtr1 STAATT",
     "secWednesday": "N",
-    "secThursday": "11:30 - 19:30 7.4hbtr2 STAATT",
-    "secFriday": "11:00 - 19:00 7.4hneep STAATT",
-    "secSaturday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secThursday": "12:00 - 20:00 7.4hbtr1 STAATT",
+    "secFriday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secSaturday": "14:30 - 22:30 7.4hvend STAATT",
     "type": "standAtt"
   },
   {
     "name": "Raul Ramirez",
-    "secSunday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secSunday": "10:00 - 18:00 7.4h3brm STAATT",
     "secMonday": "09:30 - 17:30 7.4hbtr2 STAATT",
     "secTuesday": "09:30 - 17:30 7.4hneep STAATT",
     "secWednesday": "09:30 - 17:30 7.4hbtr2 STAATT",
     "secThursday": "A - PDO",
     "secFriday": "N",
-    "secSaturday": "08:30 - 16:30 7.4hbtr2 STAATT",
+    "secSaturday": "08:30 - 16:30 7.4hneep STAATT",
     "type": "standAtt"
   },
   {
     "name": "Kassandra Sanchez",
     "secSunday": "10:00 - 18:00 7.4h3brm LDFOH",
     "secMonday": "A",
-    "secTuesday": "A - PDO",
-    "secWednesday": "12:00 - 20:00 7.4hbtr1 STAATT",
-    "secThursday": "11:00 - 19:00 7.4hneep STAATT",
-    "secFriday": "11:30 - 19:30 7.4hbtr1 STAATT",
-    "secSaturday": "08:00 - 16:00 7.4h3brm LDFOH",
+    "secTuesday": "A - PDORDO",
+    "secWednesday": "ARDO",
+    "secThursday": "11:30 - 19:30 7.4hbtr2 STAATT",
+    "secFriday": "12:00 - 20:00 7.4h3brm STAATT",
+    "secSaturday": "12:00 - 20:00 7.4hbtr1 STAATT",
     "type": "leadFOH"
   },
   {
@@ -922,33 +913,33 @@ export const weekTwo = [
   },
   {
     "name": "Megan N Hillyer",
-    "secSunday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secSunday": "12:00 - 20:00 7.4h3brm STAATT",
     "secMonday": "11:30 - 19:30 7.4hbtr1 STAATT",
-    "secTuesday": "A",
-    "secWednesday": "11:30 - 19:30 7.4hbtr2 STAATT",
+    "secTuesday": "12:00 - 20:00 7.4hbtr1 STAATT",
+    "secWednesday": "A",
     "secThursday": "A",
-    "secFriday": "09:30 - 17:30 7.4hneep STAATT",
-    "secSaturday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secFriday": "11:30 - 19:30 7.4hbtr1 STAATT",
+    "secSaturday": "14:30 - 22:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Kimberly A Lopez",
-    "secSunday": "08:30 - 16:30 7.4hneep STAATT",
-    "secMonday": "10:00 - 16:00 6hbtr1 STAATT",
-    "secTuesday": "P: 06:00-17:00",
-    "secWednesday": "10:00 - 16:00 6hbtr1 STAATT",
+    "secSunday": "08:30 - 16:30 7.4hbtr2 STAATT",
+    "secMonday": "09:00 - 17:00 7.4h3brm STAATT",
+    "secTuesday": "10:30 - 16:30 6hbtr1 STAATT",
+    "secWednesday": "P: 06:00-17:00",
     "secThursday": "P: 06:00-17:00",
-    "secFriday": "10:00 - 16:00 6hbtr2 STAATT",
-    "secSaturday": "08:30 - 16:30 7.4hneep STAATT",
+    "secFriday": "10:30 - 16:30 6h3brm STAATT",
+    "secSaturday": "08:30 - 16:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Sharon Ortega",
-    "secSunday": "P: 05:00-18:00",
+    "secSunday": "09:30 - 17:30 7.4hvend STAATT",
     "secMonday": "09:30 - 17:30 7.4hneep STAATT",
-    "secTuesday": "10:00 - 18:00 7.4h3brm STAATT",
-    "secWednesday": "09:30 - 17:30 7.4hneep STAATT",
-    "secThursday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secTuesday": "P: 05:00-18:00RDO",
+    "secWednesday": "P: 05:00-18:00RDO",
+    "secThursday": "10:30 - 16:30 6hbtr1 STAATT",
     "secFriday": "N",
     "secSaturday": "N",
     "type": "standAtt"
@@ -956,31 +947,31 @@ export const weekTwo = [
   {
     "name": "Mark A Trevizo",
     "secSunday": "10:00 - 18:00 7.4h3brm COOKHP",
-    "secMonday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secMonday": "10:30 - 18:30 7.4h3brm COOKHP",
     "secTuesday": "N",
     "secWednesday": "N",
-    "secThursday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secFriday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secSaturday": "10:00 - 18:00 7.4h3brm COOKHP",
+    "secThursday": "10:30 - 18:30 7.4h3brm COOKHP",
+    "secFriday": "10:00 - 18:00 7.4h3brm COOKHP",
+    "secSaturday": "11:00 - 19:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
     "name": "Guadalupe I Cornejo",
-    "secSunday": "12:00 - 20:00 7.4h3brm STAATT",
+    "secSunday": "12:00 - 20:00 7.4hbtr2 STAATT",
     "secMonday": "N",
     "secTuesday": "N",
-    "secWednesday": "12:00 - 20:00 7.4hbtr2 STAATT",
+    "secWednesday": "11:30 - 19:30 7.4hbtr1 STAATT",
     "secThursday": "A",
-    "secFriday": "09:30 - 17:30 7.4hbtr2 STAATT",
-    "secSaturday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secFriday": "12:00 - 20:00 7.4hbtr1 STAATT",
+    "secSaturday": "14:00 - 22:00 7.4hbtr1 FDRUN",
     "type": "standAtt"
   },
   {
     "name": "John R Aguila",
-    "secSunday": "AVAC",
-    "secMonday": "AVAC",
-    "secTuesday": "AVAC",
-    "secWednesday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secSunday": "09:00 - 17:00 7.4h3brm COOKHP",
+    "secMonday": "11:00 - 19:00 7.4h3brm COOKHP",
+    "secTuesday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secWednesday": "10:30 - 18:30 7.4h3brm COOKHP",
     "secThursday": "09:30 - 17:30 7.4h3brm COOKHP",
     "secFriday": "A",
     "secSaturday": "A",
@@ -988,144 +979,144 @@ export const weekTwo = [
   },
   {
     "name": "Christopher D Wilson",
-    "secSunday": "P: 07:00-19:00",
+    "secSunday": "09:00 - 17:00 7.4h3brm COOKHP",
     "secMonday": "07:00 - 15:00 7.4h3brm PREP",
-    "secTuesday": "09:30 - 17:30 7.4h3brm COOKHP",
-    "secWednesday": "07:00 - 15:00 7.4h3brm PREP",
+    "secTuesday": "P: 07:00-19:00",
+    "secWednesday": "P: 07:00-19:00",
     "secThursday": "07:00 - 15:00 7.4h3brm PREP",
     "secFriday": "09:30 - 17:30 7.4h3brm COOKHP",
-    "secSaturday": "P: 07:00-19:00",
+    "secSaturday": "08:00 - 16:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
     "name": "Natalya A Galarza",
     "secSunday": "P: 06:00-16:00",
-    "secMonday": "17:00 - 01:30 8hprod ADMN11  DS02",
-    "secTuesday": "17:00 - 01:30 8hprod ADMN11  DS02",
-    "secWednesday": "17:00 - 01:30 8hprod ADMN11  DS02",
-    "secThursday": "17:00 - 01:30 8hprod ADMN11  DS02",
-    "secFriday": "17:00 - 01:30 8hprod ADMN11  DS02",
+    "secMonday": "09:00 - 17:30 8hprod ADMN11  DS02",
+    "secTuesday": "09:00 - 17:30 8hprod ADMN11  DS02",
+    "secWednesday": "09:00 - 17:30 8hprod ADMN11  DS02",
+    "secThursday": "09:00 - 17:30 8hprod ADMN11  DS02",
+    "secFriday": "09:00 - 17:30 8hprod ADMN11  DS02",
     "secSaturday": "P: 06:00-16:00"
   },
   {
     "name": "Shaun Loeser",
-    "secSunday": "12:00 - 20:00 7.4h3brm LDBOH",
+    "secSunday": "A - PDO",
     "secMonday": "A - PDO",
-    "secTuesday": "A",
-    "secWednesday": "07:00 - 15:00 7.4h3brm PREP",
-    "secThursday": "09:30 - 18:12 8hfood TRNRCL  JTFD",
-    "secFriday": "12:00 - 20:00 7.4h3brm LDBOH",
-    "secSaturday": "07:00 - 15:00 7.4h3brm LDBOH",
-    "type": "leadBOH"
+    "secTuesday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secWednesday": "09:30 - 18:12 8hfood TRNRCL  JTFD",
+    "secThursday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secFriday": "07:00 - 15:00 7.4h3brm LDPREP",
+    "secSaturday": "10:30 - 18:30 7.4h3brm LDBOH",
+    "type": "cook"
   },
   {
     "name": "Samer G Nassar",
     "secSunday": "12:00 - 20:00 7.4h3brm LDFOH",
     "secMonday": "12:00 - 20:00 7.4hbtr1 STAATT",
-    "secTuesday": "A",
-    "secWednesday": "11:00 - 19:00 7.4hneep STAATT",
+    "secTuesday": "12:00 - 20:00 7.4hbtr2 STAATT",
+    "secWednesday": "A",
     "secThursday": "A",
-    "secFriday": "11:30 - 19:30 7.4hbtr2 STAATT",
-    "secSaturday": "13:00 - 21:00 7.4hbtr2 STAATT",
+    "secFriday": "11:00 - 19:00 7.4hneep STAATT",
+    "secSaturday": "11:00 - 19:00 7.4h3brm LDFOH",
     "type": "leadFOH"
   },
   {
     "name": "Louis T Cooley",
-    "secSunday": "09:00 - 17:00 7.4h3brm COOKHP",
+    "secSunday": "10:00 - 18:00 7.4h3brm COOKHP",
     "secMonday": "12:00 - 20:00 7.4h3brm COOKHP",
     "secTuesday": "12:00 - 20:00 7.4h3brm COOKHP",
     "secWednesday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secThursday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A",
+    "secSaturday": "09:00 - 17:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
     "name": "Robert Dunne",
-    "secSunday": "ARDO",
-    "secMonday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secSunday": "10:30 - 18:30 7.4h3brm COOKHP",
+    "secMonday": "ARDO",
     "secTuesday": "ARDO",
-    "secWednesday": "ARDO",
+    "secWednesday": "12:00 - 20:00 7.4h3brm COOKHP",
     "secThursday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
-    "secSaturday": "10:30 - 18:30 7.4h3brm COOKHP",
+    "secFriday": "10:30 - 18:30 7.4h3brm COOKHP",
+    "secSaturday": "ARDO",
     "type": "cook"
   },
   {
     "name": "Kirsten Labrador",
     "secSunday": "10:30 - 18:30 7.4h3brm COOKHP",
-    "secMonday": "07:00 - 15:00 7.4h3brm PREP",
+    "secMonday": "12:00 - 20:00 7.4h3brm COOKHP",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
+    "secFriday": "P: 06:00-19:00RDO",
     "secSaturday": "07:00 - 15:00 7.4h3brm PREP",
     "type": "cook"
   },
   {
     "name": "Kevon J Taite",
     "secSunday": "A",
-    "secMonday": "A",
-    "secTuesday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secMonday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secTuesday": "A",
     "secWednesday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secThursday": "09:30 - 17:30 7.4h3brm COOKHP",
-    "secFriday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secSaturday": "11:00 - 19:00 7.4h3brm COOKHP",
+    "secThursday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secFriday": "11:00 - 19:00 7.4h3brm COOKHP",
+    "secSaturday": "09:30 - 17:30 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
     "name": "Regan C Danner",
-    "secSunday": "09:30 - 17:30 7.4hvend STAATT",
-    "secMonday": "09:00 - 17:00 7.4h3brm LDFOH",
-    "secTuesday": "A",
-    "secWednesday": "14:30 - 20:30 6h3brm STAATT",
+    "secSunday": "A - PDO",
+    "secMonday": "11:30 - 19:30 7.4hbtr2 STAATT",
+    "secTuesday": "09:00 - 17:00 7.4h3brm LDFOH",
+    "secWednesday": "12:00 - 20:00 7.4h3brm LDFOH",
     "secThursday": "A",
-    "secFriday": "A",
-    "secSaturday": "12:30 - 20:30 7.4h3brm STAATT",
+    "secFriday": "12:00 - 20:00 7.4hbtr2 STAATT",
+    "secSaturday": "14:30 - 22:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "David Munoz",
-    "secSunday": "ARDO",
-    "secMonday": "09:30 - 17:30 7.4h3brm COOKHP",
-    "secTuesday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secWednesday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secSunday": "10:30 - 18:30 7.4h3brm COOKHP",
+    "secMonday": "08:00 - 16:00 7.4h3brm COOKHP",
+    "secTuesday": "A",
+    "secWednesday": "12:00 - 20:00 7.4h3brm LDBOH",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "11:30 - 19:30 7.4h3brm COOKHP",
+    "secSaturday": "07:00 - 15:00 7.4h3brm LDPREP",
     "type": "cook"
   },
   {
     "name": "Garry S Walton Jr",
-    "secSunday": "10:30 - 18:30 7.4h3brm COOKHP",
+    "secSunday": "11:00 - 19:00 7.4h3brm COOKHP",
     "secMonday": "A",
     "secTuesday": "A",
-    "secWednesday": "09:30 - 17:30 7.4h3brm COOKHP",
-    "secThursday": "07:00 - 15:00 7.4h3brm PREP",
+    "secWednesday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secThursday": "A",
     "secFriday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secSaturday": "12:30 - 20:30 7.4h3brm COOKHP",
+    "secSaturday": "11:30 - 19:30 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
     "name": "Agustin Macias",
-    "secSunday": "11:00 - 19:00 7.4h3brm COOKHP",
-    "secMonday": "A",
-    "secTuesday": "07:00 - 15:00 7.4h3brm PREP",
-    "secWednesday": "A - PDO",
+    "secSunday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secMonday": "07:00 - 15:00 7.4h3brm PREP",
+    "secTuesday": "A",
+    "secWednesday": "07:00 - 15:00 7.4h3brm PREP",
     "secThursday": "A - PDO",
-    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
-    "secSaturday": "13:00 - 21:00 7.4h3brm COOKHP",
+    "secFriday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secSaturday": "12:00 - 20:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
     "name": "Morgan B Beattie",
     "secSunday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secMonday": "P: 10:00-23:30",
+    "secMonday": "12:00 - 20:00 7.4h3brm COOKHP",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "P: 10:00-23:30",
     "secFriday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secSaturday": "13:00 - 21:00 7.4h3brm COOKHP",
+    "secSaturday": "12:30 - 20:30 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
@@ -1135,8 +1126,8 @@ export const weekTwo = [
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
-    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
-    "secSaturday": "10:30 - 18:30 7.4h3brm COOKHP",
+    "secFriday": "12:00 - 20:00 7.4h3brm COOKHP",
+    "secSaturday": "13:30 - 21:30 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
@@ -1146,16 +1137,16 @@ export const weekTwo = [
     "secTuesday": "A",
     "secWednesday": "A",
     "secThursday": "A",
-    "secFriday": "09:30 - 17:30 7.4h3brm COOKHP",
-    "secSaturday": "07:00 - 15:00 7.4h3brm PREP",
+    "secFriday": "ARDO",
+    "secSaturday": "ARDO",
     "type": "cook"
   },
   {
     "name": "Teri Chase",
-    "secSunday": "P: 07:00-17:00RDO",
-    "secMonday": "10:00 - 16:00 6hbtr1 STAATT",
+    "secSunday": "08:30 - 16:30 7.4hneep STAATT",
+    "secMonday": "10:30 - 16:30 6h3brm STAATT",
     "secTuesday": "P: 07:00-17:00",
-    "secWednesday": "10:00 - 16:00 6hbtr2 STAATT",
+    "secWednesday": "10:00 - 16:00 6hbtr1 STAATT",
     "secThursday": "P: 07:00-17:00",
     "secFriday": "N",
     "secSaturday": "N",
@@ -1163,24 +1154,24 @@ export const weekTwo = [
   },
   {
     "name": "Jessica Morga",
-    "secSunday": "11:30 - 19:30 7.4hbtr1 STAATT",
+    "secSunday": "12:00 - 20:00 7.4hbtr1 STAATT",
     "secMonday": "N",
     "secTuesday": "N",
     "secWednesday": "N",
-    "secThursday": "N",
-    "secFriday": "A",
-    "secSaturday": "ARDO",
+    "secThursday": "A",
+    "secFriday": "ARDO",
+    "secSaturday": "14:30 - 22:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Kyle Rietta",
-    "secSunday": "P: 10:00-01:00RDO",
+    "secSunday": "11:30 - 19:30 7.4hbtr2 STAATT",
     "secMonday": "N",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "12:30 - 20:30 7.4h3brm STAATT",
+    "secSaturday": "15:00 - 23:00 7.4hbtr1 FDRUN",
     "type": "standAtt"
   },
   {
@@ -1191,25 +1182,26 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "A"
+    "secSaturday": "10:30 - 16:30 6hhogs BARTD",
+    "type": "bartender"
   },
   {
     "name": "Giselle Aleman",
     "secSunday": "N",
     "secMonday": "N",
-    "secTuesday": "N",
-    "secWednesday": "P: 05:00-18:00",
-    "secThursday": "N",
-    "secFriday": "P: 05:00-18:00",
-    "secSaturday": "10:00 - 18:00 7.4hneep STAATT",
+    "secTuesday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secWednesday": "N",
+    "secThursday": "P: 05:00-18:00",
+    "secFriday": "P: 05:00-17:30RDO",
+    "secSaturday": "P: 05:00-15:30RDO",
     "type": "standAtt"
   },
   {
     "name": "Matthew A Serna",
     "secSunday": "08:30 - 16:00 6.9h3brm STAATT",
-    "secMonday": "10:00 - 16:00 6hbtr2 STAATT",
+    "secMonday": "11:00 - 17:00 6h3brm STAATT",
     "secTuesday": "P: 06:00-17:00",
-    "secWednesday": "P: 06:00-17:00",
+    "secWednesday": "10:30 - 16:30 6hbtr1 STAATT",
     "secThursday": "P: 06:00-17:00",
     "secFriday": "N",
     "secSaturday": "N",
@@ -1218,40 +1210,41 @@ export const weekTwo = [
   {
     "name": "Saul M Aldana",
     "secSunday": "08:30 - 16:00 6.9h3brm STAATT",
-    "secMonday": "P: 05:00-16:00",
+    "secMonday": "10:00 - 16:00 6hbtr1 STAATT",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "08:00 - 14:00 6h3brm STAATT",
+    "secSaturday": "07:00 - 15:00 7.4hbtr1 FDRUN",
     "type": "standAtt"
   },
   {
     "name": "Michael R Harris",
-    "secSunday": "12:00 - 20:00 7.4hbtr1 STAATT",
+    "secSunday": "11:00 - 18:30 6.9h3brm STAATT",
     "secMonday": "N",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "12:30 - 20:30 7.4h3brm STAATT",
+    "secSaturday": "14:30 - 22:30 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Matthew Illingworth",
     "secSunday": "N",
-    "secMonday": "P: 06:00-17:00",
+    "secMonday": "11:00 - 17:00 6h3brm STAATT",
     "secTuesday": "P: 06:00-17:00",
-    "secWednesday": "P: 06:00-17:00",
+    "secWednesday": "10:00 - 16:00 6hbtr2 STAATT",
     "secThursday": "P: 06:00-17:00",
-    "secFriday": "P: 06:00-17:00",
-    "secSaturday": "N"
+    "secFriday": "11:00 - 17:00 6h3brm STAATT",
+    "secSaturday": "N",
+    "type": "standAtt"
   },
   {
     "name": "Beatriz Ventura",
     "secSunday": "08:30 - 14:30 6h3brm STAATT",
     "secMonday": "10:00 - 18:00 7.4h3brm STAATT",
-    "secTuesday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secTuesday": "P: 06:00-18:00",
     "secWednesday": "P: 06:00-16:00",
     "secThursday": "N",
     "secFriday": "N - PDO",
@@ -1265,28 +1258,30 @@ export const weekTwo = [
     "secTuesday": "P: 06:00-20:00",
     "secWednesday": "P: 06:00-20:00",
     "secThursday": "P: 06:00-20:00",
-    "secFriday": "P: 06:00-20:00",
-    "secSaturday": "N"
+    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
+    "secSaturday": "N",
+    "type": "cook"
   },
   {
     "name": "Melissa M Lopez",
     "secSunday": "P: 03:00-13:00",
-    "secMonday": "P: 06:30-16:30",
+    "secMonday": "10:00 - 16:00 6hbtr1 STAATT",
     "secTuesday": "P: 06:30-16:30",
     "secWednesday": "P: 06:00-16:00",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "N"
+    "secSaturday": "N",
+    "type": "standAtt"
   },
   {
     "name": "Arlene Manilla",
-    "secSunday": "P: 07:00-18:00RDO",
-    "secMonday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secSunday": "08:30 - 16:00 6.9h3brm STAATT",
+    "secMonday": "10:30 - 18:00 6.9hbtr2 STAATT",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "P: 07:00-18:00",
-    "secFriday": "P: 07:00-18:00",
-    "secSaturday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secFriday": "09:30 - 17:30 7.4hneep STAATT",
+    "secSaturday": "08:30 - 14:30 6h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1322,12 +1317,12 @@ export const weekTwo = [
   {
     "name": "Liseth Reynoso",
     "secSunday": "N",
-    "secMonday": "10:00 - 18:00 7.4h3brm STAATT",
+    "secMonday": "10:00 - 16:00 6hbtr2 STAATT",
     "secTuesday": "N",
-    "secWednesday": "P: 08:30-18:00",
+    "secWednesday": "09:30 - 17:30 7.4hneep STAATT",
     "secThursday": "N",
-    "secFriday": "P: 08:30-18:00",
-    "secSaturday": "09:30 - 17:30 7.4h3brm STAATT",
+    "secFriday": "09:30 - 17:30 7.4hbtr2 STAATT",
+    "secSaturday": "09:00 - 15:00 6h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1352,10 +1347,10 @@ export const weekTwo = [
   },
   {
     "name": "Catalina M Freire",
-    "secSunday": "12:00 - 20:00 7.4hbtr2 STAATT",
-    "secMonday": "A",
-    "secTuesday": "12:00 - 20:00 7.4hbtr2 STAATT",
-    "secWednesday": "14:30 - 20:30 6h3brm STAATT",
+    "secSunday": "08:30 - 14:30 6h3brm STAATT",
+    "secMonday": "12:30 - 18:30 6h3brm STAATT",
+    "secTuesday": "11:30 - 19:30 7.4hbtr2 STAATT",
+    "secWednesday": "11:30 - 19:30 7.4hbtr2 STAATT",
     "secThursday": "A",
     "secFriday": "N",
     "secSaturday": "N",
@@ -1363,14 +1358,14 @@ export const weekTwo = [
   },
   {
     "name": "Janet Pereda",
-    "secSunday": "A - PDO",
+    "secSunday": "12:30 - 18:30 6hvend STAATT",
     "secMonday": "P: 03:00-13:00",
-    "secTuesday": "09:00 - 17:00 7.4h3brm LDFOH",
+    "secTuesday": "12:00 - 20:00 7.4h3brm LDFOH",
     "secWednesday": "P: 03:00-13:30",
     "secThursday": "P: 05:00-15:30",
-    "secFriday": "A",
-    "secSaturday": "12:30 - 20:30 7.4h3brm STAATT",
-    "type": "leadFOH"
+    "secFriday": "11:00 - 17:00 6h3brm STAATT",
+    "secSaturday": "ARDO",
+    "type": "standAtt"
   },
   {
     "name": "Connie R Acosta",
@@ -1389,25 +1384,25 @@ export const weekTwo = [
     "secTuesday": "P: 05:00-17:00",
     "secWednesday": "P: 05:00-17:00",
     "secThursday": "P: 05:00-17:00",
-    "secFriday": "P: 05:00-17:00",
-    "secSaturday": "08:30 - 14:30 6h3brm STAATT",
+    "secFriday": "P: 05:00-17:00RDO",
+    "secSaturday": "09:00 - 15:00 6h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Marissa Rodriguez",
-    "secSunday": "08:30 - 16:00 6.9h3brm STAATT",
-    "secMonday": "P: 06:00-16:00",
+    "secSunday": "08:30 - 14:30 6h3brm STAATT",
+    "secMonday": "10:00 - 16:00 6hvend STAATT",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "08:30 - 14:30 6h3brm STAATT",
+    "secSaturday": "10:00 - 16:00 6h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Jonathan A Hernandez",
     "secSunday": "08:30 - 14:30 6h3brm STAATT",
-    "secMonday": "P: 06:00-16:00",
+    "secMonday": "10:00 - 16:00 6hvend STAATT",
     "secTuesday": "P: 06:00-17:00",
     "secWednesday": "N",
     "secThursday": "P: 06:00-17:00",
@@ -1419,29 +1414,29 @@ export const weekTwo = [
     "name": "Rebekah Mendoza",
     "secSunday": "10:00 - 19:00 8hpod2 LSADMN  LSDC",
     "secMonday": "N",
-    "secTuesday": "06:00 - 15:00 8hpod2 LSADMN",
+    "secTuesday": "A",
     "secWednesday": "N",
     "secThursday": "06:30 - 15:30 8hpod2 LSADMN  LSDC",
-    "secFriday": "06:30 - 15:30 8hpod2 LSADMN  LSDC",
-    "secSaturday": "06:30 - 15:30 8hpod2 LSADMN  LSDC"
+    "secFriday": "09:30 - 18:30 8hpod2 LSADMN  LSDC",
+    "secSaturday": "12:30 - 21:30 8hpod2 LSADMN  LSDC"
   },
   {
     "name": "Vanessa D Rodriguez",
     "secSunday": "N",
-    "secMonday": "P: 04:00-20:30RDO",
+    "secMonday": "P: 04:00-20:30",
     "secTuesday": "P: 04:00-18:00",
     "secWednesday": "P: 04:00-20:30",
     "secThursday": "P: 04:00-18:00",
-    "secFriday": "P: 04:00-21:00",
+    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
     "secSaturday": "07:00 - 15:00 7.4h3brm PREP",
     "type": "cook"
   },
   {
     "name": "Tatiana J Hill",
-    "secSunday": "08:30 - 14:30 6h3brm STAATT",
+    "secSunday": "11:00 - 17:00 6h3brm STAATT",
     "secMonday": "P: 05:00-18:00",
     "secTuesday": "N",
-    "secWednesday": "P: 05:00-18:00",
+    "secWednesday": "10:00 - 18:00 7.4h3brm STAATT",
     "secThursday": "P: 05:00-18:00",
     "secFriday": "N",
     "secSaturday": "N",
@@ -1449,13 +1444,13 @@ export const weekTwo = [
   },
   {
     "name": "Ashley P Munoz",
-    "secSunday": "11:00 - 18:30 6.9h3brm STAATT",
-    "secMonday": "A",
+    "secSunday": "12:30 - 18:30 6h3brm STAATT",
+    "secMonday": "12:30 - 18:30 6h3brm STAATT",
     "secTuesday": "N",
-    "secWednesday": "14:30 - 20:30 6h3brm STAATT",
+    "secWednesday": "10:00 - 18:00 7.4h3brm STAATT",
     "secThursday": "N",
-    "secFriday": "A",
-    "secSaturday": "13:00 - 21:00 7.4h3brm STAATT",
+    "secFriday": "12:30 - 18:30 6h3brm STAATT",
+    "secSaturday": "15:00 - 23:00 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1465,62 +1460,63 @@ export const weekTwo = [
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
-    "secFriday": "P: 08:00-22:00",
-    "secSaturday": "11:00 - 18:30 6.9h3brm STAATT",
+    "secFriday": "12:30 - 18:30 6h3brm STAATT",
+    "secSaturday": "11:30 - 19:30 7.4hneep STAATT",
     "type": "standAtt"
   },
   {
     "name": "Emely P Ramos",
-    "secSunday": "11:00 - 18:30 6.9h3brm STAATT",
+    "secSunday": "09:00 - 15:00 6hbtr1 STAATT",
     "secMonday": "N",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "11:00 - 18:30 6.9h3brm STAATT",
+    "secSaturday": "ARDO",
     "type": "standAtt"
   },
   {
     "name": "Philiciti Rito",
-    "secSunday": "11:00 - 17:00 6h3brm STAATT",
+    "secSunday": "10:00 - 16:00 6hbtr1 STAATT",
     "secMonday": "N",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "08:30 - 14:30 6h3brm STAATT",
+    "secSaturday": "10:00 - 16:00 6h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Gabriela Castro",
-    "secSunday": "N",
-    "secMonday": "N",
+    "secSunday": "NRDO",
+    "secMonday": "NRDO",
     "secTuesday": "A",
-    "secWednesday": "14:30 - 20:30 6h3brm STAATT",
+    "secWednesday": "10:00 - 18:00 7.4h3brm STAATT",
     "secThursday": "A",
-    "secFriday": "P: 04:00-14:00RDO",
-    "secSaturday": "ARDO",
+    "secFriday": "P: 04:00-14:00",
+    "secSaturday": "ADNS",
     "type": "standAtt"
   },
   {
     "name": "Helen Ceron",
     "secSunday": "N",
-    "secMonday": "A",
+    "secMonday": "12:30 - 18:30 6hvend STAATT",
     "secTuesday": "P: 05:00-16:00",
     "secWednesday": "P: 05:00-16:00",
     "secThursday": "P: 05:00-16:00",
-    "secFriday": "A",
-    "secSaturday": "N"
+    "secFriday": "12:30 - 18:30 6h3brm STAATT",
+    "secSaturday": "N",
+    "type": "standAtt"
   },
   {
     "name": "Desiree Rangel",
-    "secSunday": "09:00 - 15:00 6hbtr1 STAATT",
+    "secSunday": "09:00 - 15:00 6hbtr2 STAATT",
     "secMonday": "N",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "A",
-    "secFriday": "A",
-    "secSaturday": "11:00 - 18:30 6.9hvend STAATT",
+    "secFriday": "10:00 - 16:00 6hbtr1 STAATT",
+    "secSaturday": "14:00 - 22:00 7.4hbtr1 STAATT",
     "type": "standAtt"
   },
   {
@@ -1530,8 +1526,9 @@ export const weekTwo = [
     "secTuesday": "P: 06:00-17:00",
     "secWednesday": "P: 06:00-17:00",
     "secThursday": "N",
-    "secFriday": "A - PDO",
-    "secSaturday": "N"
+    "secFriday": "12:30 - 18:30 6hvend STAATT",
+    "secSaturday": "N",
+    "type": "standAtt"
   },
   {
     "name": "Anna C Lucas",
@@ -1550,8 +1547,8 @@ export const weekTwo = [
     "secTuesday": "P: 06:00-18:00",
     "secWednesday": "P: 06:00-18:00",
     "secThursday": "P: 06:00-18:00",
-    "secFriday": "P: 06:00-18:00",
-    "secSaturday": "08:30 - 14:30 6h3brm STAATT",
+    "secFriday": "10:00 - 16:00 6hbtr1 STAATT",
+    "secSaturday": "10:00 - 16:00 6h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1561,30 +1558,30 @@ export const weekTwo = [
     "secTuesday": "A",
     "secWednesday": "A",
     "secThursday": "A",
-    "secFriday": "A",
+    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
     "secSaturday": "N",
     "type": "cook"
   },
   {
     "name": "Shelly X Cabrera",
-    "secSunday": "12:30 - 18:30 6h3brm STAATT",
+    "secSunday": "13:00 - 19:00 6hbtr1 STAATT",
     "secMonday": "A",
     "secTuesday": "A - PDO",
     "secWednesday": "A - PDO",
     "secThursday": "A",
-    "secFriday": "12:00 - 20:00 7.4h3brm STAATT",
-    "secSaturday": "12:30 - 20:30 7.4hbtr2 STAATT",
+    "secFriday": "10:00 - 16:00 6hbtr2 STAATT",
+    "secSaturday": "12:00 - 20:00 7.4h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Jonathan M Cedeno",
-    "secSunday": "10:00 - 16:00 6hbtr1 STAATT",
+    "secSunday": "10:00 - 16:00 6hbtr2 STAATT",
     "secMonday": "A",
     "secTuesday": "A",
     "secWednesday": "A - PDO",
     "secThursday": "A",
-    "secFriday": "12:00 - 20:00 7.4hbtr1 STAATT",
-    "secSaturday": "11:00 - 19:00 7.4hbtr1 STAATT",
+    "secFriday": "10:00 - 16:00 6hvend STAATT",
+    "secSaturday": "15:00 - 23:00 7.4hbtr1 STAATT",
     "type": "standAtt"
   },
   {
@@ -1594,30 +1591,30 @@ export const weekTwo = [
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "P: 11:00-00:00",
-    "secFriday": "P: 10:00-23:00",
-    "secSaturday": "10:30 - 16:30 6h3brm STAATT",
+    "secFriday": "10:00 - 16:00 6hvend STAATT",
+    "secSaturday": "15:00 - 23:00 7.4hbtr1 STAATT",
     "type": "standAtt"
   },
   {
     "name": "Christopher J Lechuga",
-    "secSunday": "13:00 - 19:00 6hbtr1 STAATT",
-    "secMonday": "A",
+    "secSunday": "10:30 - 16:30 6hvend STAATT",
+    "secMonday": "12:00 - 20:00 7.4h3brm LDFOH",
     "secTuesday": "A",
-    "secWednesday": "12:30 - 20:30 7.4h3brm LDFOH",
+    "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "09:30 - 15:30 6hvend STAATT",
+    "secSaturday": "14:30 - 22:30 7.4hneep STAATT",
     "type": "standAtt"
   },
   {
     "name": "Deisy A Ponce",
-    "secSunday": "09:00 - 15:00 6hbtr2 STAATT",
+    "secSunday": "13:00 - 19:00 6h3brm ZZSTZZ",
     "secMonday": "A",
     "secTuesday": "A",
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "09:00 - 15:00 6h3brm STAATT",
+    "secSaturday": "12:00 - 19:30 6.9h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1628,7 +1625,8 @@ export const weekTwo = [
     "secWednesday": "P: 15:00-03:00",
     "secThursday": "P: 15:00-03:00",
     "secFriday": "P: 15:00-03:00",
-    "secSaturday": "P: 15:00-03:00"
+    "secSaturday": "15:00 - 23:00 7.4h3brm COOKHP",
+    "type": "cook"
   },
   {
     "name": "Nicole Toubia",
@@ -1638,51 +1636,51 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "07:00 - 15:00 7.4h3brm PREP",
+    "secSaturday": "15:00 - 23:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
     "name": "Andrew Avila",
-    "secSunday": "13:00 - 19:00 6h3brm ZZSTZZ",
+    "secSunday": "10:00 - 16:00 6h3brm ZZSTZZ",
     "secMonday": "A - PDO",
     "secTuesday": "A",
     "secWednesday": "A - PDO",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "09:00 - 15:00 6hbtr1 STAATT",
+    "secSaturday": "12:00 - 19:30 6.9h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Desirae Valdez A Valdez",
-    "secSunday": "10:30 - 16:30 6hvend STAATT",
+    "secSunday": "11:00 - 17:00 6h3brm ZZSTZZ",
     "secMonday": "N",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "P: 07:00-20:00",
-    "secSaturday": "10:00 - 16:00 6hbtr1 STAATT",
+    "secSaturday": "08:00 - 14:00 6h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Michelle Gonzalez Nambo",
-    "secSunday": "NRDO",
+    "secSunday": "N",
     "secMonday": "N",
     "secTuesday": "A",
     "secWednesday": "N",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "13:30 - 19:30 6hbtr1 STAATT",
+    "secSaturday": "10:30 - 16:30 6h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Celine C Merino",
-    "secSunday": "ARDO",
+    "secSunday": "A",
     "secMonday": "N",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "09:00 - 15:00 6hbtr2 STAATT",
+    "secSaturday": "10:30 - 16:30 6h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1693,7 +1691,7 @@ export const weekTwo = [
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "P: 07:00-17:00",
-    "secSaturday": "10:00 - 16:00 6hbtr2 STAATT",
+    "secSaturday": "10:30 - 16:30 6h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1718,24 +1716,24 @@ export const weekTwo = [
   },
   {
     "name": "Erik A Pinto",
-    "secSunday": "12:00 - 20:00 7.4h3brm COOKHP",
-    "secMonday": "A",
+    "secSunday": "ARDO",
+    "secMonday": "ARDO",
     "secTuesday": "A",
     "secWednesday": "A",
     "secThursday": "A",
-    "secFriday": "ARDO",
-    "secSaturday": "ARDO",
+    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
+    "secSaturday": "15:00 - 23:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
     "name": "Katherine A Resnik",
-    "secSunday": "12:30 - 18:30 6hvend STAATT",
+    "secSunday": "A",
     "secMonday": "A",
     "secTuesday": "A",
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "13:30 - 19:30 6hvend STAATT",
+    "secSaturday": "11:00 - 17:00 6h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1760,14 +1758,13 @@ export const weekTwo = [
   },
   {
     "name": "Georgina M Garcia",
-    "secSunday": "10:00 - 16:00 6hbtr2 STAATT",
-    "secMonday": "N",
-    "secTuesday": "P: 05:00-18:00",
+    "secSunday": "P: 05:00-18:00RDO",
+    "secMonday": "NRDO",
+    "secTuesday": "P: 05:00-18:00RDO",
     "secWednesday": "P: 05:00-18:00RDO",
-    "secThursday": "P: 05:00-18:00RDO",
-    "secFriday": "NRDO",
-    "secSaturday": "NRDO",
-    "type": "standAtt"
+    "secThursday": "P: 05:00-18:00",
+    "secFriday": "N",
+    "secSaturday": "N"
   },
   {
     "name": "Alejandra Martinez-Rivera",
@@ -1811,14 +1808,13 @@ export const weekTwo = [
   },
   {
     "name": "Briseyda Salgado",
-    "secSunday": "11:00 - 17:00 6h3brm ZZSTZZ",
+    "secSunday": "P: 08:00-18:00RDO",
     "secMonday": "N",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "P: 08:00-18:00RDO",
-    "type": "standAtt"
+    "secSaturday": "P: 08:00-18:00RDO"
   },
   {
     "name": "Jorge L Mac",
@@ -1842,13 +1838,13 @@ export const weekTwo = [
   },
   {
     "name": "Allison A Norris",
-    "secSunday": "10:00 - 16:00 6h3brm ZZSTZZ",
+    "secSunday": "P: 02:00-16:00",
     "secMonday": "N",
-    "secTuesday": "P: 03:00-16:00",
+    "secTuesday": "N",
     "secWednesday": "N",
-    "secThursday": "P: 03:00-16:00",
+    "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "09:00 - 15:00 6h3brm STAATT",
+    "secSaturday": "09:00 - 15:00 6hbtr1 STAATT",
     "type": "standAtt"
   },
   {
@@ -1859,7 +1855,7 @@ export const weekTwo = [
     "secWednesday": "P: 03:00-00:00",
     "secThursday": "P: 03:00-00:00",
     "secFriday": "P: 03:00-00:00",
-    "secSaturday": "13:00 - 19:00 6h3brm ZZSTZZ",
+    "secSaturday": "11:00 - 17:00 6h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1870,7 +1866,7 @@ export const weekTwo = [
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "13:00 - 21:00 7.4h3brm COOKHP",
+    "secSaturday": "15:00 - 23:00 7.4h3brm COOKHP",
     "type": "cook"
   },
   {
@@ -1881,18 +1877,18 @@ export const weekTwo = [
     "secWednesday": "P: 06:30-14:30",
     "secThursday": "P: 06:30-13:30",
     "secFriday": "A",
-    "secSaturday": "10:00 - 16:00 6h3brm ZZSTZZ",
+    "secSaturday": "11:00 - 17:00 6h3brm STAATT",
     "type": "standAtt"
   },
   {
     "name": "Dedrick R Hayes",
-    "secSunday": "10:30 - 18:30 7.4h3brm COOKHP",
+    "secSunday": "10:00 - 18:00 7.4h3brm ZZCKZZ",
     "secMonday": "A",
     "secTuesday": "A",
     "secWednesday": "A",
     "secThursday": "A",
-    "secFriday": "A",
-    "secSaturday": "10:00 - 18:00 7.4hhpfd ZZCKZZ",
+    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
+    "secSaturday": "07:00 - 15:00 7.4h3brm PREP",
     "type": "cook"
   },
   {
@@ -1903,7 +1899,7 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "11:00 - 17:00 6h3brm ZZSTZZ",
+    "secSaturday": "11:00 - 17:00 6h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1914,17 +1910,18 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "11:00 - 17:00 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Michael A Mazadiego",
-    "secSunday": "10:00 - 18:00 7.4hhpfd ZZCKZZ",
+    "secSunday": "A",
     "secMonday": "A",
     "secTuesday": "A",
     "secWednesday": "A",
     "secThursday": "A",
-    "secFriday": "A",
-    "secSaturday": "13:00 - 21:00 7.4hhpfd ZZCKZZ",
+    "secFriday": "07:00 - 15:00 7.4h3brm PREP",
+    "secSaturday": "07:00 - 15:00 7.4h3brm PREP",
     "type": "cook"
   },
   {
@@ -1938,16 +1935,6 @@ export const weekTwo = [
     "secSaturday": "N"
   },
   {
-    "name": "Alejandro P Rodriguez",
-    "secSunday": "N",
-    "secMonday": "A",
-    "secTuesday": "A",
-    "secWednesday": "A",
-    "secThursday": "A",
-    "secFriday": "N",
-    "secSaturday": "N"
-  },
-  {
     "name": "Erick G Villarreal",
     "secSunday": "A",
     "secMonday": "P: 13:00-04:00",
@@ -1955,7 +1942,8 @@ export const weekTwo = [
     "secWednesday": "P: 13:00-04:00",
     "secThursday": "P: 13:00-04:00",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "11:00 - 17:00 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Sheyla A Alarcon",
@@ -1965,17 +1953,18 @@ export const weekTwo = [
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "P: 09:00-22:00"
+    "secSaturday": "11:00 - 17:00 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Kathryn E Anderson",
     "secSunday": "N",
     "secMonday": "N",
-    "secTuesday": "A",
-    "secWednesday": "A",
-    "secThursday": "A",
-    "secFriday": "12:00 - 20:00 7.4hbtr2 STAATT",
-    "secSaturday": "11:30 - 19:30 7.4h3brm STAATT",
+    "secTuesday": "P: 07:00-18:00",
+    "secWednesday": "P: 07:00-18:00",
+    "secThursday": "P: 07:00-18:00",
+    "secFriday": "P: 07:00-18:00",
+    "secSaturday": "11:00 - 17:00 6h3brm STAATT",
     "type": "standAtt"
   },
   {
@@ -1996,7 +1985,8 @@ export const weekTwo = [
     "secWednesday": "P: 08:00-20:00",
     "secThursday": "P: 08:00-20:00",
     "secFriday": "P: 08:00-20:00",
-    "secSaturday": "P: 08:00-20:00"
+    "secSaturday": "09:00 - 15:00 6hbtr1 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Donald C Lamont-jones",
@@ -2006,18 +1996,18 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "12:00 - 20:00 7.4hneep STAATT",
-    "type": "standAtt"
+    "secSaturday": "ARDO"
   },
   {
     "name": "Jerry Leyva",
-    "secSunday": "ARDO",
+    "secSunday": "A",
     "secMonday": "A",
     "secTuesday": "A",
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "15:30 - 21:30 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Samantha R Maldonado",
@@ -2037,7 +2027,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "15:30 - 21:30 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Camila J Flores",
@@ -2047,7 +2038,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "15:30 - 21:30 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Donald E Holland",
@@ -2057,7 +2049,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "P: 06:00-16:00",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "16:00 - 22:00 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Eric D Jewell",
@@ -2067,7 +2060,7 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A",
+    "secSaturday": "16:00 - 22:00 6h3brm STAATT",
     "type": "leadFOH"
   },
   {
@@ -2078,17 +2071,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
-  },
-  {
-    "name": "Jaime E Morales",
-    "secSunday": "A",
-    "secMonday": "A",
-    "secTuesday": "A",
-    "secWednesday": "A",
-    "secThursday": "A",
-    "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "16:30 - 22:30 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Cynthia T Romero",
@@ -2098,7 +2082,8 @@ export const weekTwo = [
     "secWednesday": "N",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "17:00 - 23:00 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Luky N Salmeron",
@@ -2108,7 +2093,8 @@ export const weekTwo = [
     "secWednesday": "P: 15:00-01:00",
     "secThursday": "P: 15:00-01:00",
     "secFriday": "P: 15:00-01:00",
-    "secSaturday": "A"
+    "secSaturday": "15:30 - 21:30 6hvend STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Benjamin G Hayes",
@@ -2118,7 +2104,8 @@ export const weekTwo = [
     "secWednesday": "P: 10:30-23:00",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "P: 10:00-22:30"
+    "secSaturday": "10:00 - 16:00 6hbtr1 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Lexus M Lopez",
@@ -2132,13 +2119,14 @@ export const weekTwo = [
   },
   {
     "name": "Angelica M Palacio",
-    "secSunday": "ARDO",
-    "secMonday": "ARDO",
-    "secTuesday": "ARDO",
-    "secWednesday": "ARDO",
+    "secSunday": "A",
+    "secMonday": "A",
+    "secTuesday": "A",
+    "secWednesday": "A",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "A"
+    "secSaturday": "09:00 - 15:00 6hbtr1 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Angie N Quintanilla",
@@ -2148,7 +2136,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "11:30 - 17:30 6hbtr1 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Sean T Trainotti",
@@ -2158,7 +2147,8 @@ export const weekTwo = [
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "A"
+    "secSaturday": "14:30 - 20:30 6hbtr1 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Michelle A Zelaya",
@@ -2168,7 +2158,8 @@ export const weekTwo = [
     "secWednesday": "N",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "16:00 - 22:00 6hbtr1 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Jeanette n Hardy",
@@ -2178,7 +2169,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "07:00 - 15:00 7.4h3brm PREP",
+    "type": "cook"
   },
   {
     "name": "Marvina M Hubbard",
@@ -2188,7 +2180,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "07:00 - 15:00 7.4h3brm PREP",
+    "type": "cook"
   },
   {
     "name": "Pablo A Morales",
@@ -2198,7 +2191,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "07:00 - 15:00 7.4h3brm PREP",
+    "type": "cook"
   },
   {
     "name": "Cherry Lynne F Aguilar",
@@ -2208,7 +2202,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "07:00 - 15:00 7.4h3brm PREP",
+    "type": "cook"
   },
   {
     "name": "Brenda L Cervantes",
@@ -2218,7 +2213,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "10:00 - 18:00 7.4h3brm ZZCKZZ",
+    "type": "cook"
   },
   {
     "name": "Kassandra Godinez Sandoval",
@@ -2228,7 +2224,8 @@ export const weekTwo = [
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "A - PDO",
-    "secSaturday": "A"
+    "secSaturday": "09:00 - 15:00 6hbtr2 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Doniece L McGee",
@@ -2238,7 +2235,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "N",
-    "secSaturday": "A"
+    "secSaturday": "10:00 - 16:00 6hbtr2 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "David A Nguyen",
@@ -2248,17 +2246,19 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "10:30 - 16:30 6hbtr2 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Russel M Santiago",
     "secSunday": "A",
-    "secMonday": "N",
-    "secTuesday": "P: 11:00-00:00",
-    "secWednesday": "P: 12:00-00:00",
-    "secThursday": "P: 11:00-00:00",
+    "secMonday": "A",
+    "secTuesday": "A",
+    "secWednesday": "A",
+    "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "11:30 - 17:30 6hbtr2 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Michelle M Garcia",
@@ -2268,7 +2268,8 @@ export const weekTwo = [
     "secWednesday": "N",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "12:00 - 18:00 6hbtr2 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "William T Bastin",
@@ -2278,7 +2279,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "14:30 - 20:30 6hbtr2 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Jammiee Y Benbo",
@@ -2288,7 +2290,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "14:30 - 20:30 6hbtr2 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Tiphani Clark",
@@ -2298,7 +2301,8 @@ export const weekTwo = [
     "secWednesday": "N",
     "secThursday": "P: 16:00-04:00",
     "secFriday": "P: 16:00-04:00",
-    "secSaturday": "P: 16:00-04:00"
+    "secSaturday": "17:00 - 23:00 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Sean R Gonzalez",
@@ -2318,7 +2322,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "P: 14:00-00:00",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "15:00 - 21:00 6hbtr2 STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Andrew J Montes",
@@ -2338,7 +2343,8 @@ export const weekTwo = [
     "secWednesday": "P: 15:00-05:00",
     "secThursday": "A",
     "secFriday": "P: 15:00-05:00",
-    "secSaturday": "A"
+    "secSaturday": "09:00 - 15:00 6hvend STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Antoinette M Paris",
@@ -2348,7 +2354,8 @@ export const weekTwo = [
     "secWednesday": "N",
     "secThursday": "N",
     "secFriday": "N",
-    "secSaturday": "A"
+    "secSaturday": "09:30 - 15:30 6hvend STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Yosselin L Pineda",
@@ -2378,17 +2385,18 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "10:30 - 16:30 6hvend STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Kadie D Williams",
     "secSunday": "A",
     "secMonday": "A",
     "secTuesday": "A",
-    "secWednesday": "12:00 - 20:00 7.4hbtr2 LDDISP",
-    "secThursday": "A",
+    "secWednesday": "A",
+    "secThursday": "12:00 - 20:00 7.4hbtr2 LDDISP",
     "secFriday": "A",
-    "secSaturday": "A",
+    "secSaturday": "12:30 - 18:30 6hvend STAATT",
     "type": "leadFOH"
   },
   {
@@ -2399,7 +2407,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "10:30 - 16:30 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Krissia L Flores",
@@ -2409,17 +2418,19 @@ export const weekTwo = [
     "secWednesday": "P: 15:00-01:00",
     "secThursday": "N",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "16:30 - 22:30 6h3brm STAATT",
+    "type": "standAtt"
   },
   {
     "name": "Kimberly M Guevara",
-    "secSunday": "A - PDO",
-    "secMonday": "A - PDO",
+    "secSunday": "N",
+    "secMonday": "N",
     "secTuesday": "P: 08:00-21:00",
     "secWednesday": "P: 08:00-21:00",
     "secThursday": "P: 08:00-21:00",
     "secFriday": "P: 09:00-22:00",
-    "secSaturday": "P: 09:00-22:00"
+    "secSaturday": "11:00 - 17:00 6h3brm ZZSTZZ",
+    "type": "standAtt"
   },
   {
     "name": "Ximena C Kacer",
@@ -2429,7 +2440,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "12:00 - 20:00 7.4h3brm ZZCKZZ",
+    "type": "cook"
   },
   {
     "name": "LeRoy M Ellis III",
@@ -2439,7 +2451,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "14:00 - 20:00 6h3brm ZZSTZZ",
+    "type": "standAtt"
   },
   {
     "name": "Precious D Hernandez",
@@ -2449,7 +2462,8 @@ export const weekTwo = [
     "secWednesday": "A",
     "secThursday": "A",
     "secFriday": "A",
-    "secSaturday": "A"
+    "secSaturday": "15:00 - 21:00 6h3brm ZZSTZZ",
+    "type": "standAtt"
   },
   {
     "name": "Julian O Sanabria Hernandez",
@@ -2459,17 +2473,19 @@ export const weekTwo = [
     "secWednesday": "P: 07:30-19:30",
     "secThursday": "A",
     "secFriday": "P: 07:30-19:30",
-    "secSaturday": "P: 07:30-19:30"
+    "secSaturday": "10:00 - 16:00 6h3brm ZZSTZZ",
+    "type": "standAtt"
   },
   {
     "name": "Heather Barton",
-    "secSunday": "11:00 - 19:00 7.4hneep STAATT",
-    "secMonday": "A",
+    "secSunday": "11:00 - 18:30 6.9h3brm STAATT",
+    "secMonday": "12:30 - 18:30 6h3brm STAATT",
     "secTuesday": "N",
     "secWednesday": "N",
     "secThursday": "A",
-    "secFriday": "A",
-    "secSaturday": "12:30 - 20:30 7.4h3brm STAATT",
+    "secFriday": "10:30 - 18:00 6.9hbtr2 STAATT",
+    "secSaturday": "14:30 - 22:30 7.4h3brm STAATT",
     "type": "standAtt"
   }
 ]
+  
