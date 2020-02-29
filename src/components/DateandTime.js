@@ -45,7 +45,7 @@ class DateandTime extends React.Component {
             
 }
             maxDate={moment()
-              .add(9, "days")
+              .add(8, "days")
               .toDate()}
             timeCaption="Time"
             timeFormat="HH:mm"
