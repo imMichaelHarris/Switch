@@ -68,7 +68,7 @@ class DateandTime extends React.Component {
             placeholderText="Select a date"
             minDate={new Date()}
             maxDate={moment()
-              .add(9, "days")
+              .add(8, "days")
               .toDate()}
             dateFormat="MMMM d, yyyy"
             selected={this.state.date}
@@ -83,7 +83,7 @@ class DateandTime extends React.Component {
               
               }
             maxDate={moment()
-              .add(9, "days")
+              .add(8, "days")
               .toDate()}
             dateFormat="MMMM d, yyyy"
             selected={this.state.giveUpDay}
